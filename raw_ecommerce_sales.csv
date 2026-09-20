@@ -1,0 +1,933 @@
+order_id,order_date,customer_name,email,product_category,product_name,quantity,unit_price,discount_percent,payment_method,city,region,order_status
+OD00190,2024-04-20,Vivaan Gupta,vivaan.gupta@example.com,BEAUTY,Lipstick Set,2,655.67,20.0,CREDIT CARD,AHMEDABAD,West,Delivered
+OD00026,2024-06-17,Aarav Nair,aarav.nair@example.com,CLOTHING,Denim Jeans,1,1886.81,20.0,CASH ON DELIVERY,KOLKATA,East,Delivered
+OD00124,03-27-2024,Sara Patel,sara.patel@example.com,sports,Cricket Bat,3,1790.62,0.0,net banking,chennai,South,Delivered
+OD00721,30/12/2024,Ananya Kapoor,ananya.kapoor@example.com,sports,Cycling Helmet,2,518.84,5.0,debit card,hyderabad,South,Delivered
+OD00495,"Sep 30, 2024",Rohan Patel,rohan.patel@example.com,Clothing,Winter Jacket,2,2582.41,5.0,Debit Card,Kolkata,East,Returned
+OD00458,2024-05-26,Rohan Chatterjee,rohan.chatterjee@example.com,  Home & Kitchen  ,Non-Stick Pan,3,748.64,20.0,  Credit Card  ,  Lucknow  ,North,Returned
+OD00462,2024-08-22,Arjun Khan,arjun.khan@example.com,books,Fiction Novel,1,884.43,15.0,upi,kolkata,East,Delivered
+OD00424,07-26-2024,Arjun Verma,arjun.verma@example.com,  Electronics  ,Smartwatch,2,3368.45,25.0,  UPI  ,,West,Pending
+OD00577,23/04/2024,Neha Mehta,neha.mehta@example.com,electronics,Wireless Earbuds,80,3339.78,15.0,debit card,hyderabad,South,Processing
+OD00601,17/05/2024,,arjun.singh@example.com,Home & Kitchen,Non-Stick Pan,-2,3136.02,15.0,Net Banking,Pune,West,Delivered
+OD00300,07-13-2024,Karan Khan,karan.khan@example.com,  Clothing  ,Cotton T-Shirt,1,2980.78,0.0,  Debit Card  ,  Patna  ,East,Processing
+OD00612,11-28-2024,Meera Khan,meera.khan_at_example.com,  Electronics  ,Smartwatch,1,1207.62,0.0,  Net Banking  ,  Ahmedabad  ,West,Delivered
+OD00685,04/11/2024,Sara Sharma,sara.sharma@example.com,sports,Cricket Bat,2,2599.99,15.0,cash on delivery,pune,West,Returned
+OD00278,2024-07-23,Riya Khan,riya.khan@example.com,BOOKS,Fiction Novel,2,251.31,20.0,NET BANKING,BANGALORE,South,Delivered
+OD00511,"Apr 23, 2024",Vivaan Verma,vivaan.verma@example.com,HOME & KITCHEN,Non-Stick Pan,1,2881.11,5.0,CREDIT CARD,HYDERABAD,South,Processing
+OD00203,"Jan 10, 2024",Aisha Rao,aisha.rao@example.com,beauty,Face Serum,2,240.57,10.0,net banking,mumbai,West,Delivered
+OD00523,"Feb 10, 2024",Neha Verma,,  Books  ,Fiction Novel,3,705.33,0.0,  Net Banking  ,  Hyderabad  ,South,Cancelled
+OD00290,2024-09-05,Priya Gupta,priya.gupta@example.com,Books,Fiction Novel,2,529.13,20.0,Cash on Delivery,,North,Delivered
+OD00484,04-09-2024,Ananya Verma,ananya.verma@example.com,home & kitchen,Non-Stick Pan,5,905.58,20.0,upi,mumbai,West,Returned
+OD00401,12/01/2024,Sara Kapoor,sara.kapoor@example.com,HOME & KITCHEN,LED Lamp,1,2635.89,0.0,CREDIT CARD,LUCKNOW,North,Cancelled
+OD00571,"Sep 25, 2024",Karan Gupta,karan.gupta@example.com,  Electronics  ,Wireless Earbuds,2,1758.23,20.0,  Cash on Delivery  ,,East,Delivered
+OD00677,27/02/2024,Ishaan Kapoor,ishaan.kapoor@example.com,Electronics,Smartphone Case,1,2200.3,25.0,Net Banking,Delhi,North,Returned
+OD00414,2024-06-26,Sara Patel,sara.patel@example.com,clothing,Winter Jacket,2,954.42,15.0,credit card,ahmedabad,West,Processing
+OD00852,06-14-2024,Meera Reddy,meera.reddy@example.com,BEAUTY,Perfume,2,964.87,5.0,DEBIT CARD,HYDERABAD,South,Returned
+OD00740,06-16-2024,Karan Menon,karan.menon@example.com,  Home & Kitchen  ,LED Lamp,1,2853.89,,  UPI  ,  Chennai  ,South,Returned
+OD00686,2024-09-02,,rohan.menon@example.com,BOOKS,Biography,1,545.98,,DEBIT CARD,PUNE,West,Delivered
+OD00189,21/06/2024,Karan Mehta,karan.mehta@example.com,  Books  ,Biography,1,634.72,20.0,  UPI  ,  Pune  ,West,Pending
+OD00067,"Nov 02, 2024",Karan Menon,karan.menon@example.com,  Sports  ,Cycling Helmet,2,4660.64,10.0,  Credit Card  ,  Kolkata  ,East,Cancelled
+OD00834,2024-01-17,Kabir Gupta,kabir.gupta@example.com,Sports,Cricket Bat,4,447.0,,Cash on Delivery,Pune,West,Delivered
+OD00826,2024-05-22,Aisha Iyer,aisha.iyer@example.com,  Electronics  ,Power Bank,4,4026.44,20.0,  Credit Card  ,  Jaipur  ,North,Pending
+OD00403,"Nov 11, 2024",Sai Patel,sai.patel@example.com,  Clothing  ,Winter Jacket,1,1049.86,15.0,  Cash on Delivery  ,  Jaipur  ,North,Processing
+OD00716,06-14-2024,Ananya Rao,ananya.rao@example.com,CLOTHING,Winter Jacket,2,1617.93,,NET BANKING,HYDERABAD,South,Delivered
+OD00093,26/11/2024,Dev Kapoor,dev.kapoor@example.com,sports,Cycling Helmet,1,3215.68,,net banking,bangalore,South,Delivered
+OD00517,05/09/2024,Aisha Singh,aisha.singh_at_example.com,Clothing,Running Shoes,2,1301.14,5.0,Net Banking,Chennai,South,Processing
+OD00425,26/08/2024,Priya Singh,priya.singh@example.com,  Beauty  ,Perfume,2,1791.31,20.0,  Cash on Delivery  ,  Jaipur  ,North,Returned
+OD00106,2024-11-20,Kabir Gupta,kabir.gupta@example.com,electronics,Smartphone Case,1,3001.62,25.0,cash on delivery,jaipur,North,Pending
+OD00829,01/02/2024,Vivaan Kapoor,vivaan.kapoor@example.com,beauty,Sunscreen,1,594.02,5.0,credit card,bangalore,South,Delivered
+OD00456,11-29-2024,Arjun Khan,arjun.khan@example.com,Electronics,Smartphone Case,2,4147.48,0.0,Net Banking,,East,Returned
+OD00799,"Sep 06, 2024",,sara.khan@example.com,sports,Dumbbell Set,2,4506.11,,credit card,,West,Delivered
+OD00478,2024-01-22,Vihaan Nair,vihaan.nair@example.com,beauty,Hair Dryer,2,2404.54,20.0,upi,bangalore,South,Delivered
+OD00047,"Jul 07, 2024",Karan Rao,karan.rao@example.com,BOOKS,Children's Storybook,1,734.25,25.0,CASH ON DELIVERY,DELHI,North,Pending
+OD00818,2024-02-19,Sai Menon,sai.menon@example.com,home & kitchen,Pressure Cooker,2,1514.36,10.0,upi,,North,Delivered
+OD00318,2024-01-04,Sai Rao,sai.rao@example.com,  Beauty  ,Perfume,1,1334.55,25.0,  Net Banking  ,  Jaipur  ,North,Cancelled
+OD00273,18/08/2024,Vivaan Kapoor,vivaan.kapoor@example.com,ELECTRONICS,Wireless Earbuds,2,3791.74,10.0,CASH ON DELIVERY,MUMBAI,West,Delivered
+OD00308,04-26-2024,Sai Menon,sai.menon@example.com,sports,Yoga Mat,2,1874.72,25.0,credit card,lucknow,North,Cancelled
+OD00032,04-12-2024,Meera Patel,meera.patel@example.com,  Beauty  ,Lipstick Set,1,488.16,0.0,  Credit Card  ,  Ahmedabad  ,West,Returned
+OD00135,"Nov 20, 2024",Karan Menon,karan.menon@example.com,HOME & KITCHEN,Non-Stick Pan,1,3727.29,15.0,DEBIT CARD,PATNA,East,Returned
+OD00061,05/01/2024,Aarav Menon,aarav.menon@example.com,Beauty,Sunscreen,2,,0.0,UPI,Lucknow,North,Pending
+OD00815,"Aug 01, 2024",Aisha Kapoor,aisha.kapoor@example.com,BOOKS,Cookbook,2,797.0,5.0,CASH ON DELIVERY,,East,Returned
+OD00643,"Dec 26, 2024",Ananya Khan,ananya.khan@example.com,CLOTHING,Denim Jeans,2,2577.71,25.0,NET BANKING,CHENNAI,South,Returned
+OD00105,25/01/2024,Aditya Reddy,aditya.reddy@example.com,HOME & KITCHEN,Pressure Cooker,1,2039.21,10.0,DEBIT CARD,MUMBAI,West,Cancelled
+OD00165,16/11/2024,Meera Gupta,,Books,Self-Help Book,1,664.07,25.0,Net Banking,Bangalore,South,Delivered
+OD00278,2024-07-23,Riya Khan,riya.khan@example.com,BOOKS,Fiction Novel,2,251.31,20.0,NET BANKING,BANGALORE,South,Delivered
+OD00149,14/12/2024,,vivaan.singh@example.com,home & kitchen,Non-Stick Pan,4,739.82,0.0,credit card,kolkata,East,Delivered
+OD00482,2024-03-26,Aditya Verma,aditya.verma@example.com,  Books  ,Self-Help Book,4,666.67,25.0,  UPI  ,  Jaipur  ,North,Delivered
+OD00775,"Mar 13, 2024",Ananya Khan,ananya.khan@example.com,beauty,Perfume,1,259.1,10.0,cash on delivery,ahmedabad,West,Pending
+OD00567,"Jun 27, 2024",Dev Gupta,dev.gupta@example.com,  Beauty  ,Face Serum,1,1883.96,0.0,  Credit Card  ,  Hyderabad  ,South,Pending
+OD00628,03-02-2024,Riya Mehta,riya.mehta@example.com,Home & Kitchen,LED Lamp,1,2308.94,10.0,Debit Card,Jaipur,North,Delivered
+OD00549,11/11/2024,Ananya Joshi,ananya.joshi@example.com,  Electronics  ,Smartwatch,4,1156.23,0.0,  UPI  ,  Hyderabad  ,South,Cancelled
+OD00551,"Jan 27, 2024",Sara Kapoor,sara.kapoor@example.com,books,Self-Help Book,1,765.08,,net banking,,West,Returned
+OD00753,10/06/2024,Dev Nair,dev.nair@example.com,Beauty,Hair Dryer,1,2499.33,15.0,Debit Card,Lucknow,North,Returned
+OD00136,07-29-2024,Riya Sharma,riya.sharma@example.com,Clothing,Denim Jeans,1,1963.92,25.0,UPI,Chennai,South,Cancelled
+OD00540,08-11-2024,Sara Gupta,sara.gupta@example.com,BOOKS,Biography,1,575.33,20.0,UPI,,South,Delivered
+OD00130,2024-06-05,Meera Reddy,meera.reddy@example.com,HOME & KITCHEN,Pressure Cooker,2,343.64,10.0,CASH ON DELIVERY,LUCKNOW,North,Delivered
+OD00211,"May 05, 2024",Priya Patel,priya.patel_at_example.com,  Beauty  ,Lipstick Set,1,653.67,5.0,  Credit Card  ,  Lucknow  ,North,Cancelled
+OD00325,09/07/2024,Meera Patel,meera.patel@example.com,  Home & Kitchen  ,Storage Box Set,1,3774.83,20.0,  UPI  ,  Pune  ,West,Pending
+OD00732,06-22-2024,Diya Iyer,diya.iyer@example.com,  Books  ,Fiction Novel,3,511.9,10.0,  Net Banking  ,  Lucknow  ,North,Processing
+OD00377,01/08/2024,Kabir Gupta,kabir.gupta@example.com,  Home & Kitchen  ,LED Lamp,1,2300.49,20.0,  UPI  ,  Kolkata  ,East,Delivered
+OD00861,27/07/2024,,,HOME & KITCHEN,LED Lamp,2,3068.97,5.0,NET BANKING,PATNA,East,Returned
+OD00524,01-19-2024,Vivaan Singh,vivaan.singh@example.com,books,Biography,1,775.82,25.0,cash on delivery,kolkata,East,Pending
+OD00892,08-29-2024,Aditya Verma,aditya.verma@example.com,Sports,Cricket Bat,2,11532.52575239833,15.0,Net Banking,Chennai,South,Processing
+OD00180,06-15-2024,Aditya Rao,,  Clothing  ,Cotton T-Shirt,2,2789.36,20.0,  Credit Card  ,  Lucknow  ,North,Delivered
+OD00596,02-29-2024,Riya Joshi,riya.joshi@example.com,clothing,Cotton T-Shirt,1,1627.77,0.0,cash on delivery,ahmedabad,West,Delivered
+OD00301,27/11/2024,Sara Chatterjee,sara.chatterjee_at_example.com,BOOKS,Biography,2,,5.0,CASH ON DELIVERY,AHMEDABAD,West,Delivered
+OD00251,"May 30, 2024",Vihaan Patel,vihaan.patel@example.com,  Home & Kitchen  ,Storage Box Set,1,1600.4,10.0,  UPI  ,  Chennai  ,South,Pending
+OD00635,"Feb 25, 2024",Ishaan Chatterjee,ishaan.chatterjee@example.com,books,Children's Storybook,1,815.28,0.0,upi,chennai,South,Pending
+OD00529,30/04/2024,Vihaan Rao,vihaan.rao@example.com,beauty,Perfume,1,732.57,10.0,debit card,patna,East,Cancelled
+OD00376,01-03-2024,Ishaan Singh,ishaan.singh@example.com,Books,Cookbook,5,717.09,5.0,Net Banking,Pune,West,Cancelled
+OD00192,12-06-2024,Diya Reddy,diya.reddy@example.com,  Clothing  ,Denim Jeans,1,413.05,15.0,  UPI  ,  Ahmedabad  ,West,Delivered
+OD00420,02-28-2024,Vihaan Nair,,HOME & KITCHEN,LED Lamp,2,2892.85,10.0,UPI,PUNE,West,Processing
+OD00005,29/09/2024,Sara Menon,sara.menon@example.com,HOME & KITCHEN,LED Lamp,120,453.31,10.0,CASH ON DELIVERY,PATNA,East,Delivered
+OD00536,01-30-2024,Aisha Reddy,aisha.reddy@example.com,  Beauty  ,Face Serum,1,1476.1,,  Cash on Delivery  ,  Bangalore  ,South,Cancelled
+OD00334,2024-09-27,Sai Kapoor,sai.kapoor@example.com,Beauty,Face Serum,1,2250.3,15.0,Credit Card,Delhi,North,Delivered
+OD00096,11-16-2024,Aditya Chatterjee,aditya.chatterjee@example.com,home & kitchen,Non-Stick Pan,2,443.31,25.0,cash on delivery,lucknow,North,Cancelled
+OD00088,11-18-2024,Tara Kapoor,tara.kapoor@example.com,Sports,Football,1,573.11,10.0,Cash on Delivery,Lucknow,North,Pending
+OD00648,10-06-2024,Vihaan Kapoor,vihaan.kapoor@example.com,SPORTS,Cricket Bat,1,589.63,20.0,DEBIT CARD,AHMEDABAD,West,Delivered
+OD00805,19/10/2024,Vivaan Iyer,vivaan.iyer@example.com,beauty,Face Serum,1,,0.0,cash on delivery,patna,East,Delivered
+OD00299,"Jun 15, 2024",Neha Iyer,neha.iyer@example.com,BOOKS,Children's Storybook,1,334.17,0.0,UPI,CHENNAI,South,Delivered
+OD00421,09/04/2024,Aarav Reddy,aarav.reddy@example.com,beauty,Face Serum,2,852.08,15.0,upi,chennai,South,Pending
+OD00485,01/01/2024,Sai Patel,sai.patel@example.com,electronics,Power Bank,2,3318.04,0.0,upi,delhi,North,Delivered
+OD00438,2024-05-15,Ishaan Kapoor,ishaan.kapoor@example.com,  Sports  ,Cricket Bat,1,2359.72,15.0,  Cash on Delivery  ,  Ahmedabad  ,West,Delivered
+OD00231,"Aug 30, 2024",Ananya Reddy,ananya.reddy@example.com,HOME & KITCHEN,Storage Box Set,2,3296.8,20.0,NET BANKING,JAIPUR,North,Processing
+OD00293,06/11/2024,Karan Sharma,karan.sharma@example.com,sports,Yoga Mat,2,558.19,0.0,credit card,mumbai,West,Cancelled
+OD00764,03-18-2024,Vihaan Rao,vihaan.rao@example.com,sports,Cricket Bat,1,1047.64,5.0,debit card,ahmedabad,West,Delivered
+OD00057,02/05/2024,Arjun Menon,arjun.menon@example.com,HOME & KITCHEN,Storage Box Set,2,1765.13,20.0,CASH ON DELIVERY,HYDERABAD,South,Pending
+OD00866,2024-08-14,Riya Reddy,riya.reddy@example.com,Books,Fiction Novel,2,157.8,20.0,Credit Card,Hyderabad,South,Delivered
+OD00534,2024-10-17,Tara Singh,tara.singh@example.com,  Sports  ,Yoga Mat,1,3212.66,25.0,  Cash on Delivery  ,  Delhi  ,North,Cancelled
+OD00599,"Aug 30, 2024",Meera Patel,meera.patel@example.com,ELECTRONICS,Smartwatch,1,4208.61,10.0,UPI,KOLKATA,East,Returned
+OD00145,06/04/2024,Sara Verma,sara.verma@example.com,Books,Biography,3,240.49,,Cash on Delivery,Jaipur,North,Returned
+OD00337,06/04/2024,Ananya Rao,ananya.rao@example.com,beauty,Lipstick Set,2,549.45,0.0,cash on delivery,delhi,North,Processing
+OD00867,"Jan 27, 2024",Dev Gupta,dev.gupta@example.com,books,Self-Help Book,80,465.96,25.0,credit card,pune,West,Delivered
+OD00573,07/11/2024,Priya Singh,priya.singh@example.com,SPORTS,Cycling Helmet,2,2533.47,0.0,UPI,BANGALORE,South,Pending
+OD00275,"Nov 04, 2024",Tara Iyer,tara.iyer@example.com,home & kitchen,Storage Box Set,1,1212.46,20.0,debit card,hyderabad,South,Processing
+OD00058,2024-12-17,Sai Nair,sai.nair@example.com,  Sports  ,Football,1,2011.7,0.0,  Credit Card  ,  Pune  ,West,Processing
+OD00589,09/04/2024,Diya Rao,diya.rao@example.com,  Electronics  ,Bluetooth Speaker,2,527.45,0.0,  Debit Card  ,  Delhi  ,North,Pending
+OD00256,06-07-2024,Diya Kapoor,diya.kapoor@example.com,BEAUTY,Sunscreen,1,232.52,20.0,CREDIT CARD,BANGALORE,South,Delivered
+OD00454,2024-08-25,Ishaan Sharma,ishaan.sharma@example.com,  Clothing  ,Winter Jacket,2,15861.231431180942,25.0,  Cash on Delivery  ,  Patna  ,East,Delivered
+OD00296,12-03-2024,Priya Rao,priya.rao@example.com,Sports,Yoga Mat,1,4779.8,10.0,Net Banking,,North,Delivered
+OD00094,2024-10-23,Tara Singh,tara.singh@example.com,beauty,Sunscreen,1,2186.98,10.0,net banking,hyderabad,South,Cancelled
+OD00122,2024-07-07,Ananya Nair,ananya.nair@example.com,  Sports  ,Yoga Mat,2,4056.3,10.0,  Net Banking  ,  Ahmedabad  ,West,Delivered
+OD00172,12-09-2024,Riya Khan,riya.khan@example.com,HOME & KITCHEN,LED Lamp,5,3565.15,0.0,UPI,MUMBAI,West,Pending
+OD00650,2024-07-01,Rohan Kapoor,rohan.kapoor_at_example.com,BEAUTY,Hair Dryer,1,577.06,0.0,CASH ON DELIVERY,DELHI,North,Delivered
+OD00743,"May 31, 2024",Karan Patel,karan.patel@example.com,Home & Kitchen,Storage Box Set,1,1739.48,25.0,Net Banking,Patna,East,Pending
+OD00352,06-30-2024,Ananya Menon,ananya.menon@example.com,clothing,Formal Shirt,1,2326.14,,net banking,pune,West,Pending
+OD00382,2024-12-26,Vihaan Reddy,vihaan.reddy@example.com,  Electronics  ,Smartphone Case,4,1930.87,5.0,  Cash on Delivery  ,  Lucknow  ,North,Delivered
+OD00886,2024-10-01,Tara Iyer,tara.iyer@example.com,  Sports  ,Cricket Bat,2,703.77,10.0,  UPI  ,  Pune  ,West,Delivered
+OD00885,14/01/2024,Aarav Chatterjee,aarav.chatterjee@example.com,electronics,Wireless Earbuds,4,4311.31,20.0,debit card,ahmedabad,West,Delivered
+OD00598,2024-03-24,Aisha Nair,aisha.nair@example.com,  Sports  ,Dumbbell Set,1,3650.57,0.0,  UPI  ,  Patna  ,East,Processing
+OD00184,12-15-2024,Ishaan Chatterjee,ishaan.chatterjee@example.com,BOOKS,Fiction Novel,3,444.69,25.0,UPI,PATNA,East,Delivered
+OD00770,2024-08-21,Riya Iyer,riya.iyer@example.com,  Home & Kitchen  ,LED Lamp,2,1063.52,0.0,  Cash on Delivery  ,  Hyderabad  ,South,Delivered
+OD00083,"Feb 29, 2024",Tara Singh,tara.singh@example.com,beauty,Sunscreen,1,175.21,20.0,credit card,lucknow,North,Delivered
+OD00871,"Sep 30, 2024",Vihaan Verma,vihaan.verma@example.com,beauty,Hair Dryer,2,2292.9,20.0,upi,hyderabad,South,Cancelled
+OD00356,05-23-2024,Priya Joshi,priya.joshi@example.com,home & kitchen,Blender,5,3443.42,10.0,credit card,mumbai,West,Delivered
+OD00222,2024-07-25,Meera Sharma,meera.sharma@example.com,Clothing,Denim Jeans,4,3011.72,0.0,Debit Card,Ahmedabad,West,Delivered
+OD00455,"May 03, 2024",Tara Singh,tara.singh@example.com,Electronics,Power Bank,3,,20.0,Credit Card,Ahmedabad,West,Cancelled
+OD00857,12/03/2024,Neha Patel,neha.patel@example.com,  Beauty  ,Perfume,2,730.73,15.0,  Cash on Delivery  ,,South,Delivered
+OD00236,09-15-2024,Aditya Reddy,aditya.reddy@example.com,home & kitchen,Pressure Cooker,1,1257.0,,cash on delivery,pune,West,Returned
+OD00477,04/04/2024,Ananya Reddy,ananya.reddy@example.com,electronics,Bluetooth Speaker,1,594.64,0.0,credit card,chennai,South,Processing
+OD00027,"Dec 08, 2024",Aisha Iyer,aisha.iyer@example.com,CLOTHING,Formal Shirt,1,1108.21,5.0,CREDIT CARD,PATNA,East,Cancelled
+OD00238,2024-05-05,Arjun Iyer,arjun.iyer@example.com,sports,Cricket Bat,1,1995.81,,net banking,lucknow,North,Delivered
+OD00358,2024-05-25,Vivaan Nair,vivaan.nair@example.com,Electronics,Smartwatch,1,2053.42,25.0,Debit Card,,West,Delivered
+OD00002,2024-03-07,Tara Singh,tara.singh@example.com,Sports,Football,1,902.13,25.0,Net Banking,Jaipur,North,Returned
+OD00541,02/12/2024,Arjun Chatterjee,arjun.chatterjee@example.com,BOOKS,Biography,5,680.45,25.0,NET BANKING,JAIPUR,North,Processing
+OD00294,2024-08-17,Ishaan Gupta,ishaan.gupta@example.com,BOOKS,Self-Help Book,1,482.14,25.0,CREDIT CARD,HYDERABAD,South,Delivered
+OD00074,2024-12-21,,ananya.gupta@example.com,Clothing,Cotton T-Shirt,2,1512.31,,Credit Card,Chennai,South,Delivered
+OD00822,2024-09-12,,rohan.mehta@example.com,sports,Football,1,4198.31,0.0,net banking,delhi,North,Processing
+OD00361,21/09/2024,Aisha Nair,aisha.nair@example.com,  Clothing  ,Cotton T-Shirt,2,453.96,0.0,  Credit Card  ,  Mumbai  ,West,Processing
+OD00771,"May 27, 2024",Karan Menon,karan.menon@example.com,BOOKS,Cookbook,2,730.52,5.0,DEBIT CARD,HYDERABAD,South,Returned
+OD00266,2024-10-26,Priya Gupta,priya.gupta@example.com,Sports,Cricket Bat,1,2629.34,25.0,Net Banking,Delhi,North,Delivered
+OD00399,"Nov 22, 2024",Neha Kapoor,neha.kapoor@example.com,clothing,Cotton T-Shirt,1,1580.72,20.0,net banking,bangalore,South,Processing
+OD00097,22/07/2024,Riya Verma,riya.verma@example.com,Clothing,Formal Shirt,2,1464.15,15.0,Cash on Delivery,Ahmedabad,West,Delivered
+OD00659,"May 10, 2024",Dev Sharma,dev.sharma@example.com,beauty,Perfume,2,829.39,0.0,net banking,patna,East,Pending
+OD00665,28/10/2024,Tara Reddy,tara.reddy@example.com,HOME & KITCHEN,Pressure Cooker,2,3057.51,25.0,UPI,CHENNAI,South,Delivered
+OD00040,11-18-2024,Arjun Chatterjee,arjun.chatterjee@example.com,CLOTHING,Denim Jeans,2,2450.74,0.0,UPI,PUNE,West,Returned
+OD00550,2024-11-21,Ananya Iyer,ananya.iyer@example.com,Beauty,Hair Dryer,1,1940.58,10.0,Debit Card,Delhi,North,Delivered
+OD00639,"Jul 15, 2024",Dev Iyer,dev.iyer@example.com,  Electronics  ,Power Bank,1,2183.86,5.0,  UPI  ,  Lucknow  ,North,Cancelled
+OD00744,03-05-2024,Priya Khan,,beauty,Face Serum,2,853.52,5.0,net banking,hyderabad,South,Pending
+OD00099,"Oct 20, 2024",Sara Kapoor,sara.kapoor_at_example.com,SPORTS,Football,2,36869.2029089481,10.0,CREDIT CARD,JAIPUR,North,Processing
+OD00366,2024-03-18,Sai Joshi,sai.joshi@example.com,  Clothing  ,Winter Jacket,1,1326.89,15.0,  UPI  ,  Kolkata  ,East,Delivered
+OD00178,2024-04-12,Neha Nair,neha.nair@example.com,electronics,Bluetooth Speaker,1,793.99,0.0,upi,lucknow,North,Delivered
+OD00248,09-13-2024,Dev Chatterjee,dev.chatterjee@example.com,Clothing,Denim Jeans,1,1030.56,5.0,Net Banking,Jaipur,North,Pending
+OD00742,2024-06-13,Meera Reddy,meera.reddy@example.com,Clothing,Winter Jacket,2,1844.69,5.0,UPI,Bangalore,South,Returned
+OD00614,2024-06-21,Vivaan Sharma,vivaan.sharma@example.com,  Home & Kitchen  ,Blender,1,1070.46,25.0,  Cash on Delivery  ,  Patna  ,East,Processing
+OD00188,05-12-2024,,ananya.joshi@example.com,books,Fiction Novel,2,573.07,0.0,credit card,mumbai,West,Delivered
+OD00064,11-12-2024,Rohan Menon,rohan.menon@example.com,beauty,Face Serum,1,14929.11175800387,0.0,debit card,kolkata,East,Delivered
+OD00626,2024-09-26,Priya Khan,priya.khan@example.com,electronics,Bluetooth Speaker,2,886.99,20.0,cash on delivery,delhi,North,Processing
+OD00202,2024-02-08,Rohan Joshi,rohan.joshi@example.com,  Books  ,Fiction Novel,4,189.43,25.0,  Cash on Delivery  ,  Jaipur  ,North,Returned
+OD00748,10-22-2024,Kabir Rao,kabir.rao@example.com,  Beauty  ,Lipstick Set,1,,15.0,  Credit Card  ,  Delhi  ,North,Processing
+OD00884,05-12-2024,Sara Nair,,HOME & KITCHEN,Blender,80,2541.19,20.0,UPI,KOLKATA,East,Delivered
+OD00645,30/01/2024,Aisha Singh,aisha.singh@example.com,Books,Fiction Novel,1,250.44,10.0,Net Banking,Ahmedabad,West,Processing
+OD00531,"Oct 27, 2024",Sai Nair,sai.nair@example.com,electronics,Smartphone Case,2,3184.2,0.0,net banking,patna,East,Pending
+OD00696,12-16-2024,Tara Rao,tara.rao@example.com,  Clothing  ,Winter Jacket,1,973.53,20.0,  Cash on Delivery  ,  Jaipur  ,North,Pending
+OD00240,08-18-2024,Arjun Reddy,arjun.reddy@example.com,home & kitchen,Pressure Cooker,50,2971.04,,credit card,lucknow,North,Processing
+OD00283,"Jun 07, 2024",Priya Sharma,priya.sharma@example.com,Books,Fiction Novel,1,312.69,10.0,Net Banking,Bangalore,South,Cancelled
+OD00553,21/10/2024,Vivaan Nair,,sports,Football,2,1675.19,10.0,credit card,ahmedabad,West,Delivered
+OD00050,2024-06-17,Aisha Kapoor,aisha.kapoor@example.com,CLOTHING,Winter Jacket,1,2953.23,15.0,CASH ON DELIVERY,DELHI,North,Pending
+OD00808,02-03-2024,Meera Menon,meera.menon@example.com,  Books  ,Fiction Novel,1,301.09,10.0,  Net Banking  ,  Kolkata  ,East,Delivered
+OD00279,"Jun 10, 2024",Dev Iyer,dev.iyer@example.com,Sports,Dumbbell Set,1,2222.47,20.0,Net Banking,Delhi,North,Pending
+OD00786,2024-10-28,Riya Joshi,riya.joshi@example.com,Electronics,Smartwatch,1,3784.42,5.0,UPI,Pune,West,Cancelled
+OD00169,21/03/2024,Diya Gupta,diya.gupta@example.com,  Books  ,Self-Help Book,2,343.36,15.0,  Cash on Delivery  ,  Delhi  ,North,Delivered
+OD00396,08-22-2024,Rohan Khan,rohan.khan@example.com,ELECTRONICS,Bluetooth Speaker,1,4481.78,20.0,UPI,CHENNAI,South,Pending
+OD00335,"Jul 26, 2024",Tara Reddy,tara.reddy@example.com,home & kitchen,Blender,1,2059.38,15.0,upi,chennai,South,Cancelled
+OD00588,08-19-2024,Ishaan Joshi,ishaan.joshi@example.com,HOME & KITCHEN,Pressure Cooker,2,1279.39,20.0,UPI,KOLKATA,East,Returned
+OD00602,2024-01-11,Neha Patel,neha.patel_at_example.com,SPORTS,Dumbbell Set,2,2870.98,10.0,CASH ON DELIVERY,LUCKNOW,North,Processing
+OD00759,"Aug 18, 2024",Meera Kapoor,meera.kapoor@example.com,books,Cookbook,1,687.5,15.0,net banking,kolkata,East,Delivered
+OD00652,06-27-2024,,sara.rao@example.com,  Electronics  ,Bluetooth Speaker,1,3569.29,10.0,  Cash on Delivery  ,  Pune  ,West,Processing
+OD00564,05-23-2024,Arjun Iyer,,electronics,Smartphone Case,3,4124.22,,debit card,bangalore,South,Delivered
+OD00449,30/03/2024,,ananya.patel@example.com,  Books  ,Cookbook,1,655.14,,  Cash on Delivery  ,  Kolkata  ,East,Processing
+OD00887,"Dec 07, 2024",,ananya.kapoor@example.com,ELECTRONICS,Wireless Earbuds,3,728.08,20.0,UPI,DELHI,North,Returned
+OD00244,10-27-2024,Neha Kapoor,neha.kapoor@example.com,beauty,Face Serum,1,888.72,15.0,net banking,ahmedabad,West,Processing
+OD00692,12-30-2024,Dev Sharma,dev.sharma@example.com,  Beauty  ,Hair Dryer,1,401.95,10.0,  Credit Card  ,  Delhi  ,North,Cancelled
+OD00533,03/01/2024,Kabir Kapoor,kabir.kapoor@example.com,ELECTRONICS,Wireless Earbuds,1,,10.0,DEBIT CARD,DELHI,North,Pending
+OD00807,"Apr 05, 2024",Aditya Nair,aditya.nair@example.com,books,Cookbook,1,254.03,25.0,upi,kolkata,East,Processing
+OD00233,17/08/2024,Diya Patel,diya.patel@example.com,BOOKS,Self-Help Book,1,708.9,0.0,NET BANKING,JAIPUR,North,Delivered
+OD00307,"Jan 27, 2024",Neha Reddy,neha.reddy@example.com,BOOKS,Fiction Novel,2,216.3,10.0,UPI,DELHI,North,Pending
+OD00397,14/02/2024,Karan Joshi,,  Home & Kitchen  ,LED Lamp,2,2469.71,0.0,  Cash on Delivery  ,  Patna  ,East,Delivered
+OD00846,2024-04-23,Ananya Mehta,ananya.mehta@example.com,Clothing,Formal Shirt,1,2788.27,5.0,Debit Card,Patna,East,Delivered
+OD00412,02-14-2024,Diya Iyer,diya.iyer@example.com,home & kitchen,Blender,2,1951.58,10.0,net banking,lucknow,North,Pending
+OD00678,2024-11-27,Sara Kapoor,sara.kapoor@example.com,SPORTS,Football,1,391.29,15.0,UPI,LUCKNOW,North,Processing
+OD00218,2024-12-03,Dev Khan,dev.khan@example.com,Sports,Yoga Mat,4,4258.13,20.0,Debit Card,Pune,West,Cancelled
+OD00668,11-23-2024,Aarav Rao,,ELECTRONICS,Smartphone Case,1,502.29,0.0,CREDIT CARD,HYDERABAD,South,Delivered
+OD00457,29/07/2024,Karan Nair,karan.nair@example.com,Electronics,Smartphone Case,1,,25.0,Credit Card,Pune,West,Delivered
+OD00788,09-11-2024,Riya Gupta,riya.gupta@example.com,beauty,Face Serum,-1,1951.75,15.0,upi,lucknow,North,Delivered
+OD00646,2024-02-05,Karan Mehta,karan.mehta@example.com,Books,Children's Storybook,1,359.85,25.0,Net Banking,Pune,West,Delivered
+OD00714,2024-12-24,Vivaan Patel,vivaan.patel@example.com,Books,Biography,2,405.27,5.0,UPI,Pune,West,Delivered
+OD00406,2024-08-13,Riya Iyer,riya.iyer@example.com,Beauty,Lipstick Set,1,1374.29,5.0,Debit Card,Lucknow,North,Pending
+OD00672,05-21-2024,Rohan Rao,rohan.rao@example.com,books,Biography,2,884.11,10.0,net banking,pune,West,Returned
+OD00699,"Jan 11, 2024",Aisha Sharma,aisha.sharma@example.com,HOME & KITCHEN,Pressure Cooker,1,795.01,10.0,CASH ON DELIVERY,AHMEDABAD,West,Returned
+OD00708,06-15-2024,Ishaan Sharma,ishaan.sharma@example.com,beauty,Perfume,1,577.27,15.0,debit card,jaipur,North,Processing
+OD00362,2024-07-18,Karan Mehta,karan.mehta@example.com,Beauty,Sunscreen,1,358.98,25.0,Net Banking,Mumbai,West,Delivered
+OD00761,13/07/2024,Riya Chatterjee,riya.chatterjee@example.com,  Home & Kitchen  ,Pressure Cooker,2,486.73,15.0,  Cash on Delivery  ,  Patna  ,East,Delivered
+OD00150,2024-02-27,Arjun Reddy,arjun.reddy@example.com,books,Biography,1,339.89,25.0,credit card,pune,West,Delivered
+OD00869,31/07/2024,Karan Iyer,karan.iyer@example.com,  Books  ,Children's Storybook,2,431.67,20.0,  Credit Card  ,  Hyderabad  ,South,Processing
+OD00435,"Sep 27, 2024",Dev Chatterjee,dev.chatterjee@example.com,  Sports  ,Football,4,554.06,0.0,  UPI  ,  Patna  ,East,Delivered
+OD00042,2024-03-12,Vihaan Menon,vihaan.menon@example.com,CLOTHING,Running Shoes,1,590.7,5.0,CASH ON DELIVERY,MUMBAI,West,Delivered
+OD00583,"Feb 16, 2024",Vihaan Chatterjee,vihaan.chatterjee@example.com,  Home & Kitchen  ,Blender,3,2136.84,25.0,  Debit Card  ,  Lucknow  ,North,Returned
+OD00373,07/10/2024,Vivaan Patel,vivaan.patel@example.com,ELECTRONICS,Wireless Earbuds,1,4218.99,25.0,CREDIT CARD,HYDERABAD,South,Delivered
+OD00388,05-08-2024,Aditya Chatterjee,aditya.chatterjee@example.com,  Beauty  ,Hair Dryer,1,682.74,,  Debit Card  ,  Ahmedabad  ,West,Cancelled
+OD00375,"Dec 16, 2024",Aisha Menon,aisha.menon@example.com,BEAUTY,Sunscreen,1,1527.51,0.0,UPI,AHMEDABAD,West,Delivered
+OD00353,11/08/2024,Vihaan Menon,vihaan.menon@example.com,electronics,Wireless Earbuds,4,1598.48,5.0,debit card,chennai,South,Returned
+OD00827,"Aug 06, 2024",Karan Sharma,karan.sharma_at_example.com,electronics,Smartphone Case,5,995.88,0.0,net banking,chennai,South,Cancelled
+OD00593,14/05/2024,Meera Nair,meera.nair@example.com,books,Self-Help Book,1,362.48,25.0,debit card,patna,East,Cancelled
+OD00012,12-01-2024,Neha Joshi,neha.joshi@example.com,home & kitchen,Pressure Cooker,1,1118.79,5.0,upi,delhi,North,Returned
+OD00693,14/08/2024,Rohan Gupta,rohan.gupta@example.com,  Clothing  ,Formal Shirt,1,2523.15,20.0,  UPI  ,  Hyderabad  ,South,Delivered
+OD00144,01-12-2024,Sai Verma,,SPORTS,Football,1,2044.89,20.0,CREDIT CARD,HYDERABAD,South,Delivered
+OD00608,02-11-2024,Arjun Joshi,arjun.joshi@example.com,beauty,Hair Dryer,3,364.16,10.0,debit card,delhi,North,Processing
+OD00537,17/03/2024,Ananya Kapoor,ananya.kapoor@example.com,BOOKS,Children's Storybook,2,712.3,15.0,UPI,HYDERABAD,South,Delivered
+OD00326,2024-04-04,Riya Khan,riya.khan@example.com,Clothing,Running Shoes,3,291.67,0.0,Cash on Delivery,Ahmedabad,West,Delivered
+OD00354,2024-12-15,Aarav Mehta,aarav.mehta@example.com,  Clothing  ,Winter Jacket,1,2399.02,20.0,  Cash on Delivery  ,  Mumbai  ,West,Processing
+OD00259,"Oct 27, 2024",Dev Kapoor,dev.kapoor@example.com,  Beauty  ,Lipstick Set,1,2210.19,0.0,  Net Banking  ,  Mumbai  ,West,Returned
+OD00848,06-15-2024,Vihaan Patel,,  Home & Kitchen  ,Non-Stick Pan,2,1700.09,0.0,  Net Banking  ,  Chennai  ,South,Cancelled
+OD00372,05-22-2024,Ishaan Reddy,ishaan.reddy@example.com,beauty,Lipstick Set,1,1412.98,5.0,cash on delivery,pune,West,Cancelled
+OD00895,"Oct 17, 2024",Kabir Singh,kabir.singh@example.com,sports,Yoga Mat,2,3491.35,5.0,debit card,chennai,South,Delivered
+OD00632,12-18-2024,,priya.menon@example.com,books,Cookbook,3,379.38,20.0,credit card,pune,West,Pending
+OD00023,"Jul 09, 2024",Dev Nair,dev.nair@example.com,Electronics,Bluetooth Speaker,120,2341.31,25.0,UPI,Lucknow,North,Delivered
+OD00617,29/02/2024,Tara Patel,tara.patel@example.com,CLOTHING,Running Shoes,1,793.21,5.0,NET BANKING,JAIPUR,North,Delivered
+OD00756,01-15-2024,Rohan Iyer,rohan.iyer@example.com,ELECTRONICS,Smartphone Case,1,1288.52,10.0,CASH ON DELIVERY,,North,Processing
+OD00345,18/04/2024,Neha Rao,neha.rao@example.com,home & kitchen,Non-Stick Pan,1,1420.56,25.0,credit card,lucknow,North,Cancelled
+OD00656,06-08-2024,Dev Menon,dev.menon@example.com,  Home & Kitchen  ,LED Lamp,4,1276.53,5.0,  UPI  ,  Kolkata  ,East,Pending
+OD00341,03/12/2024,Sai Singh,,SPORTS,Cycling Helmet,3,2440.15,25.0,CREDIT CARD,HYDERABAD,South,Processing
+OD00108,11-08-2024,Sara Sharma,sara.sharma@example.com,Books,Biography,2,593.06,5.0,Debit Card,Delhi,North,Delivered
+OD00623,"Apr 07, 2024",Rohan Iyer,rohan.iyer_at_example.com,SPORTS,Cycling Helmet,1,2558.63,10.0,DEBIT CARD,DELHI,North,Delivered
+OD00842,2024-08-24,Aditya Reddy,aditya.reddy@example.com,SPORTS,Dumbbell Set,1,34782.75636430884,,NET BANKING,CHENNAI,South,Processing
+OD00193,12/02/2024,Tara Verma,tara.verma@example.com,  Sports  ,Cycling Helmet,1,4669.43,10.0,  Net Banking  ,  Mumbai  ,West,Delivered
+OD00272,01-23-2024,Arjun Reddy,arjun.reddy@example.com,  Clothing  ,Denim Jeans,1,515.5,25.0,  Credit Card  ,  Mumbai  ,West,Delivered
+OD00007,"Apr 24, 2024",,riya.menon@example.com,Books,Children's Storybook,2,477.86,20.0,Cash on Delivery,Pune,West,Cancelled
+OD00312,10-06-2024,Aarav Nair,aarav.nair@example.com,  Electronics  ,Bluetooth Speaker,1,1418.01,20.0,  Credit Card  ,  Jaipur  ,North,Delivered
+OD00509,23/01/2024,Ananya Sharma,ananya.sharma@example.com,Home & Kitchen,Blender,2,3797.93,5.0,Credit Card,Patna,East,Cancelled
+OD00159,"Sep 20, 2024",Neha Rao,neha.rao@example.com,Sports,Cricket Bat,1,3771.0,15.0,UPI,Pune,West,Pending
+OD00783,"Jun 01, 2024",Meera Kapoor,meera.kapoor@example.com,Home & Kitchen,Non-Stick Pan,1,3565.76,20.0,Cash on Delivery,Patna,East,Pending
+OD00129,04/10/2024,Tara Rao,tara.rao@example.com,Books,Self-Help Book,2,658.22,20.0,Cash on Delivery,Ahmedabad,West,Delivered
+OD00618,2024-04-02,Vihaan Gupta,vihaan.gupta@example.com,CLOTHING,Formal Shirt,1,2992.82,15.0,NET BANKING,CHENNAI,South,Delivered
+OD00379,"Sep 05, 2024",Dev Mehta,dev.mehta@example.com,SPORTS,Yoga Mat,1,1583.84,5.0,CREDIT CARD,CHENNAI,South,Delivered
+OD00772,11-09-2024,Arjun Sharma,,BOOKS,Fiction Novel,1,694.67,15.0,NET BANKING,DELHI,North,Cancelled
+OD00833,01/05/2024,Aditya Kapoor,aditya.kapoor@example.com,  Sports  ,Cricket Bat,1,4145.13,15.0,  Credit Card  ,,South,Returned
+OD00342,2024-09-06,Aisha Nair,aisha.nair@example.com,Electronics,Bluetooth Speaker,1,4284.72,10.0,Net Banking,Delhi,North,Delivered
+OD00739,"Mar 17, 2024",Priya Gupta,priya.gupta@example.com,Home & Kitchen,LED Lamp,2,3249.27,10.0,Credit Card,,West,Delivered
+OD00443,"May 26, 2024",Aditya Nair,aditya.nair_at_example.com,HOME & KITCHEN,Blender,1,714.7,5.0,UPI,PUNE,West,Cancelled
+OD00215,"Feb 27, 2024",Aarav Joshi,aarav.joshi@example.com,sports,Cycling Helmet,1,852.27,,upi,patna,East,Delivered
+OD00738,2024-03-26,Aarav Singh,aarav.singh@example.com,  Home & Kitchen  ,Pressure Cooker,4,1259.8,5.0,  Cash on Delivery  ,  Delhi  ,North,Delivered
+OD00070,2024-05-30,Riya Gupta,riya.gupta@example.com,Electronics,Wireless Earbuds,3,573.64,5.0,Debit Card,Bangalore,South,Delivered
+OD00557,27/04/2024,Diya Patel,diya.patel@example.com,beauty,Sunscreen,1,1782.15,5.0,cash on delivery,kolkata,East,Cancelled
+OD00809,08/08/2024,Priya Mehta,priya.mehta@example.com,home & kitchen,Blender,2,3114.12,10.0,upi,patna,East,Pending
+OD00260,07-03-2024,Aditya Menon,aditya.menon@example.com,CLOTHING,Running Shoes,1,7829.400880218468,15.0,CASH ON DELIVERY,LUCKNOW,North,Delivered
+OD00003,"Jan 24, 2024",,vivaan.rao@example.com,Home & Kitchen,Pressure Cooker,1,1851.95,25.0,Cash on Delivery,Kolkata,East,Delivered
+OD00172,12-09-2024,Riya Khan,riya.khan@example.com,HOME & KITCHEN,LED Lamp,5,3565.15,0.0,UPI,MUMBAI,West,Pending
+OD00790,2024-05-01,Dev Khan,,  Beauty  ,Lipstick Set,1,854.17,10.0,  Debit Card  ,  Ahmedabad  ,West,Processing
+OD00196,10-21-2024,,kabir.chatterjee@example.com,beauty,Hair Dryer,4,1310.13,,net banking,jaipur,North,Returned
+OD00776,03-05-2024,Neha Iyer,neha.iyer@example.com,  Clothing  ,Running Shoes,80,2500.82,5.0,  UPI  ,  Pune  ,West,Delivered
+OD00350,2024-08-04,Neha Gupta,neha.gupta@example.com,sports,Cycling Helmet,2,3256.06,25.0,upi,hyderabad,South,Processing
+OD00243,"Nov 06, 2024",Vihaan Kapoor,vihaan.kapoor@example.com,Books,Biography,1,231.49,20.0,Cash on Delivery,Mumbai,West,Returned
+OD00890,2024-02-17,Vivaan Patel,,Sports,Cycling Helmet,5,,25.0,UPI,Lucknow,North,Delivered
+OD00542,2024-08-11,Vihaan Singh,vihaan.singh@example.com,BOOKS,Biography,2,557.51,25.0,CASH ON DELIVERY,LUCKNOW,North,Delivered
+OD00858,2024-01-02,Aarav Joshi,,  Electronics  ,Smartwatch,2,2455.06,0.0,  Credit Card  ,  Delhi  ,North,Processing
+OD00034,2024-01-30,Sara Rao,sara.rao@example.com,  Sports  ,Yoga Mat,1,915.97,10.0,  Cash on Delivery  ,  Patna  ,East,Delivered
+OD00383,"Oct 20, 2024",,karan.kapoor@example.com,Clothing,Denim Jeans,1,2656.41,15.0,Credit Card,Hyderabad,South,Processing
+OD00394,2024-11-15,Rohan Iyer,rohan.iyer@example.com,CLOTHING,Running Shoes,1,323.87,,CASH ON DELIVERY,LUCKNOW,North,Returned
+OD00170,2024-02-19,Vihaan Gupta,,BEAUTY,Lipstick Set,1,167.64,25.0,DEBIT CARD,HYDERABAD,South,Delivered
+OD00154,2024-04-12,Ishaan Rao,ishaan.rao@example.com,Beauty,Lipstick Set,1,1651.68,5.0,Cash on Delivery,,East,Delivered
+OD00873,12/05/2024,Priya Mehta,priya.mehta@example.com,Home & Kitchen,Storage Box Set,2,3212.99,15.0,UPI,Bangalore,South,Delivered
+OD00471,"Apr 08, 2024",Karan Iyer,karan.iyer@example.com,BEAUTY,Lipstick Set,1,1600.77,5.0,UPI,LUCKNOW,North,Pending
+OD00649,05/09/2024,Vivaan Patel,vivaan.patel@example.com,electronics,Bluetooth Speaker,2,865.29,,credit card,mumbai,West,Delivered
+OD00121,26/12/2024,Dev Khan,dev.khan@example.com,Clothing,Denim Jeans,1,2960.44,0.0,Debit Card,Patna,East,Pending
+OD00891,"Jun 18, 2024",Tara Joshi,tara.joshi@example.com,ELECTRONICS,Power Bank,2,4004.83,,CASH ON DELIVERY,PATNA,East,Delivered
+OD00071,"Aug 20, 2024",Meera Kapoor,,sports,Yoga Mat,1,4906.13,25.0,upi,,West,Cancelled
+OD00089,28/11/2024,Diya Singh,diya.singh@example.com,Clothing,Running Shoes,2,2517.45,5.0,UPI,Jaipur,North,Delivered
+OD00574,2024-02-06,Tara Rao,,sports,Football,1,4820.86,20.0,upi,bangalore,South,Processing
+OD00468,11-24-2024,,riya.rao@example.com,  Sports  ,Football,1,3242.681020532179,10.0,  Debit Card  ,  Chennai  ,South,Processing
+OD00241,16/10/2024,Karan Mehta,karan.mehta@example.com,books,Biography,3,610.14,10.0,upi,lucknow,North,Pending
+OD00426,2024-02-02,Ananya Singh,ananya.singh@example.com,electronics,Bluetooth Speaker,4,,20.0,credit card,jaipur,North,Pending
+OD00118,2024-02-02,Vihaan Sharma,vihaan.sharma@example.com,  Sports  ,Yoga Mat,1,522.66,0.0,  Cash on Delivery  ,  Patna  ,East,Delivered
+OD00532,04-18-2024,Aarav Khan,aarav.khan@example.com,BOOKS,Children's Storybook,5,176.32,25.0,CREDIT CARD,HYDERABAD,South,Processing
+OD00075,"Jun 02, 2024",Aisha Sharma,aisha.sharma@example.com,BEAUTY,Hair Dryer,1,1532.52,10.0,UPI,DELHI,North,Delivered
+OD00317,17/02/2024,Sai Singh,sai.singh@example.com,books,Self-Help Book,4,509.85,5.0,credit card,mumbai,West,Pending
+OD00897,11/07/2024,Sara Iyer,sara.iyer@example.com,HOME & KITCHEN,Blender,2,854.45,15.0,NET BANKING,DELHI,North,Delivered
+OD00719,"Apr 22, 2024",Rohan Patel,rohan.patel@example.com,BEAUTY,Hair Dryer,1,2206.01,25.0,CREDIT CARD,JAIPUR,North,Pending
+OD00411,"Jun 20, 2024",Sara Rao,sara.rao@example.com,books,Biography,1,821.37,5.0,net banking,jaipur,North,Cancelled
+OD00594,2024-06-07,Arjun Menon,,  Books  ,Self-Help Book,1,753.22,,  Credit Card  ,  Bangalore  ,South,Cancelled
+OD00332,05-07-2024,Tara Singh,tara.singh@example.com,  Electronics  ,Power Bank,2,3676.81,0.0,  Net Banking  ,  Kolkata  ,East,Delivered
+OD00636,01-19-2024,Tara Kapoor,tara.kapoor@example.com,home & kitchen,LED Lamp,2,3480.16,10.0,credit card,chennai,South,Cancelled
+OD00428,06-23-2024,Riya Singh,riya.singh@example.com,Home & Kitchen,Storage Box Set,1,,0.0,Net Banking,,West,Delivered
+OD00151,"Mar 09, 2024",Meera Singh,meera.singh@example.com,BEAUTY,Sunscreen,1,1242.78,25.0,CASH ON DELIVERY,BANGALORE,South,Delivered
+OD00688,02-04-2024,Vihaan Mehta,vihaan.mehta@example.com,ELECTRONICS,Bluetooth Speaker,5,3099.96,25.0,CASH ON DELIVERY,AHMEDABAD,West,Delivered
+OD00310,2024-03-17,,,electronics,Wireless Earbuds,1,594.23,10.0,net banking,pune,West,Delivered
+OD00181,03/07/2024,,ananya.kapoor@example.com,Home & Kitchen,Blender,1,2882.29,15.0,Net Banking,Ahmedabad,West,Pending
+OD00464,07-12-2024,Sai Gupta,sai.gupta@example.com,  Sports  ,Cricket Bat,2,4479.72,5.0,  Cash on Delivery  ,  Bangalore  ,South,Returned
+OD00269,29/09/2024,Aditya Khan,aditya.khan@example.com,HOME & KITCHEN,Non-Stick Pan,2,3654.8,25.0,UPI,JAIPUR,North,Delivered
+OD00408,01-25-2024,Sara Patel,sara.patel@example.com,  Beauty  ,Hair Dryer,2,2027.06,,  Credit Card  ,  Kolkata  ,East,Delivered
+OD00796,09-16-2024,Aditya Joshi,aditya.joshi@example.com,sports,Cricket Bat,2,1859.52,25.0,cash on delivery,chennai,South,Delivered
+OD00513,10/01/2024,Kabir Nair,kabir.nair@example.com,Beauty,Lipstick Set,4,674.13,0.0,Debit Card,Bangalore,South,Cancelled
+OD00473,25/10/2024,Meera Chatterjee,meera.chatterjee@example.com,Electronics,Power Bank,1,2238.68,,Net Banking,Mumbai,West,Delivered
+OD00702,2024-12-31,Sara Khan,sara.khan@example.com,Sports,Dumbbell Set,2,415.07,5.0,Credit Card,Patna,East,Delivered
+OD00258,2024-02-28,Riya Verma,riya.verma@example.com,  Clothing  ,Cotton T-Shirt,1,2491.9,25.0,  Credit Card  ,  Hyderabad  ,South,Pending
+OD00022,2024-09-02,Kabir Nair,kabir.nair@example.com,beauty,Lipstick Set,1,1989.43,10.0,upi,lucknow,North,Processing
+OD00810,2024-11-16,Vihaan Gupta,vihaan.gupta@example.com,  Home & Kitchen  ,LED Lamp,2,2577.8,25.0,  Cash on Delivery  ,  Pune  ,West,Delivered
+OD00862,2024-05-30,Ishaan Chatterjee,ishaan.chatterjee@example.com,Beauty,Face Serum,1,18689.638338371504,0.0,Debit Card,Lucknow,North,Processing
+OD00664,04-12-2024,Meera Kapoor,,  Books  ,Fiction Novel,1,748.53,0.0,  UPI  ,  Kolkata  ,East,Returned
+OD00630,2024-06-08,Vihaan Rao,vihaan.rao@example.com,electronics,Power Bank,2,813.9,5.0,credit card,kolkata,East,Delivered
+OD00119,"Jul 27, 2024",Kabir Iyer,kabir.iyer@example.com,Sports,Yoga Mat,2,819.96,,UPI,Mumbai,West,Returned
+OD00797,03/07/2024,,riya.sharma@example.com,Sports,Yoga Mat,1,527.92,25.0,UPI,Mumbai,West,Cancelled
+OD00426,2024-02-02,Ananya Singh,ananya.singh@example.com,electronics,Bluetooth Speaker,4,,20.0,credit card,jaipur,North,Pending
+OD00098,2024-05-15,Karan Chatterjee,karan.chatterjee@example.com,Beauty,Lipstick Set,1,236.88,0.0,Cash on Delivery,Mumbai,West,Returned
+OD00298,2024-01-17,Riya Iyer,riya.iyer@example.com,Books,Self-Help Book,2,732.49,0.0,Cash on Delivery,Bangalore,South,Cancelled
+OD00566,2024-12-04,Ananya Reddy,ananya.reddy@example.com,clothing,Cotton T-Shirt,3,2582.49,15.0,debit card,delhi,North,Delivered
+OD00254,2024-07-16,Kabir Iyer,kabir.iyer@example.com,Clothing,Running Shoes,2,1103.82,20.0,Net Banking,Kolkata,East,Delivered
+OD00432,08-22-2024,Vivaan Nair,vivaan.nair@example.com,Home & Kitchen,Storage Box Set,1,2385.5,5.0,UPI,Ahmedabad,West,Pending
+OD00718,2024-02-08,Aisha Gupta,aisha.gupta@example.com,Sports,Cycling Helmet,1,2437.42,10.0,Net Banking,Chennai,South,Pending
+OD00110,2024-09-02,Kabir Iyer,kabir.iyer@example.com,HOME & KITCHEN,Pressure Cooker,2,3781.46,25.0,DEBIT CARD,HYDERABAD,South,Pending
+OD00156,01-27-2024,Sara Khan,sara.khan@example.com,  Clothing  ,Running Shoes,2,1610.24,,  Net Banking  ,  Chennai  ,South,Processing
+OD00128,08-14-2024,Priya Joshi,priya.joshi@example.com,Electronics,Wireless Earbuds,3,1348.25,15.0,Credit Card,Ahmedabad,West,Cancelled
+OD00792,01-29-2024,Ananya Nair,ananya.nair@example.com,BOOKS,Cookbook,1,847.07,25.0,NET BANKING,KOLKATA,East,Cancelled
+OD00522,2024-05-25,Aisha Mehta,aisha.mehta@example.com,books,Biography,1,479.45,,debit card,,West,Processing
+OD00208,11-18-2024,Ishaan Verma,ishaan.verma@example.com,  Books  ,Biography,1,427.49,20.0,  Debit Card  ,  Pune  ,West,Pending
+OD00063,"Nov 02, 2024",Rohan Nair,rohan.nair@example.com,Books,Fiction Novel,3,897.78,0.0,Credit Card,Hyderabad,South,Returned
+OD00306,2024-02-04,Arjun Verma,arjun.verma@example.com,BEAUTY,Sunscreen,3,1603.85,20.0,NET BANKING,AHMEDABAD,West,Processing
+OD00138,2024-08-01,Dev Singh,dev.singh@example.com,home & kitchen,Non-Stick Pan,1,1152.59,25.0,debit card,hyderabad,South,Delivered
+OD00395,"May 24, 2024",Rohan Khan,rohan.khan@example.com,BOOKS,Children's Storybook,1,710.05,10.0,CREDIT CARD,DELHI,North,Pending
+OD00780,05-21-2024,Aisha Sharma,,ELECTRONICS,Smartphone Case,120,2503.11,5.0,DEBIT CARD,DELHI,North,Cancelled
+OD00729,06/09/2024,Diya Kapoor,,Electronics,Smartphone Case,3,1370.37,5.0,Credit Card,Hyderabad,South,Delivered
+OD00021,04/08/2024,Ishaan Reddy,,  Sports  ,Yoga Mat,2,4648.06,5.0,  Credit Card  ,  Chennai  ,South,Delivered
+OD00746,2024-02-13,Ishaan Rao,ishaan.rao@example.com,clothing,Winter Jacket,1,1414.78,15.0,upi,pune,West,Delivered
+OD00493,01/12/2024,Ananya Mehta,ananya.mehta@example.com,  Books  ,Fiction Novel,2,848.85,20.0,  Net Banking  ,  Hyderabad  ,South,Cancelled
+OD00221,16/03/2024,Ananya Patel,ananya.patel@example.com,CLOTHING,Formal Shirt,1,2056.05,5.0,CASH ON DELIVERY,KOLKATA,East,Pending
+OD00102,2024-07-20,Sai Verma,,Beauty,Perfume,1,1537.25,25.0,Cash on Delivery,Delhi,North,Delivered
+OD00778,2024-07-19,Ishaan Rao,ishaan.rao@example.com,Clothing,Formal Shirt,1,1897.76,5.0,Credit Card,Hyderabad,South,Cancelled
+OD00724,04-04-2024,Dev Mehta,dev.mehta@example.com,SPORTS,Dumbbell Set,1,2388.52,0.0,CASH ON DELIVERY,JAIPUR,North,Delivered
+OD00501,14/01/2024,Aisha Singh,aisha.singh@example.com,Electronics,Smartwatch,1,2667.35,5.0,Cash on Delivery,Bangalore,South,Delivered
+OD00431,"Oct 08, 2024",Meera Menon,meera.menon@example.com,ELECTRONICS,Bluetooth Speaker,1,2969.74,10.0,CASH ON DELIVERY,,South,Delivered
+OD00224,02-16-2024,,karan.khan@example.com,Clothing,Running Shoes,2,2072.48,10.0,Credit Card,Patna,East,Delivered
+OD00621,15/02/2024,Arjun Rao,,  Home & Kitchen  ,LED Lamp,2,1542.71,,  Debit Card  ,  Hyderabad  ,South,Returned
+OD00844,01-12-2024,Aarav Chatterjee,aarav.chatterjee@example.com,  Beauty  ,Sunscreen,1,150.74,25.0,  Debit Card  ,  Jaipur  ,North,Processing
+OD00289,08/04/2024,Priya Kapoor,,CLOTHING,Formal Shirt,3,3155.89,0.0,DEBIT CARD,PATNA,East,Returned
+OD00647,"Aug 12, 2024",Karan Verma,karan.verma@example.com,beauty,Face Serum,2,631.87,,net banking,pune,West,Processing
+OD00496,01-13-2024,Sai Rao,sai.rao@example.com,electronics,Smartwatch,1,1755.46,20.0,debit card,hyderabad,South,Returned
+OD00206,2024-12-06,Dev Joshi,dev.joshi@example.com,BOOKS,Self-Help Book,2,872.68,15.0,CASH ON DELIVERY,AHMEDABAD,West,Processing
+OD00865,11/06/2024,Dev Verma,dev.verma@example.com,  Electronics  ,Bluetooth Speaker,2,3826.1,5.0,  Debit Card  ,  Chennai  ,South,Cancelled
+OD00613,31/07/2024,Priya Gupta,priya.gupta@example.com,Sports,Dumbbell Set,1,3363.53,5.0,Debit Card,Mumbai,West,Delivered
+OD00758,2024-03-10,Vihaan Khan,vihaan.khan@example.com,Home & Kitchen,Storage Box Set,3,1265.17,,Cash on Delivery,Lucknow,North,Delivered
+OD00514,2024-11-26,Diya Joshi,diya.joshi@example.com,home & kitchen,Non-Stick Pan,3,2136.34,15.0,credit card,delhi,North,Delivered
+OD00816,10-02-2024,Sai Verma,sai.verma@example.com,clothing,Denim Jeans,2,523.05,20.0,upi,chennai,South,Delivered
+OD00015,"Aug 18, 2024",Arjun Nair,arjun.nair@example.com,home & kitchen,Storage Box Set,1,1861.55,15.0,debit card,bangalore,South,Processing
+OD00546,2024-12-22,Arjun Gupta,arjun.gupta@example.com,beauty,Lipstick Set,1,925.56,25.0,credit card,lucknow,North,Delivered
+OD00062,2024-07-07,Sai Sharma,sai.sharma@example.com,Sports,Dumbbell Set,1,2455.18,,Net Banking,Delhi,North,Pending
+OD00370,2024-06-20,Priya Menon,priya.menon@example.com,ELECTRONICS,Smartphone Case,2,2845.42,25.0,DEBIT CARD,HYDERABAD,South,Pending
+OD00450,2024-02-14,Sara Mehta,sara.mehta@example.com,ELECTRONICS,Smartphone Case,1,4497.5,20.0,NET BANKING,PUNE,West,Delivered
+OD00182,2024-12-18,,diya.khan@example.com,HOME & KITCHEN,Blender,1,1067.16,0.0,NET BANKING,HYDERABAD,South,Delivered
+OD00751,"May 13, 2024",Ananya Reddy,ananya.reddy@example.com,  Clothing  ,Running Shoes,2,904.61,15.0,  Credit Card  ,  Kolkata  ,East,Processing
+OD00084,08-26-2024,Dev Joshi,dev.joshi@example.com,Beauty,Perfume,2,1456.53,,UPI,Patna,East,Cancelled
+OD00125,02/01/2024,Aditya Chatterjee,aditya.chatterjee@example.com,sports,Football,1,1112.84,25.0,credit card,ahmedabad,West,Cancelled
+OD00587,"Jan 23, 2024",Neha Rao,neha.rao@example.com,Clothing,Winter Jacket,1,1924.88,20.0,UPI,Ahmedabad,West,Delivered
+OD00709,09/11/2024,Sara Nair,sara.nair_at_example.com,BOOKS,Biography,2,638.77,25.0,DEBIT CARD,PATNA,East,Pending
+OD00437,16/05/2024,Kabir Nair,kabir.nair@example.com,  Sports  ,Football,2,3322.89,15.0,  Credit Card  ,  Lucknow  ,North,Delivered
+OD00288,03-23-2024,Aisha Menon,aisha.menon@example.com,beauty,Lipstick Set,120,629.07,,cash on delivery,kolkata,East,Cancelled
+OD00565,11/05/2024,Aditya Rao,aditya.rao@example.com,home & kitchen,Blender,1,,25.0,net banking,kolkata,East,Pending
+OD00078,2024-04-08,Neha Kapoor,neha.kapoor@example.com,  Sports  ,Dumbbell Set,1,4628.97,20.0,  Debit Card  ,  Lucknow  ,North,Delivered
+OD00185,26/07/2024,Sai Kapoor,sai.kapoor@example.com,books,Self-Help Book,1,642.06,20.0,upi,mumbai,West,Delivered
+OD00859,"May 20, 2024",,kabir.menon@example.com,books,Children's Storybook,2,788.02,15.0,debit card,lucknow,North,Processing
+OD00056,10-14-2024,Kabir Joshi,kabir.joshi@example.com,sports,Dumbbell Set,3,3118.09,0.0,net banking,pune,West,Delivered
+OD00592,05-16-2024,Rohan Mehta,rohan.mehta@example.com,  Books  ,Cookbook,4,606.1,20.0,  Net Banking  ,  Lucknow  ,North,Returned
+OD00774,2024-07-08,Riya Menon,riya.menon@example.com,books,Self-Help Book,1,476.16,0.0,credit card,chennai,South,Delivered
+OD00319,"Jun 13, 2024",Sara Joshi,sara.joshi@example.com,Beauty,Perfume,1,758.26,0.0,Debit Card,Pune,West,Delivered
+OD00166,2024-09-14,Aisha Joshi,aisha.joshi@example.com,HOME & KITCHEN,Non-Stick Pan,1,3288.95,10.0,UPI,LUCKNOW,North,Returned
+OD00853,07/08/2024,Rohan Rao,rohan.rao@example.com,  Home & Kitchen  ,Blender,4,303.68,10.0,  UPI  ,  Mumbai  ,West,Delivered
+OD00737,20/02/2024,,sara.kapoor_at_example.com,Home & Kitchen,Pressure Cooker,1,3338.06,0.0,Net Banking,Delhi,North,Cancelled
+OD00268,10-19-2024,Neha Gupta,neha.gupta@example.com,sports,Football,1,1314.85,5.0,net banking,hyderabad,South,Delivered
+OD00116,08-06-2024,Tara Iyer,tara.iyer@example.com,  Home & Kitchen  ,LED Lamp,1,3244.21,5.0,  Cash on Delivery  ,,North,Cancelled
+OD00171,"Mar 11, 2024",Kabir Chatterjee,kabir.chatterjee@example.com,sports,Football,1,843.81,25.0,credit card,delhi,North,Delivered
+OD00311,"May 16, 2024",Rohan Khan,,Books,Cookbook,1,,5.0,Net Banking,Delhi,North,Pending
+OD00611,"Feb 22, 2024",Vihaan Gupta,vihaan.gupta@example.com,  Home & Kitchen  ,Non-Stick Pan,1,2042.89,,  Cash on Delivery  ,  Mumbai  ,West,Returned
+OD00199,"Aug 29, 2024",Diya Gupta,diya.gupta@example.com,  Sports  ,Cricket Bat,2,2419.92,10.0,  UPI  ,  Delhi  ,North,Delivered
+OD00751,"May 13, 2024",Ananya Reddy,ananya.reddy@example.com,  Clothing  ,Running Shoes,2,904.61,15.0,  Credit Card  ,  Kolkata  ,East,Processing
+OD00641,21/08/2024,Ananya Reddy,ananya.reddy@example.com,BOOKS,Cookbook,2,360.17,0.0,DEBIT CARD,PUNE,West,Returned
+OD00745,17/11/2024,Karan Patel,karan.patel@example.com,Beauty,Face Serum,1,175.27,10.0,UPI,Mumbai,West,Returned
+OD00219,"Jun 25, 2024",Ishaan Menon,ishaan.menon@example.com,HOME & KITCHEN,LED Lamp,4,3446.23,10.0,UPI,HYDERABAD,South,Processing
+OD00212,08-01-2024,Ishaan Iyer,ishaan.iyer@example.com,BEAUTY,Face Serum,4,2051.08,15.0,CASH ON DELIVERY,MUMBAI,West,Processing
+OD00713,29/04/2024,Vihaan Gupta,vihaan.gupta@example.com,  Home & Kitchen  ,Non-Stick Pan,1,1227.57,15.0,  Debit Card  ,  Chennai  ,South,Returned
+OD00491,"Apr 15, 2024",Aditya Patel,aditya.patel@example.com,beauty,Face Serum,2,1858.48,5.0,credit card,chennai,South,Returned
+OD00695,"Apr 19, 2024",Priya Verma,priya.verma@example.com,sports,Dumbbell Set,1,4423.91,15.0,upi,ahmedabad,West,Processing
+OD00877,08/11/2024,Priya Mehta,priya.mehta@example.com,  Electronics  ,Power Bank,1,1593.5,15.0,  Credit Card  ,  Bangalore  ,South,Delivered
+OD00055,"Jul 10, 2024",Kabir Gupta,kabir.gupta@example.com,clothing,Cotton T-Shirt,2,1916.6,20.0,net banking,bangalore,South,Processing
+OD00504,07-27-2024,Dev Menon,dev.menon@example.com,ELECTRONICS,Smartwatch,2,2838.53,20.0,UPI,BANGALORE,South,Pending
+OD00476,03-06-2024,Meera Patel,meera.patel@example.com,HOME & KITCHEN,Storage Box Set,3,3516.8,,DEBIT CARD,PATNA,East,Processing
+OD00547,"Jul 09, 2024",Sai Reddy,sai.reddy@example.com,CLOTHING,Formal Shirt,2,2797.86,5.0,DEBIT CARD,PUNE,West,Delivered
+OD00514,2024-11-26,Diya Joshi,diya.joshi@example.com,home & kitchen,Non-Stick Pan,3,2136.34,15.0,credit card,delhi,North,Delivered
+OD00652,06-27-2024,,sara.rao@example.com,  Electronics  ,Bluetooth Speaker,1,3569.29,10.0,  Cash on Delivery  ,  Pune  ,West,Processing
+OD00727,"Aug 12, 2024",Sara Nair,sara.nair@example.com,HOME & KITCHEN,Non-Stick Pan,1,1863.79,,CREDIT CARD,PATNA,East,Pending
+OD00795,"Sep 25, 2024",Riya Khan,riya.khan@example.com,HOME & KITCHEN,Pressure Cooker,1,739.79,15.0,DEBIT CARD,DELHI,North,Delivered
+OD00330,2024-09-18,Karan Verma,karan.verma@example.com,  Sports  ,Football,1,4508.87,20.0,  Net Banking  ,  Hyderabad  ,South,Delivered
+OD00666,2024-01-07,Vivaan Nair,vivaan.nair@example.com,  Books  ,Children's Storybook,2,301.16,,  Debit Card  ,  Mumbai  ,West,Pending
+OD00710,2024-09-21,Dev Verma,dev.verma@example.com,Electronics,Wireless Earbuds,1,3942.97,10.0,Cash on Delivery,Bangalore,South,Delivered
+OD00410,2024-07-25,Arjun Mehta,arjun.mehta@example.com,Electronics,Power Bank,1,3846.85,,Credit Card,Jaipur,North,Cancelled
+OD00398,2024-08-08,Karan Reddy,karan.reddy@example.com,Electronics,Smartphone Case,1,714.64,10.0,Cash on Delivery,Mumbai,West,Delivered
+OD00483,"Jan 21, 2024",Priya Joshi,priya.joshi@example.com,sports,Yoga Mat,2,3690.43,0.0,net banking,chennai,South,Delivered
+OD00560,04-06-2024,Priya Verma,priya.verma@example.com,Home & Kitchen,LED Lamp,2,516.34,20.0,UPI,Ahmedabad,West,Cancelled
+OD00148,05-23-2024,Tara Gupta,tara.gupta@example.com,BEAUTY,Face Serum,1,1366.5,15.0,CASH ON DELIVERY,LUCKNOW,North,Cancelled
+OD00280,07-16-2024,Karan Chatterjee,karan.chatterjee@example.com,CLOTHING,Formal Shirt,2,,,CREDIT CARD,LUCKNOW,North,Returned
+OD00255,"May 27, 2024",Aarav Chatterjee,aarav.chatterjee@example.com,  Books  ,Self-Help Book,1,341.05,25.0,  Debit Card  ,  Lucknow  ,North,Delivered
+OD00354,2024-12-15,Aarav Mehta,aarav.mehta@example.com,  Clothing  ,Winter Jacket,1,2399.02,20.0,  Cash on Delivery  ,  Mumbai  ,West,Processing
+OD00558,2024-05-04,Sai Gupta,sai.gupta@example.com,  Books  ,Self-Help Book,2,488.19,15.0,  Net Banking  ,  Bangalore  ,South,Processing
+OD00054,2024-01-19,Tara Menon,tara.menon@example.com,  Sports  ,Cycling Helmet,1,4746.33,0.0,  UPI  ,  Chennai  ,South,Returned
+OD00393,23/08/2024,Arjun Singh,arjun.singh@example.com,Books,Self-Help Book,1,370.47,20.0,Cash on Delivery,Pune,West,Delivered
+OD00543,"Feb 26, 2024",Rohan Verma,rohan.verma@example.com,BOOKS,Self-Help Book,1,529.47,10.0,CASH ON DELIVERY,PATNA,East,Processing
+OD00725,17/10/2024,Vivaan Reddy,,sports,Yoga Mat,1,2311.1,10.0,debit card,lucknow,North,Delivered
+OD00231,"Aug 30, 2024",Ananya Reddy,ananya.reddy@example.com,HOME & KITCHEN,Storage Box Set,2,3296.8,20.0,NET BANKING,JAIPUR,North,Processing
+OD00755,"Jul 28, 2024",Aditya Menon,aditya.menon@example.com,Books,Self-Help Book,3,284.91,10.0,Cash on Delivery,,East,Cancelled
+OD00147,"Feb 29, 2024",Ananya Iyer,,sports,Cricket Bat,1,2795.0,0.0,cash on delivery,delhi,North,Delivered
+OD00850,2024-06-14,Priya Iyer,priya.iyer@example.com,Electronics,Power Bank,1,2219.05,20.0,Credit Card,Jaipur,North,Delivered
+OD00803,"Jan 14, 2024",Arjun Reddy,arjun.reddy@example.com,SPORTS,Cycling Helmet,1,2202.29,10.0,DEBIT CARD,CHENNAI,South,Delivered
+OD00607,"Aug 10, 2024",Karan Patel,karan.patel@example.com,SPORTS,Yoga Mat,1,643.29,20.0,CREDIT CARD,DELHI,North,Delivered
+OD00087,"Aug 21, 2024",Karan Joshi,karan.joshi@example.com,  Sports  ,Dumbbell Set,1,695.34,15.0,  Net Banking  ,  Kolkata  ,East,Delivered
+OD00220,07-26-2024,Diya Menon,diya.menon@example.com,home & kitchen,Blender,1,1670.27,20.0,net banking,mumbai,West,Cancelled
+OD00297,07/01/2024,Kabir Menon,kabir.menon@example.com,sports,Cricket Bat,1,516.03,5.0,upi,delhi,North,Cancelled
+OD00730,2024-05-13,Riya Gupta,riya.gupta@example.com,ELECTRONICS,Smartphone Case,1,1258.67,5.0,UPI,HYDERABAD,South,Delivered
+OD00671,"Sep 28, 2024",,rohan.singh@example.com,  Clothing  ,Winter Jacket,-1,3058.99,20.0,  Debit Card  ,  Chennai  ,South,Pending
+OD00045,01/11/2024,Neha Verma,neha.verma@example.com,  Clothing  ,Cotton T-Shirt,1,1352.16,0.0,  Credit Card  ,  Pune  ,West,Delivered
+OD00175,"Apr 26, 2024",Aditya Chatterjee,aditya.chatterjee@example.com,Electronics,Bluetooth Speaker,2,790.32,5.0,UPI,Delhi,North,Delivered
+OD00302,2024-06-25,Vivaan Chatterjee,vivaan.chatterjee@example.com,BOOKS,Children's Storybook,2,787.34,,NET BANKING,CHENNAI,South,Returned
+OD00400,12-08-2024,Sai Reddy,sai.reddy@example.com,  Electronics  ,Smartwatch,1,36621.900744132414,25.0,  UPI  ,  Jaipur  ,North,Processing
+OD00655,"Jan 26, 2024",Aarav Joshi,aarav.joshi_at_example.com,clothing,Cotton T-Shirt,1,800.93,25.0,credit card,bangalore,South,Cancelled
+OD00498,2024-01-06,Aditya Singh,aditya.singh@example.com,Home & Kitchen,Blender,1,2114.06,0.0,UPI,Pune,West,Processing
+OD00140,03-26-2024,Dev Mehta,dev.mehta@example.com,Home & Kitchen,Non-Stick Pan,1,2583.82,5.0,Credit Card,Pune,West,Delivered
+OD00163,"Mar 15, 2024",Aisha Mehta,aisha.mehta@example.com,sports,Yoga Mat,2,1632.55,25.0,upi,hyderabad,South,Cancelled
+OD00347,"Aug 03, 2024",Aarav Reddy,aarav.reddy@example.com,Clothing,Denim Jeans,2,1825.02,5.0,Cash on Delivery,Delhi,North,Delivered
+OD00768,06-15-2024,Riya Iyer,riya.iyer@example.com,  Clothing  ,Winter Jacket,3,809.46,0.0,  Debit Card  ,  Pune  ,West,Pending
+OD00804,06-05-2024,Aditya Gupta,aditya.gupta@example.com,Electronics,Bluetooth Speaker,1,2699.53,10.0,Net Banking,Pune,West,Cancelled
+OD00715,"Dec 30, 2024",Ananya Nair,ananya.nair@example.com,electronics,Wireless Earbuds,1,2342.45,20.0,cash on delivery,chennai,South,Delivered
+OD00787,"Dec 08, 2024",Tara Kapoor,tara.kapoor@example.com,sports,Cycling Helmet,2,,0.0,credit card,delhi,North,Delivered
+OD00563,"Jun 01, 2024",Meera Patel,meera.patel@example.com,BOOKS,Self-Help Book,1,388.24,20.0,CASH ON DELIVERY,KOLKATA,East,Cancelled
+OD00281,26/09/2024,Riya Khan,riya.khan@example.com,sports,Cycling Helmet,1,2611.52,0.0,credit card,patna,East,Delivered
+OD00898,2024-03-25,Sai Khan,sai.khan@example.com,Sports,Cycling Helmet,2,,0.0,Cash on Delivery,Chennai,South,Processing
+OD00450,2024-02-14,Sara Mehta,sara.mehta@example.com,ELECTRONICS,Smartphone Case,1,4497.5,20.0,NET BANKING,PUNE,West,Delivered
+OD00204,12-08-2024,Kabir Rao,kabir.rao@example.com,BEAUTY,Hair Dryer,1,,5.0,CASH ON DELIVERY,HYDERABAD,South,Processing
+OD00010,2024-01-29,Aditya Joshi,aditya.joshi@example.com,ELECTRONICS,Smartphone Case,1,3140.45,20.0,UPI,CHENNAI,South,Returned
+OD00538,2024-07-28,Aarav Reddy,aarav.reddy@example.com,Books,Biography,2,791.97,20.0,Debit Card,Pune,West,Pending
+OD00448,08-12-2024,Dev Reddy,dev.reddy@example.com,books,Self-Help Book,3,193.2,,cash on delivery,chennai,South,Delivered
+OD00263,"May 30, 2024",Arjun Verma,arjun.verma@example.com,  Home & Kitchen  ,Storage Box Set,5,1958.76,15.0,  Cash on Delivery  ,,South,Delivered
+OD00271,"Dec 03, 2024",Vihaan Mehta,vihaan.mehta@example.com,  Beauty  ,Lipstick Set,4,481.41,20.0,  Debit Card  ,  Bangalore  ,South,Pending
+OD00503,"Oct 06, 2024",Kabir Patel,,Electronics,Bluetooth Speaker,50,1788.65,10.0,Cash on Delivery,Patna,East,Delivered
+OD00164,01-24-2024,Dev Nair,dev.nair@example.com,SPORTS,Football,1,3167.28,5.0,NET BANKING,CHENNAI,South,Processing
+OD00515,"Sep 02, 2024",Rohan Singh,rohan.singh@example.com,sports,Cycling Helmet,1,,20.0,net banking,jaipur,North,Delivered
+OD00286,2024-09-22,Tara Joshi,tara.joshi@example.com,  Books  ,Fiction Novel,5,787.3,5.0,  Debit Card  ,  Ahmedabad  ,West,Delivered
+OD00900,09-15-2024,Kabir Mehta,kabir.mehta@example.com,  Books  ,Fiction Novel,4,816.9,0.0,  Cash on Delivery  ,  Ahmedabad  ,West,Pending
+OD00552,12-29-2024,Ishaan Mehta,ishaan.mehta@example.com,  Sports  ,Football,3,3695.65,10.0,  Credit Card  ,  Hyderabad  ,South,Cancelled
+OD00520,07-11-2024,Meera Khan,meera.khan@example.com,ELECTRONICS,Smartphone Case,1,2139.78,10.0,DEBIT CARD,PATNA,East,Processing
+OD00445,23/02/2024,Sara Verma,sara.verma@example.com,HOME & KITCHEN,Non-Stick Pan,1,3594.78,25.0,CASH ON DELIVERY,AHMEDABAD,West,Cancelled
+OD00465,23/05/2024,Ishaan Iyer,ishaan.iyer@example.com,Sports,Cycling Helmet,1,730.33,10.0,Net Banking,Jaipur,North,Returned
+OD00340,06-21-2024,,ananya.singh@example.com,Clothing,Denim Jeans,2,1983.52,0.0,Net Banking,Jaipur,North,Delivered
+OD00319,"Jun 13, 2024",Sara Joshi,sara.joshi@example.com,Beauty,Perfume,1,758.26,0.0,Debit Card,Pune,West,Delivered
+OD00627,"Mar 04, 2024",Riya Gupta,riya.gupta@example.com,BEAUTY,Face Serum,2,1073.22,0.0,CREDIT CARD,PATNA,East,Pending
+OD00784,02-12-2024,Ishaan Gupta,ishaan.gupta@example.com,CLOTHING,Formal Shirt,1,2488.65,,CREDIT CARD,JAIPUR,North,Cancelled
+OD00100,04-06-2024,Riya Chatterjee,,  Clothing  ,Cotton T-Shirt,1,2781.47,,  UPI  ,  Lucknow  ,North,Delivered
+OD00603,"Jul 18, 2024",Ishaan Singh,ishaan.singh@example.com,  Clothing  ,Denim Jeans,1,1417.94,10.0,  Net Banking  ,  Patna  ,East,Pending
+OD00849,05/03/2024,Arjun Chatterjee,arjun.chatterjee@example.com,ELECTRONICS,Bluetooth Speaker,1,1741.16,10.0,CREDIT CARD,CHENNAI,South,Cancelled
+OD00292,04-03-2024,Priya Verma,priya.verma@example.com,Sports,Cycling Helmet,1,399.43,15.0,Cash on Delivery,Pune,West,Delivered
+OD00781,26/12/2024,,aisha.singh@example.com,HOME & KITCHEN,Blender,1,1502.76,,DEBIT CARD,CHENNAI,South,Delivered
+OD00570,2024-12-27,Ishaan Gupta,ishaan.gupta@example.com,electronics,Wireless Earbuds,1,4021.72,20.0,upi,chennai,South,Delivered
+OD00433,10/09/2024,Arjun Mehta,arjun.mehta@example.com,SPORTS,Yoga Mat,1,1079.04,10.0,CREDIT CARD,,West,Cancelled
+OD00881,19/10/2024,,rohan.mehta@example.com,sports,Football,1,602.47,20.0,cash on delivery,patna,East,Pending
+OD00316,01-29-2024,Aditya Patel,aditya.patel@example.com,BOOKS,Cookbook,5,402.21,10.0,CREDIT CARD,MUMBAI,West,Pending
+OD00876,03-29-2024,Tara Verma,tara.verma@example.com,CLOTHING,Formal Shirt,1,2881.52,15.0,UPI,PUNE,West,Pending
+OD00072,04-04-2024,Aisha Rao,aisha.rao@example.com,  Electronics  ,Smartphone Case,2,1635.5,15.0,  UPI  ,  Bangalore  ,South,Processing
+OD00167,"Nov 04, 2024",Dev Mehta,dev.mehta@example.com,Sports,Cricket Bat,3,1447.76,25.0,Cash on Delivery,Delhi,North,Delivered
+OD00162,2024-03-04,Tara Mehta,tara.mehta@example.com,CLOTHING,Cotton T-Shirt,1,2788.86,0.0,CASH ON DELIVERY,BANGALORE,South,Delivered
+OD00131,"Dec 17, 2024",Kabir Patel,kabir.patel@example.com,SPORTS,Cycling Helmet,2,2156.53,5.0,CREDIT CARD,DELHI,North,Returned
+OD00331,"Feb 04, 2024",Ishaan Kapoor,,ELECTRONICS,Smartwatch,5,786.8,5.0,NET BANKING,MUMBAI,West,Delivered
+OD00137,29/02/2024,Tara Verma,tara.verma@example.com,Electronics,Wireless Earbuds,1,1946.54,5.0,Net Banking,Delhi,North,Delivered
+OD00177,28/06/2024,Sara Joshi,sara.joshi@example.com,  Beauty  ,Lipstick Set,2,905.63,5.0,  Cash on Delivery  ,  Pune  ,West,Delivered
+OD00321,03/09/2024,Kabir Patel,kabir.patel@example.com,  Home & Kitchen  ,Blender,2,1000.64,10.0,  Debit Card  ,  Lucknow  ,North,Cancelled
+OD00017,05/02/2024,Sara Nair,sara.nair@example.com,clothing,Winter Jacket,1,2364.83,10.0,cash on delivery,mumbai,West,Delivered
+OD00114,2024-03-25,Rohan Singh,rohan.singh@example.com,Electronics,Smartwatch,1,1248.78,10.0,Credit Card,Jaipur,North,Delivered
+OD00008,10-31-2024,Diya Khan,,  Sports  ,Cycling Helmet,2,1655.14,5.0,  Cash on Delivery  ,  Pune  ,West,Delivered
+OD00196,10-21-2024,,kabir.chatterjee@example.com,beauty,Hair Dryer,4,1310.13,,net banking,jaipur,North,Returned
+OD00585,06/01/2024,Aarav Nair,aarav.nair@example.com,books,Children's Storybook,1,733.77,5.0,debit card,pune,West,Delivered
+OD00174,2024-01-01,Priya Kapoor,priya.kapoor@example.com,Home & Kitchen,LED Lamp,2,2052.68,25.0,Credit Card,Bangalore,South,Processing
+OD00811,"Jun 28, 2024",Aditya Mehta,aditya.mehta@example.com,CLOTHING,Cotton T-Shirt,2,1217.25,10.0,CASH ON DELIVERY,PUNE,West,Returned
+OD00295,"Mar 15, 2024",Rohan Patel,rohan.patel@example.com,Books,Fiction Novel,1,827.93,20.0,Net Banking,Kolkata,East,Delivered
+OD00802,2024-11-14,,aisha.mehta@example.com,  Electronics  ,Smartphone Case,1,699.14,5.0,  Credit Card  ,  Jaipur  ,North,Processing
+OD00733,03/12/2024,Neha Singh,neha.singh@example.com,HOME & KITCHEN,Non-Stick Pan,1,3562.4,20.0,UPI,LUCKNOW,North,Delivered
+OD00615,"Jan 06, 2024",Aarav Iyer,aarav.iyer@example.com,  Books  ,Cookbook,1,210.51,20.0,  Credit Card  ,,West,Pending
+OD00068,02-01-2024,Aditya Rao,aditya.rao@example.com,clothing,Cotton T-Shirt,2,1738.37,25.0,upi,,South,Delivered
+OD00474,2024-10-09,Aisha Verma,aisha.verma@example.com,BEAUTY,Face Serum,2,943.1,5.0,DEBIT CARD,CHENNAI,South,Delivered
+OD00357,30/06/2024,Aditya Kapoor,aditya.kapoor@example.com,  Sports  ,Cricket Bat,120,,,  Cash on Delivery  ,  Kolkata  ,East,Pending
+OD00896,06-24-2024,Diya Nair,diya.nair@example.com,Clothing,Denim Jeans,2,1459.65,20.0,Credit Card,Kolkata,East,Delivered
+OD00205,10/10/2024,Rohan Patel,rohan.patel@example.com,BEAUTY,Hair Dryer,1,1477.93,0.0,UPI,JAIPUR,North,Delivered
+OD00391,"Jul 05, 2024",Ananya Sharma,ananya.sharma@example.com,  Beauty  ,Lipstick Set,1,,5.0,  UPI  ,,South,Delivered
+OD00683,"Mar 27, 2024",Karan Joshi,karan.joshi@example.com,ELECTRONICS,Smartphone Case,2,2760.92,5.0,DEBIT CARD,JAIPUR,North,Delivered
+OD00782,2024-05-31,Aditya Joshi,,HOME & KITCHEN,LED Lamp,2,1525.0,15.0,UPI,PUNE,West,Delivered
+OD00600,11-15-2024,Aisha Sharma,aisha.sharma@example.com,books,Biography,1,615.06,,upi,jaipur,North,Delivered
+OD00195,"Oct 22, 2024",Vivaan Rao,vivaan.rao@example.com,clothing,Running Shoes,4,1205.61,25.0,credit card,patna,East,Pending
+OD00486,2024-11-07,Aditya Sharma,aditya.sharma@example.com,home & kitchen,Pressure Cooker,1,11914.6358666871,0.0,net banking,mumbai,West,Processing
+OD00489,13/11/2024,Ananya Sharma,ananya.sharma@example.com,  Clothing  ,Winter Jacket,2,3154.53,20.0,  Debit Card  ,  Pune  ,West,Returned
+OD00305,10/11/2024,Vivaan Iyer,vivaan.iyer@example.com,SPORTS,Dumbbell Set,2,4730.07,,DEBIT CARD,,East,Delivered
+OD00657,17/10/2024,Kabir Joshi,kabir.joshi@example.com,  Beauty  ,Sunscreen,-1,,0.0,  Net Banking  ,  Chennai  ,South,Cancelled
+OD00836,10-23-2024,,aisha.sharma@example.com,Sports,Football,1,3124.7,15.0,Debit Card,Jaipur,North,Delivered
+OD00434,2024-02-09,,priya.iyer@example.com,electronics,Bluetooth Speaker,2,1558.39,25.0,net banking,jaipur,North,Delivered
+OD00475,"Apr 25, 2024",Karan Kapoor,karan.kapoor@example.com,Clothing,Cotton T-Shirt,2,2194.98,25.0,Debit Card,Lucknow,North,Cancelled
+OD00348,12-28-2024,Aisha Menon,aisha.menon@example.com,  Books  ,Fiction Novel,1,745.25,20.0,  UPI  ,,North,Processing
+OD00200,07-02-2024,Ananya Nair,ananya.nair@example.com,CLOTHING,Formal Shirt,1,1366.85,20.0,CASH ON DELIVERY,PUNE,West,Delivered
+OD00155,"May 23, 2024",Tara Khan,tara.khan@example.com,HOME & KITCHEN,LED Lamp,1,751.61,0.0,CASH ON DELIVERY,LUCKNOW,North,Returned
+OD00637,16/09/2024,Vivaan Joshi,,Electronics,Bluetooth Speaker,1,483.51,,Net Banking,Hyderabad,South,Returned
+OD00539,"Jul 27, 2024",Aisha Gupta,aisha.gupta@example.com,SPORTS,Football,2,26164.29258801849,10.0,CREDIT CARD,PATNA,East,Returned
+OD00004,09-05-2024,,tara.gupta@example.com,  Books  ,Fiction Novel,4,415.89,20.0,  Net Banking  ,  Kolkata  ,East,Delivered
+OD00378,2024-12-12,Sara Kapoor,sara.kapoor@example.com,BOOKS,Children's Storybook,2,631.16,,CREDIT CARD,CHENNAI,South,Returned
+OD00680,04-16-2024,Sai Chatterjee,sai.chatterjee@example.com,electronics,Power Bank,1,3578.46,0.0,net banking,,West,Cancelled
+OD00359,"May 17, 2024",Karan Rao,karan.rao@example.com,ELECTRONICS,Wireless Earbuds,1,2751.93,,CASH ON DELIVERY,PUNE,West,Delivered
+OD00845,24/04/2024,Riya Kapoor,,  Sports  ,Cycling Helmet,1,,25.0,  Net Banking  ,  Lucknow  ,North,Processing
+OD00277,21/07/2024,Arjun Nair,arjun.nair@example.com,Books,Biography,2,371.26,5.0,Net Banking,Delhi,North,Cancelled
+OD00267,"Apr 04, 2024",Diya Kapoor,diya.kapoor@example.com,beauty,Hair Dryer,1,2371.1,15.0,cash on delivery,lucknow,North,Delivered
+OD00899,"May 01, 2024",Sai Reddy,,Beauty,Lipstick Set,1,1262.4,15.0,Debit Card,Patna,East,Returned
+OD00230,2024-09-30,Kabir Menon,kabir.menon@example.com,beauty,Hair Dryer,2,291.78,20.0,cash on delivery,bangalore,South,Delivered
+OD00703,"Jan 14, 2024",Dev Kapoor,dev.kapoor_at_example.com,BEAUTY,Perfume,2,526.93,15.0,UPI,AHMEDABAD,West,Processing
+OD00669,07/10/2024,Ananya Chatterjee,ananya.chatterjee@example.com,Sports,Dumbbell Set,2,1401.19,10.0,Cash on Delivery,,East,Pending
+OD00446,2024-05-27,Riya Reddy,riya.reddy@example.com,BOOKS,Children's Storybook,1,890.02,5.0,CASH ON DELIVERY,PATNA,East,Returned
+OD00374,2024-04-05,Sara Joshi,sara.joshi@example.com,beauty,Perfume,2,311.26,20.0,credit card,chennai,South,Pending
+OD00555,"Jan 02, 2024",Ishaan Chatterjee,ishaan.chatterjee@example.com,Clothing,Cotton T-Shirt,1,1728.57,15.0,Credit Card,Hyderabad,South,Delivered
+OD00572,05-19-2024,Dev Mehta,dev.mehta@example.com,Sports,Cycling Helmet,2,3845.5,20.0,UPI,Kolkata,East,Pending
+OD00117,18/01/2024,Arjun Mehta,arjun.mehta@example.com,  Beauty  ,Sunscreen,1,686.39,10.0,  UPI  ,  Lucknow  ,North,Processing
+OD00223,"Jul 15, 2024",Diya Mehta,diya.mehta@example.com,beauty,Face Serum,2,608.54,15.0,net banking,ahmedabad,West,Pending
+OD00459,"Apr 11, 2024",Vihaan Khan,vihaan.khan@example.com,  Sports  ,Football,3,3665.82,20.0,  Credit Card  ,  Kolkata  ,East,Pending
+OD00201,29/10/2024,Meera Iyer,meera.iyer@example.com,BEAUTY,Hair Dryer,2,1472.28,25.0,CASH ON DELIVERY,LUCKNOW,North,Delivered
+OD00634,2024-07-09,Sai Chatterjee,sai.chatterjee@example.com,sports,Cricket Bat,2,3070.68,,net banking,delhi,North,Processing
+OD00343,"Jan 25, 2024",Kabir Menon,kabir.menon@example.com,Clothing,Cotton T-Shirt,1,2900.21,15.0,Credit Card,Chennai,South,Delivered
+OD00825,23/08/2024,Sai Joshi,sai.joshi@example.com,Books,Cookbook,1,462.5,0.0,Credit Card,Jaipur,North,Pending
+OD00723,"Jun 24, 2024",Ishaan Gupta,ishaan.gupta@example.com,SPORTS,Cycling Helmet,2,2179.77,5.0,UPI,PUNE,West,Processing
+OD00720,09-14-2024,Rohan Gupta,rohan.gupta@example.com,clothing,Cotton T-Shirt,1,669.73,0.0,net banking,pune,West,Processing
+OD00076,08-02-2024,Priya Rao,priya.rao@example.com,CLOTHING,Cotton T-Shirt,2,1919.03,15.0,NET BANKING,BANGALORE,South,Delivered
+OD00392,01-18-2024,Ananya Mehta,ananya.mehta@example.com,home & kitchen,LED Lamp,1,1174.39,25.0,upi,jaipur,North,Delivered
+OD00747,"Feb 15, 2024",Vivaan Joshi,vivaan.joshi@example.com,  Sports  ,Football,2,1247.93,25.0,  Credit Card  ,  Delhi  ,North,Delivered
+OD00518,2024-09-09,Ananya Verma,ananya.verma@example.com,CLOTHING,Cotton T-Shirt,2,1976.19,5.0,UPI,DELHI,North,Returned
+OD00480,10-23-2024,Kabir Kapoor,kabir.kapoor@example.com,BOOKS,Fiction Novel,1,624.33,,CASH ON DELIVERY,BANGALORE,South,Delivered
+OD00035,"Dec 04, 2024",,meera.nair@example.com,electronics,Bluetooth Speaker,4,3117.74,10.0,credit card,patna,East,Returned
+OD00619,"Mar 11, 2024",Neha Iyer,neha.iyer@example.com,  Sports  ,Dumbbell Set,2,712.37,10.0,  Debit Card  ,,East,Delivered
+OD00009,16/06/2024,Sai Kapoor,sai.kapoor@example.com,sports,Football,2,3424.8,15.0,upi,chennai,South,Delivered
+OD00527,"May 27, 2024",Sai Khan,sai.khan@example.com,ELECTRONICS,Smartwatch,1,3929.15,10.0,CREDIT CARD,PUNE,West,Delivered
+OD00732,06-22-2024,Diya Iyer,diya.iyer@example.com,  Books  ,Fiction Novel,3,511.9,10.0,  Net Banking  ,  Lucknow  ,North,Processing
+OD00320,09-15-2024,Diya Iyer,diya.iyer@example.com,Beauty,Perfume,4,1397.2,5.0,Credit Card,Ahmedabad,West,Delivered
+OD00441,31/05/2024,Meera Verma,meera.verma@example.com,  Beauty  ,Lipstick Set,1,1384.42,25.0,  Credit Card  ,  Jaipur  ,North,Pending
+OD00526,2024-01-24,,vivaan.gupta@example.com,BOOKS,Cookbook,1,374.63,20.0,NET BANKING,CHENNAI,South,Delivered
+OD00837,11/12/2024,Kabir Iyer,kabir.iyer@example.com,home & kitchen,Storage Box Set,2,621.47,20.0,credit card,mumbai,West,Delivered
+OD00349,02/10/2024,Aarav Verma,aarav.verma@example.com,Sports,Dumbbell Set,2,,0.0,UPI,Bangalore,South,Delivered
+OD00095,"Sep 25, 2024",Vihaan Nair,vihaan.nair@example.com,beauty,Sunscreen,5,2429.07,25.0,net banking,kolkata,East,Returned
+OD00544,08-17-2024,Aarav Sharma,aarav.sharma@example.com,Home & Kitchen,LED Lamp,1,357.72,20.0,Debit Card,Pune,West,Pending
+OD00644,06-28-2024,Sara Reddy,sara.reddy@example.com,beauty,Face Serum,2,449.36,25.0,cash on delivery,,North,Pending
+OD00210,2024-02-19,Vihaan Kapoor,vihaan.kapoor@example.com,Sports,Dumbbell Set,1,3441.15,0.0,UPI,Chennai,South,Cancelled
+OD00176,09-06-2024,Vivaan Nair,vivaan.nair@example.com,  Home & Kitchen  ,Blender,1,2652.93,,  Cash on Delivery  ,  Hyderabad  ,South,Pending
+OD00481,10/03/2024,Tara Gupta,tara.gupta@example.com,BOOKS,Fiction Novel,1,399.28,20.0,CREDIT CARD,MUMBAI,West,Delivered
+OD00282,2024-12-20,Kabir Rao,kabir.rao@example.com,books,Children's Storybook,1,,25.0,upi,lucknow,North,Cancelled
+OD00107,"Apr 29, 2024",Diya Iyer,diya.iyer@example.com,BOOKS,Cookbook,-3,363.41,25.0,CASH ON DELIVERY,CHENNAI,South,Delivered
+OD00562,2024-12-11,Diya Kapoor,diya.kapoor@example.com,  Home & Kitchen  ,Blender,2,1164.74,5.0,  Cash on Delivery  ,  Delhi  ,North,Delivered
+OD00252,08-26-2024,Riya Patel,riya.patel@example.com,BEAUTY,Lipstick Set,5,1772.44,10.0,DEBIT CARD,JAIPUR,North,Processing
+OD00872,12-13-2024,,meera.chatterjee@example.com,electronics,Smartphone Case,1,,5.0,upi,bangalore,South,Processing
+OD00390,2024-07-11,Riya Singh,riya.singh@example.com,Sports,Cricket Bat,2,3214.69,0.0,Credit Card,Bangalore,South,Processing
+OD00625,19/12/2024,Ishaan Joshi,ishaan.joshi@example.com,  Clothing  ,Denim Jeans,1,3062.59,20.0,  Net Banking  ,  Lucknow  ,North,Pending
+OD00653,23/06/2024,Dev Joshi,,Home & Kitchen,LED Lamp,2,2593.57,10.0,UPI,Pune,West,Cancelled
+OD00328,03-23-2024,Ananya Khan,ananya.khan@example.com,HOME & KITCHEN,Pressure Cooker,1,1447.73,5.0,DEBIT CARD,MUMBAI,West,Pending
+OD00013,24/10/2024,Ishaan Gupta,ishaan.gupta@example.com,ELECTRONICS,Bluetooth Speaker,2,3613.98,5.0,CREDIT CARD,JAIPUR,North,Delivered
+OD00750,2024-03-29,Riya Singh,,Home & Kitchen,Pressure Cooker,1,1816.97,15.0,Net Banking,Bangalore,South,Cancelled
+OD00569,19/04/2024,Dev Gupta,dev.gupta@example.com,books,Fiction Novel,2,556.91,15.0,credit card,delhi,North,Cancelled
+OD00773,17/11/2024,Diya Joshi,diya.joshi@example.com,Home & Kitchen,Storage Box Set,3,1831.06,10.0,Net Banking,Lucknow,North,Delivered
+OD00214,2024-05-22,Aarav Singh,aarav.singh@example.com,Beauty,Sunscreen,1,,0.0,Debit Card,Kolkata,East,Processing
+OD00217,13/11/2024,Vihaan Verma,vihaan.verma@example.com,Sports,Yoga Mat,4,1644.42,0.0,Net Banking,Bangalore,South,Cancelled
+OD00616,12-11-2024,Ananya Nair,ananya.nair@example.com,Home & Kitchen,Storage Box Set,2,931.24,25.0,UPI,Delhi,North,Delivered
+OD00423,"Mar 09, 2024",Vihaan Iyer,vihaan.iyer@example.com,clothing,Winter Jacket,2,1313.67,20.0,upi,hyderabad,South,Processing
+OD00568,09-07-2024,Ananya Reddy,ananya.reddy@example.com,ELECTRONICS,Bluetooth Speaker,2,4304.37,0.0,DEBIT CARD,JAIPUR,North,Returned
+OD00422,2024-04-20,Meera Chatterjee,meera.chatterjee@example.com,clothing,Cotton T-Shirt,2,2334.75,25.0,upi,pune,West,Delivered
+OD00069,24/12/2024,Vivaan Menon,,  Sports  ,Football,1,1207.3,20.0,  Net Banking  ,  Lucknow  ,North,Cancelled
+OD00554,2024-03-28,Dev Nair,dev.nair@example.com,Electronics,Bluetooth Speaker,3,3964.77,10.0,Net Banking,Patna,East,Delivered
+OD00086,2024-03-12,Aisha Patel,aisha.patel@example.com,clothing,Denim Jeans,1,381.71,,cash on delivery,delhi,North,Returned
+OD00894,2024-05-03,Sara Reddy,sara.reddy@example.com,Books,Self-Help Book,2,678.95,20.0,Cash on Delivery,Mumbai,West,Cancelled
+OD00467,"Mar 25, 2024",Diya Iyer,diya.iyer@example.com,  Books  ,Self-Help Book,1,742.43,,  Cash on Delivery  ,  Jaipur  ,North,Delivered
+OD00430,2024-03-22,Diya Gupta,diya.gupta@example.com,  Beauty  ,Lipstick Set,1,2114.28,25.0,  Cash on Delivery  ,  Hyderabad  ,South,Pending
+OD00418,2024-12-17,Arjun Sharma,arjun.sharma@example.com,beauty,Face Serum,1,736.73,5.0,debit card,kolkata,East,Cancelled
+OD00687,"Dec 20, 2024",Diya Nair,diya.nair@example.com,  Sports  ,Cycling Helmet,1,2278.28,15.0,  Credit Card  ,  Ahmedabad  ,West,Processing
+OD00197,13/11/2024,Dev Verma,dev.verma@example.com,home & kitchen,Non-Stick Pan,1,1423.8,0.0,upi,hyderabad,South,Returned
+OD00777,28/02/2024,Karan Joshi,karan.joshi@example.com,home & kitchen,Blender,1,3796.12,15.0,cash on delivery,patna,East,Pending
+OD00285,25/03/2024,Sai Kapoor,sai.kapoor@example.com,CLOTHING,Denim Jeans,1,2142.61,5.0,CASH ON DELIVERY,PUNE,West,Processing
+OD00112,01-19-2024,Aarav Nair,aarav.nair@example.com,  Home & Kitchen  ,Non-Stick Pan,1,3659.21,5.0,  UPI  ,  Mumbai  ,West,Delivered
+OD00545,21/11/2024,Arjun Nair,arjun.nair@example.com,books,Self-Help Book,1,594.13,20.0,upi,delhi,North,Cancelled
+OD00635,"Feb 25, 2024",Ishaan Chatterjee,ishaan.chatterjee@example.com,books,Children's Storybook,1,815.28,0.0,upi,chennai,South,Pending
+OD00870,2024-03-10,Vihaan Kapoor,vihaan.kapoor@example.com,Home & Kitchen,Blender,1,3391.83,,Debit Card,Chennai,South,Delivered
+OD00500,08-12-2024,Aditya Nair,aditya.nair@example.com,  Clothing  ,Cotton T-Shirt,1,1890.84,25.0,  Debit Card  ,  Hyderabad  ,South,Cancelled
+OD00291,"Jun 12, 2024",Meera Joshi,meera.joshi@example.com,Home & Kitchen,Blender,1,745.29,0.0,Debit Card,Patna,East,Delivered
+OD00389,30/11/2024,Ishaan Patel,ishaan.patel@example.com,Sports,Cricket Bat,3,3242.95,0.0,Cash on Delivery,Patna,East,Processing
+OD00360,07-22-2024,Ishaan Joshi,ishaan.joshi@example.com,electronics,Power Bank,2,3228.02,15.0,net banking,jaipur,North,Delivered
+OD00407,"Nov 11, 2024",Dev Rao,dev.rao@example.com,  Home & Kitchen  ,Non-Stick Pan,2,2808.18,5.0,  Debit Card  ,  Delhi  ,North,Pending
+OD00365,18/06/2024,Ananya Singh,ananya.singh@example.com,  Sports  ,Cricket Bat,1,2267.3,10.0,  Debit Card  ,  Ahmedabad  ,West,Returned
+OD00525,29/08/2024,Sara Verma,sara.verma@example.com,Home & Kitchen,LED Lamp,1,1180.99,25.0,Credit Card,Hyderabad,South,Cancelled
+OD00575,"Dec 22, 2024",Aisha Patel,aisha.patel@example.com,Clothing,Formal Shirt,2,1941.9,,Debit Card,Hyderabad,South,Cancelled
+OD00698,2024-02-11,Ananya Singh,ananya.singh@example.com,sports,Football,1,3373.67,0.0,credit card,lucknow,North,Returned
+OD00113,10/02/2024,Aarav Sharma,aarav.sharma@example.com,  Beauty  ,Lipstick Set,1,1362.81,15.0,  Debit Card  ,  Kolkata  ,East,Pending
+OD00103,"Dec 31, 2024",Ishaan Joshi,ishaan.joshi@example.com,SPORTS,Yoga Mat,2,1907.06,15.0,DEBIT CARD,LUCKNOW,North,Pending
+OD00415,"Mar 01, 2024",,kabir.mehta@example.com,  Home & Kitchen  ,Blender,5,3365.08,20.0,  Cash on Delivery  ,  Pune  ,West,Cancelled
+OD00590,2024-07-26,Riya Kapoor,riya.kapoor@example.com,Beauty,Sunscreen,-2,1268.39,10.0,Debit Card,Jaipur,North,Delivered
+OD00191,"Feb 19, 2024",Meera Patel,meera.patel@example.com,  Beauty  ,Face Serum,1,636.42,15.0,  Cash on Delivery  ,  Mumbai  ,West,Delivered
+OD00832,07-04-2024,Diya Reddy,diya.reddy@example.com,Clothing,Winter Jacket,2,682.29,10.0,Credit Card,Hyderabad,South,Delivered
+OD00642,2024-03-14,Ishaan Mehta,ishaan.mehta@example.com,  Electronics  ,Smartwatch,1,2599.59,20.0,  Debit Card  ,  Patna  ,East,Processing
+OD00053,20/10/2024,Dev Chatterjee,dev.chatterjee@example.com,BOOKS,Fiction Novel,1,851.95,10.0,UPI,PUNE,West,Cancelled
+OD00029,16/05/2024,Ananya Khan,ananya.khan@example.com,ELECTRONICS,Bluetooth Speaker,2,,,CREDIT CARD,JAIPUR,North,Pending
+OD00066,2024-04-15,Vivaan Chatterjee,,  Electronics  ,Wireless Earbuds,2,2884.29,,  Debit Card  ,  Ahmedabad  ,West,Delivered
+OD00717,29/07/2024,Aditya Verma,aditya.verma@example.com,  Books  ,Cookbook,3,802.57,10.0,  Credit Card  ,  Patna  ,East,Delivered
+OD00820,10-08-2024,Aditya Iyer,aditya.iyer@example.com,  Electronics  ,Smartphone Case,2,1000.2,10.0,  Credit Card  ,  Patna  ,East,Delivered
+OD00595,"Apr 28, 2024",,arjun.chatterjee_at_example.com,SPORTS,Yoga Mat,1,3476.78,5.0,UPI,CHENNAI,South,Delivered
+OD00309,28/06/2024,Diya Mehta,diya.mehta@example.com,SPORTS,Cycling Helmet,1,3358.73,5.0,CREDIT CARD,BANGALORE,South,Delivered
+OD00387,"Feb 05, 2024",Neha Verma,neha.verma@example.com,  Sports  ,Football,1,2474.22,20.0,  Debit Card  ,  Ahmedabad  ,West,Delivered
+OD00355,"Apr 28, 2024",Neha Gupta,neha.gupta@example.com,clothing,Winter Jacket,1,1641.34,,upi,pune,West,Cancelled
+OD00682,2024-10-21,Aditya Chatterjee,,CLOTHING,Running Shoes,1,948.74,25.0,CASH ON DELIVERY,DELHI,North,Pending
+OD00160,06-18-2024,Ishaan Menon,ishaan.menon@example.com,Beauty,Hair Dryer,1,1670.62,10.0,Debit Card,Jaipur,North,Delivered
+OD00187,"May 21, 2024",Ananya Rao,ananya.rao@example.com,Clothing,Running Shoes,2,2485.84,20.0,Debit Card,Pune,West,Delivered
+OD00245,12/03/2024,Arjun Patel,arjun.patel@example.com,home & kitchen,Blender,1,2249.51,20.0,credit card,ahmedabad,West,Returned
+OD00731,"Feb 10, 2024",Diya Mehta,diya.mehta@example.com,clothing,Cotton T-Shirt,2,,25.0,credit card,patna,East,Delivered
+OD00889,16/09/2024,Diya Sharma,diya.sharma@example.com,beauty,Hair Dryer,1,1388.5,20.0,upi,bangalore,South,Delivered
+OD00158,2024-03-04,Sara Kapoor,sara.kapoor@example.com,Beauty,Sunscreen,1,2480.75,,Debit Card,Bangalore,South,Processing
+OD00127,"Aug 30, 2024",Aditya Nair,aditya.nair@example.com,clothing,Denim Jeans,2,399.03,,cash on delivery,delhi,North,Delivered
+OD00323,"Jun 30, 2024",Sara Sharma,,clothing,Denim Jeans,1,2905.27,15.0,credit card,chennai,South,Processing
+OD00762,2024-04-14,Tara Rao,tara.rao@example.com,Books,Cookbook,2,641.7,20.0,Net Banking,Ahmedabad,West,Delivered
+OD00213,14/07/2024,Diya Sharma,diya.sharma@example.com,  Beauty  ,Sunscreen,1,1158.21,10.0,  Cash on Delivery  ,  Ahmedabad  ,West,Cancelled
+OD00104,09-25-2024,Aditya Joshi,aditya.joshi_at_example.com,Home & Kitchen,LED Lamp,5,2312.05,,Credit Card,Bangalore,South,Delivered
+OD00697,26/03/2024,Dev Menon,dev.menon@example.com,HOME & KITCHEN,Storage Box Set,2,2252.6,25.0,UPI,,East,Returned
+OD00521,15/03/2024,Rohan Rao,,Electronics,Smartphone Case,3,3951.73,15.0,Net Banking,Lucknow,North,Processing
+OD00831,"Jan 15, 2024",Diya Menon,diya.menon@example.com,  Books  ,Cookbook,1,384.14,15.0,  Net Banking  ,  Pune  ,West,Delivered
+OD00229,25/12/2024,Riya Sharma,riya.sharma@example.com,SPORTS,Dumbbell Set,2,,0.0,UPI,,South,Cancelled
+OD00854,2024-02-19,Sai Kapoor,sai.kapoor@example.com,BOOKS,Cookbook,2,878.68,10.0,CASH ON DELIVERY,BANGALORE,South,Delivered
+OD00183,"Dec 28, 2024",Vivaan Reddy,vivaan.reddy@example.com,home & kitchen,Non-Stick Pan,2,913.71,25.0,credit card,bangalore,South,Processing
+OD00651,"Apr 03, 2024",Dev Rao,dev.rao@example.com,  Books  ,Biography,1,602.4,20.0,  Cash on Delivery  ,  Jaipur  ,North,Returned
+OD00675,"Nov 30, 2024",Aditya Joshi,aditya.joshi@example.com,  Sports  ,Cricket Bat,1,1357.86,15.0,  Debit Card  ,  Lucknow  ,North,Cancelled
+OD00198,2024-10-20,Ishaan Reddy,,  Home & Kitchen  ,Storage Box Set,2,1810.32,25.0,  Net Banking  ,  Patna  ,East,Delivered
+OD00463,"Feb 10, 2024",Rohan Rao,rohan.rao@example.com,Clothing,Winter Jacket,2,499.22,5.0,Credit Card,Lucknow,North,Pending
+OD00452,09-27-2024,Priya Kapoor,priya.kapoor@example.com,Clothing,Formal Shirt,2,2851.63,5.0,Net Banking,Lucknow,North,Delivered
+OD00888,10-25-2024,Diya Joshi,diya.joshi@example.com,home & kitchen,Pressure Cooker,1,2457.07,,credit card,hyderabad,South,Processing
+OD00835,"Aug 24, 2024",Aisha Mehta,aisha.mehta@example.com,Beauty,Lipstick Set,1,1995.79,25.0,Cash on Delivery,Pune,West,Delivered
+OD00769,02/03/2024,Ananya Iyer,ananya.iyer@example.com,Clothing,Winter Jacket,2,1298.31,25.0,UPI,Patna,East,Processing
+OD00487,"Sep 18, 2024",Aisha Patel,aisha.patel@example.com,home & kitchen,Blender,80,3737.81,0.0,net banking,mumbai,West,Delivered
+OD00051,"Apr 15, 2024",Tara Khan,tara.khan@example.com,Home & Kitchen,Storage Box Set,1,3115.37,5.0,Net Banking,Mumbai,West,Delivered
+OD00416,01-10-2024,Diya Menon,diya.menon@example.com,electronics,Smartwatch,2,3970.01,10.0,net banking,lucknow,North,Pending
+OD00367,"Jan 04, 2024",Ishaan Patel,ishaan.patel@example.com,Home & Kitchen,Storage Box Set,1,3266.83,0.0,Credit Card,Chennai,South,Delivered
+OD00535,"Jun 07, 2024",Diya Rao,diya.rao@example.com,  Books  ,Cookbook,1,564.25,20.0,  Cash on Delivery  ,  Bangalore  ,South,Cancelled
+OD00235,"Mar 05, 2024",Vihaan Menon,vihaan.menon@example.com,Clothing,Running Shoes,2,2854.34,20.0,Debit Card,Kolkata,East,Pending
+OD00490,2024-10-29,Meera Joshi,meera.joshi@example.com,ELECTRONICS,Wireless Earbuds,1,4241.76,5.0,CREDIT CARD,LUCKNOW,North,Delivered
+OD00582,2024-06-28,Vivaan Khan,vivaan.khan@example.com,SPORTS,Football,4,3862.7,25.0,DEBIT CARD,MUMBAI,West,Processing
+OD00402,2024-12-03,Arjun Nair,arjun.nair@example.com,  Books  ,Biography,-1,649.54,20.0,  UPI  ,  Kolkata  ,East,Cancelled
+OD00439,"Jun 06, 2024",Riya Reddy,riya.reddy@example.com,  Books  ,Fiction Novel,1,725.63,5.0,  Cash on Delivery  ,  Delhi  ,North,Delivered
+OD00528,09-23-2024,Vivaan Gupta,vivaan.gupta@example.com,Books,Children's Storybook,3,808.85,15.0,Credit Card,Kolkata,East,Cancelled
+OD00663,"May 05, 2024",Diya Rao,diya.rao@example.com,CLOTHING,Denim Jeans,1,286.04,20.0,CASH ON DELIVERY,PUNE,West,Delivered
+OD00369,04/04/2024,Vihaan Chatterjee,vihaan.chatterjee_at_example.com,  Beauty  ,Hair Dryer,2,175.7,10.0,  Credit Card  ,  Patna  ,East,Cancelled
+OD00152,09-06-2024,Sara Joshi,sara.joshi@example.com,  Sports  ,Cycling Helmet,1,2503.17,10.0,  UPI  ,  Patna  ,East,Delivered
+OD00879,"Jul 20, 2024",Meera Kapoor,meera.kapoor@example.com,  Home & Kitchen  ,Pressure Cooker,2,501.68,5.0,  Cash on Delivery  ,  Kolkata  ,East,Processing
+OD00785,25/07/2024,Dev Joshi,dev.joshi@example.com,electronics,Power Bank,2,3038.2,20.0,debit card,,West,Returned
+OD00030,2024-01-25,Sai Sharma,sai.sharma@example.com,sports,Cricket Bat,1,4703.02,20.0,cash on delivery,pune,West,Delivered
+OD00711,"Jul 06, 2024",,priya.gupta@example.com,books,Self-Help Book,1,252.02,5.0,debit card,bangalore,South,Returned
+OD00239,"Jun 09, 2024",Diya Verma,diya.verma@example.com,beauty,Sunscreen,1,887.54,20.0,debit card,mumbai,West,Processing
+OD00878,2024-02-02,Vivaan Khan,vivaan.khan@example.com,sports,Yoga Mat,2,597.43,,cash on delivery,lucknow,North,Processing
+OD00324,03-23-2024,Sara Mehta,sara.mehta@example.com,clothing,Winter Jacket,2,635.72,,credit card,patna,East,Returned
+OD00629,16/07/2024,Neha Mehta,neha.mehta@example.com,clothing,Winter Jacket,1,1163.47,0.0,net banking,delhi,North,Delivered
+OD00868,03-02-2024,,sai.patel@example.com,Sports,Dumbbell Set,1,3643.61,10.0,Credit Card,Chennai,South,Pending
+OD00791,"Nov 04, 2024",Neha Iyer,neha.iyer@example.com,BEAUTY,Lipstick Set,1,280.17,20.0,NET BANKING,DELHI,North,Delivered
+OD00380,12-17-2024,Arjun Reddy,,  Books  ,Fiction Novel,2,700.51,15.0,  Debit Card  ,  Chennai  ,South,Delivered
+OD00559,"Dec 19, 2024",Arjun Verma,arjun.verma@example.com,  Clothing  ,Winter Jacket,1,2146.05,15.0,  UPI  ,  Hyderabad  ,South,Pending
+OD00516,11-23-2024,Tara Singh,tara.singh@example.com,BOOKS,Biography,1,,0.0,CREDIT CARD,PUNE,West,Delivered
+OD00031,"Apr 23, 2024",Aarav Patel,aarav.patel@example.com,sports,Yoga Mat,3,3117.1,,net banking,delhi,North,Delivered
+OD00667,"Jun 22, 2024",Ananya Verma,ananya.verma@example.com,  Clothing  ,Formal Shirt,3,550.22,0.0,  Cash on Delivery  ,  Kolkata  ,East,Returned
+OD00132,11-18-2024,Neha Reddy,neha.reddy@example.com,Clothing,Formal Shirt,1,2942.12,20.0,Net Banking,Lucknow,North,Processing
+OD00351,"Aug 25, 2024",Vihaan Joshi,vihaan.joshi@example.com,  Electronics  ,Wireless Earbuds,1,2680.38,10.0,  UPI  ,  Hyderabad  ,South,Delivered
+OD00874,2024-05-20,Aisha Nair,aisha.nair@example.com,books,Children's Storybook,2,273.69,10.0,cash on delivery,hyderabad,South,Processing
+OD00701,01/04/2024,Kabir Menon,kabir.menon@example.com,  Clothing  ,Cotton T-Shirt,1,2265.67,0.0,  Net Banking  ,  Delhi  ,North,Processing
+OD00052,08-20-2024,Rohan Chatterjee,rohan.chatterjee@example.com,  Clothing  ,Running Shoes,1,2789.12,,  Net Banking  ,  Chennai  ,South,Pending
+OD00508,02-19-2024,Tara Verma,tara.verma@example.com,  Beauty  ,Hair Dryer,1,1317.9,25.0,  UPI  ,  Mumbai  ,West,Delivered
+OD00037,07/01/2024,Riya Kapoor,riya.kapoor@example.com,  Clothing  ,Formal Shirt,1,2622.86,15.0,  Credit Card  ,  Kolkata  ,East,Delivered
+OD00610,2024-12-28,Diya Verma,diya.verma_at_example.com,ELECTRONICS,Wireless Earbuds,1,1693.7,5.0,CASH ON DELIVERY,BANGALORE,South,Delivered
+OD00079,"Nov 04, 2024",Vivaan Verma,vivaan.verma@example.com,Books,Biography,1,520.61,20.0,Credit Card,Kolkata,East,Delivered
+OD00014,2024-11-25,,vivaan.menon@example.com,Electronics,Wireless Earbuds,1,3361.67,15.0,Cash on Delivery,Pune,West,Delivered
+OD00676,04-06-2024,Sara Verma,,electronics,Smartwatch,1,2786.19,15.0,debit card,,South,Returned
+OD00059,"Dec 08, 2024",Vihaan Rao,vihaan.rao@example.com,Books,Cookbook,2,437.49,,Net Banking,Patna,East,Returned
+OD00576,01-10-2024,Tara Gupta,tara.gupta@example.com,sports,Cycling Helmet,1,2373.71,25.0,cash on delivery,ahmedabad,West,Cancelled
+OD00234,2024-04-13,Sai Joshi,sai.joshi@example.com,Beauty,Sunscreen,4,410.2,5.0,Debit Card,Pune,West,Delivered
+OD00712,04-11-2024,,riya.khan@example.com,Beauty,Sunscreen,1,2264.06,25.0,Cash on Delivery,Chennai,South,Delivered
+OD00801,03/03/2024,Sai Gupta,sai.gupta@example.com,beauty,Hair Dryer,1,554.57,15.0,credit card,jaipur,North,Processing
+OD00413,26/02/2024,Priya Joshi,priya.joshi@example.com,sports,Football,2,1904.48,0.0,upi,delhi,North,Returned
+OD00479,"Apr 03, 2024",Sai Nair,sai.nair@example.com,Sports,Football,3,1177.45,10.0,Net Banking,Bangalore,South,Returned
+OD00194,2024-02-22,Neha Menon,neha.menon@example.com,Electronics,Wireless Earbuds,2,3492.51,25.0,UPI,Lucknow,North,Delivered
+OD00385,13/01/2024,Rohan Singh,rohan.singh@example.com,Beauty,Lipstick Set,2,647.59,15.0,Net Banking,Ahmedabad,West,Pending
+OD00405,31/01/2024,Rohan Iyer,rohan.iyer@example.com,  Sports  ,Dumbbell Set,1,1910.23,15.0,  UPI  ,  Patna  ,East,Pending
+OD00591,"Apr 13, 2024",Tara Kapoor,tara.kapoor@example.com,ELECTRONICS,Bluetooth Speaker,80,3210.93,10.0,NET BANKING,JAIPUR,North,Processing
+OD00046,2024-04-27,Vivaan Iyer,vivaan.iyer@example.com,beauty,Sunscreen,3,2132.4,20.0,upi,patna,East,Pending
+OD00488,04-18-2024,Vivaan Joshi,vivaan.joshi@example.com,SPORTS,Cricket Bat,1,1186.23,25.0,NET BANKING,CHENNAI,South,Returned
+OD00670,2024-08-02,Karan Menon,karan.menon@example.com,BOOKS,Cookbook,1,287.18,0.0,UPI,BANGALORE,South,Processing
+OD00025,09/02/2024,Aisha Kapoor,aisha.kapoor@example.com,Electronics,Smartphone Case,2,3103.63,15.0,Cash on Delivery,Delhi,North,Processing
+OD00734,2024-07-19,,sai.kapoor@example.com,Home & Kitchen,Storage Box Set,2,2605.86,20.0,Credit Card,Ahmedabad,West,Returned
+OD00472,11-30-2024,Arjun Verma,arjun.verma@example.com,Home & Kitchen,Non-Stick Pan,1,3389.83,10.0,Net Banking,Jaipur,North,Delivered
+OD00257,19/01/2024,Vivaan Iyer,vivaan.iyer@example.com,HOME & KITCHEN,Pressure Cooker,2,32021.532489869307,25.0,CASH ON DELIVERY,LUCKNOW,North,Cancelled
+OD00561,19/01/2024,Rohan Patel,rohan.patel@example.com,books,Self-Help Book,2,172.66,20.0,net banking,jaipur,North,Delivered
+OD00763,"Mar 29, 2024",Ishaan Joshi,ishaan.joshi@example.com,Beauty,Perfume,1,685.3,,Debit Card,Lucknow,North,Returned
+OD00849,05/03/2024,Arjun Chatterjee,arjun.chatterjee@example.com,ELECTRONICS,Bluetooth Speaker,1,1741.16,10.0,CREDIT CARD,CHENNAI,South,Cancelled
+OD00492,04-03-2024,Priya Kapoor,priya.kapoor@example.com,ELECTRONICS,Smartphone Case,2,3269.68,15.0,UPI,JAIPUR,North,Delivered
+OD00548,07-10-2024,Kabir Gupta,kabir.gupta@example.com,SPORTS,Cycling Helmet,2,4651.46,20.0,NET BANKING,LUCKNOW,North,Cancelled
+OD00247,"Oct 25, 2024",Sai Menon,sai.menon@example.com,Beauty,Hair Dryer,1,2296.22,10.0,Debit Card,Patna,East,Processing
+OD00123,"Mar 01, 2024",Diya Sharma,diya.sharma@example.com,Sports,Yoga Mat,1,440.22,15.0,Net Banking,Bangalore,South,Pending
+OD00579,"Apr 29, 2024",Vihaan Chatterjee,vihaan.chatterjee@example.com,clothing,Denim Jeans,1,2987.15,10.0,credit card,lucknow,North,Delivered
+OD00707,"Mar 15, 2024",Dev Menon,dev.menon@example.com,CLOTHING,Formal Shirt,1,944.58,10.0,DEBIT CARD,MUMBAI,West,Delivered
+OD00690,2024-09-17,Dev Mehta,dev.mehta@example.com,  Sports  ,Dumbbell Set,2,2458.22,5.0,  Debit Card  ,  Hyderabad  ,South,Processing
+OD00207,"Jul 25, 2024",Meera Singh,meera.singh@example.com,  Books  ,Self-Help Book,2,225.83,15.0,  Cash on Delivery  ,  Ahmedabad  ,West,Pending
+OD00640,09-05-2024,Priya Sharma,priya.sharma@example.com,  Home & Kitchen  ,Storage Box Set,3,322.14,10.0,  Debit Card  ,  Mumbai  ,West,Delivered
+OD00177,28/06/2024,Sara Joshi,sara.joshi@example.com,  Beauty  ,Lipstick Set,2,905.63,5.0,  Cash on Delivery  ,  Pune  ,West,Delivered
+OD00741,05/06/2024,Diya Chatterjee,diya.chatterjee@example.com,CLOTHING,Running Shoes,1,2258.85,0.0,CREDIT CARD,BANGALORE,South,Delivered
+OD00760,12-25-2024,Riya Mehta,riya.mehta@example.com,clothing,Running Shoes,1,703.52,15.0,upi,bangalore,South,Delivered
+OD00001,04/02/2024,Vivaan Menon,vivaan.menon@example.com,Electronics,Power Bank,2,2199.4,15.0,Cash on Delivery,Ahmedabad,West,Pending
+OD00227,"Jul 01, 2024",Karan Verma,karan.verma@example.com,BEAUTY,Face Serum,1,2351.17,15.0,UPI,CHENNAI,South,Delivered
+OD00882,2024-08-05,Ananya Patel,ananya.patel@example.com,  Books  ,Biography,1,,25.0,  Credit Card  ,  Delhi  ,North,Returned
+OD00250,2024-10-07,Aarav Menon,aarav.menon@example.com,  Beauty  ,Perfume,1,638.8,0.0,  Credit Card  ,  Hyderabad  ,South,Delivered
+OD00470,2024-01-10,Arjun Joshi,arjun.joshi@example.com,BEAUTY,Sunscreen,1,2233.41,20.0,NET BANKING,BANGALORE,South,Returned
+OD00109,16/10/2024,Vivaan Rao,vivaan.rao@example.com,CLOTHING,Cotton T-Shirt,1,2829.23,15.0,NET BANKING,AHMEDABAD,West,Returned
+OD00427,"Jan 18, 2024",Arjun Mehta,arjun.mehta@example.com,  Sports  ,Cycling Helmet,2,1060.38,5.0,  Net Banking  ,  Pune  ,West,Returned
+OD00706,2024-06-04,Dev Verma,dev.verma@example.com,  Beauty  ,Sunscreen,2,1729.24,25.0,  Credit Card  ,  Lucknow  ,North,Returned
+OD00006,2024-09-08,Diya Gupta,diya.gupta@example.com,CLOTHING,Formal Shirt,1,1635.19,10.0,DEBIT CARD,PUNE,West,Delivered
+OD00261,05/09/2024,Tara Kapoor,tara.kapoor@example.com,sports,Football,120,4591.82,5.0,upi,delhi,North,Pending
+OD00875,"Jan 06, 2024",,neha.gupta@example.com,books,Self-Help Book,2,279.98,20.0,credit card,kolkata,East,Returned
+OD00314,2024-03-31,Tara Chatterjee,tara.chatterjee@example.com,Electronics,Wireless Earbuds,1,4263.86,20.0,Cash on Delivery,Chennai,South,Delivered
+OD00597,08/01/2024,Vihaan Chatterjee,vihaan.chatterjee@example.com,Books,Biography,50,459.23,,UPI,Pune,West,Delivered
+OD00060,06-04-2024,Diya Joshi,diya.joshi@example.com,HOME & KITCHEN,Non-Stick Pan,2,,0.0,DEBIT CARD,PATNA,East,Pending
+OD00346,2024-04-22,Sai Menon,sai.menon@example.com,Home & Kitchen,LED Lamp,1,1650.72,15.0,Debit Card,Ahmedabad,West,Delivered
+OD00048,06-07-2024,Diya Sharma,diya.sharma@example.com,Home & Kitchen,Storage Box Set,1,2538.47,10.0,Credit Card,,West,Delivered
+OD00883,"Sep 01, 2024",Aisha Khan,aisha.khan@example.com,sports,Cycling Helmet,4,1032.74,0.0,cash on delivery,patna,East,Delivered
+OD00303,"Nov 06, 2024",Sara Menon,sara.menon@example.com,Books,Fiction Novel,1,704.83,15.0,UPI,Ahmedabad,West,Pending
+OD00806,2024-05-24,Ishaan Menon,ishaan.menon@example.com,HOME & KITCHEN,Blender,2,2793.68,0.0,NET BANKING,AHMEDABAD,West,Cancelled
+OD00633,09/10/2024,Riya Joshi,riya.joshi@example.com,Books,Biography,1,538.94,15.0,UPI,Kolkata,East,Delivered
+OD00287,"Jul 11, 2024",Aarav Chatterjee,,sports,Cricket Bat,5,3037.49,10.0,net banking,,West,Pending
+OD00841,21/01/2024,Tara Kapoor,,BOOKS,Children's Storybook,1,233.02,5.0,CASH ON DELIVERY,DELHI,North,Delivered
+OD00798,2024-02-15,Diya Reddy,diya.reddy@example.com,books,Cookbook,2,152.41,25.0,debit card,mumbai,West,Delivered
+OD00679,"Jan 20, 2024",Kabir Reddy,kabir.reddy@example.com,HOME & KITCHEN,Blender,1,3362.58,20.0,NET BANKING,BANGALORE,South,Delivered
+OD00313,06/05/2024,Riya Singh,riya.singh@example.com,Beauty,Lipstick Set,1,1544.76,25.0,UPI,Hyderabad,South,Pending
+OD00634,2024-07-09,Sai Chatterjee,sai.chatterjee@example.com,sports,Cricket Bat,2,3070.68,,net banking,delhi,North,Processing
+OD00722,2024-09-24,Kabir Sharma,,Clothing,Denim Jeans,2,2776.9,5.0,UPI,Lucknow,North,Pending
+OD00606,2024-04-16,Aarav Gupta,aarav.gupta@example.com,Books,Children's Storybook,1,522.82,15.0,UPI,Delhi,North,Cancelled
+OD00779,"Feb 28, 2024",Priya Patel,priya.patel@example.com,  Sports  ,Dumbbell Set,1,3132.41,25.0,  Debit Card  ,  Bangalore  ,South,Cancelled
+OD00735,"Jan 28, 2024",Aisha Sharma,aisha.sharma@example.com,clothing,Denim Jeans,1,262.98,10.0,upi,hyderabad,South,Cancelled
+OD00726,2024-06-03,Aisha Joshi,aisha.joshi@example.com,books,Cookbook,1,575.2,15.0,credit card,delhi,North,Cancelled
+OD00460,12-06-2024,Vivaan Chatterjee,vivaan.chatterjee@example.com,  Books  ,Fiction Novel,1,330.97,0.0,  Debit Card  ,  Chennai  ,South,Returned
+OD00817,08/03/2024,Priya Nair,priya.nair@example.com,  Electronics  ,Wireless Earbuds,5,2992.14,25.0,  Debit Card  ,  Patna  ,East,Delivered
+OD00461,25/07/2024,Aisha Rao,aisha.rao@example.com,Books,Children's Storybook,1,766.41,0.0,UPI,Kolkata,East,Pending
+OD00384,12-07-2024,Dev Chatterjee,dev.chatterjee@example.com,  Books  ,Biography,1,451.6,25.0,  Net Banking  ,  Patna  ,East,Cancelled
+OD00018,2024-06-18,,arjun.rao@example.com,Home & Kitchen,Storage Box Set,120,1370.85,25.0,Credit Card,Pune,West,Pending
+OD00752,10-30-2024,Riya Verma,riya.verma@example.com,  Books  ,Children's Storybook,2,405.23,0.0,  Credit Card  ,  Kolkata  ,East,Returned
+OD00043,"Jul 03, 2024",Karan Nair,karan.nair@example.com,home & kitchen,LED Lamp,1,2682.5,20.0,cash on delivery,patna,East,Pending
+OD00821,10/05/2024,Ishaan Patel,ishaan.patel@example.com,Books,Children's Storybook,1,706.93,5.0,Net Banking,Jaipur,North,Delivered
+OD00860,07-29-2024,Sara Verma,sara.verma@example.com,SPORTS,Football,2,4767.77,10.0,CASH ON DELIVERY,DELHI,North,Returned
+OD00830,2024-01-03,Aisha Joshi,aisha.joshi@example.com,HOME & KITCHEN,Blender,1,2266.57,10.0,CREDIT CARD,PATNA,East,Cancelled
+OD00893,05/10/2024,Tara Khan,tara.khan@example.com,BOOKS,Children's Storybook,1,447.11,20.0,UPI,BANGALORE,South,Returned
+OD00512,12-06-2024,Sara Iyer,sara.iyer@example.com,Home & Kitchen,Storage Box Set,2,3104.72,10.0,Credit Card,,East,Pending
+OD00077,12/05/2024,Meera Khan,meera.khan@example.com,CLOTHING,Winter Jacket,1,1869.98,25.0,UPI,LUCKNOW,North,Pending
+OD00142,2024-10-25,Aditya Gupta,aditya.gupta@example.com,Electronics,Bluetooth Speaker,2,1648.31,25.0,Net Banking,Pune,West,Returned
+OD00880,02-17-2024,Aditya Iyer,aditya.iyer@example.com,SPORTS,Football,2,1232.0,0.0,CASH ON DELIVERY,PATNA,East,Delivered
+OD00586,2024-10-15,Vihaan Gupta,vihaan.gupta@example.com,  Clothing  ,Running Shoes,1,309.43,15.0,  Net Banking  ,  Bangalore  ,South,Processing
+OD00794,2024-01-29,Aarav Nair,aarav.nair@example.com,Electronics,Smartphone Case,2,1731.48,5.0,Cash on Delivery,Lucknow,North,Processing
+OD00789,09/06/2024,Priya Sharma,priya.sharma@example.com,  Electronics  ,Bluetooth Speaker,2,2672.62,0.0,  Debit Card  ,  Bangalore  ,South,Pending
+OD00153,17/10/2024,Vivaan Kapoor,,Beauty,Hair Dryer,2,2016.97,20.0,Debit Card,Bangalore,South,Delivered
+OD00033,14/03/2024,Tara Rao,tara.rao@example.com,Beauty,Face Serum,2,1339.88,25.0,Cash on Delivery,Jaipur,North,Delivered
+OD00016,06-16-2024,Aditya Singh,,  Electronics  ,Smartphone Case,3,4343.78,5.0,  Net Banking  ,  Bangalore  ,South,Processing
+OD00436,07-19-2024,Karan Joshi,karan.joshi@example.com,  Clothing  ,Formal Shirt,1,2422.24,10.0,  Debit Card  ,  Jaipur  ,North,Pending
+OD00499,"Jul 25, 2024",Rohan Mehta,rohan.mehta@example.com,  Clothing  ,Denim Jeans,-1,1297.85,20.0,  Cash on Delivery  ,  Patna  ,East,Pending
+OD00620,08-08-2024,Tara Menon,tara.menon@example.com,beauty,Sunscreen,2,2375.2,10.0,net banking,bangalore,South,Processing
+OD00506,2024-02-20,Vivaan Sharma,vivaan.sharma@example.com,clothing,Cotton T-Shirt,2,812.65,10.0,credit card,chennai,South,Delivered
+OD00689,15/07/2024,Aditya Khan,aditya.khan@example.com,Electronics,Power Bank,1,566.05,25.0,Debit Card,Jaipur,North,Returned
+OD00404,11-25-2024,Neha Rao,neha.rao@example.com,BEAUTY,Hair Dryer,1,2405.05,15.0,CREDIT CARD,PATNA,East,Delivered
+OD00660,07-30-2024,Neha Chatterjee,neha.chatterjee@example.com,Electronics,Wireless Earbuds,3,1040.72,25.0,Cash on Delivery,Ahmedabad,West,Returned
+OD00451,"Sep 12, 2024",Kabir Reddy,kabir.reddy@example.com,clothing,Running Shoes,2,2267.8,15.0,upi,delhi,North,Returned
+OD00767,"Feb 28, 2024",Rohan Nair,rohan.nair@example.com,CLOTHING,Formal Shirt,1,2936.46,5.0,DEBIT CARD,HYDERABAD,South,Delivered
+OD00036,01-03-2024,Riya Kapoor,riya.kapoor@example.com,  Books  ,Fiction Novel,1,229.42,25.0,  Credit Card  ,  Jaipur  ,North,Returned
+OD00226,2024-10-22,Ananya Patel,ananya.patel@example.com,clothing,Winter Jacket,2,2176.92,5.0,net banking,jaipur,North,Pending
+OD00173,31/10/2024,Kabir Verma,,Clothing,Denim Jeans,2,2860.3,15.0,Credit Card,Bangalore,South,Delivered
+OD00242,2024-06-14,Aarav Singh,aarav.singh@example.com,Electronics,Power Bank,1,2356.52,15.0,Net Banking,Jaipur,North,Cancelled
+OD00530,2024-11-18,Priya Sharma,priya.sharma@example.com,  Electronics  ,Bluetooth Speaker,1,1482.54,10.0,  Credit Card  ,  Mumbai  ,West,Processing
+OD00344,11-21-2024,Ananya Kapoor,ananya.kapoor@example.com,books,Fiction Novel,1,641.59,20.0,upi,patna,East,Processing
+OD00157,15/01/2024,Dev Joshi,dev.joshi@example.com,Books,Self-Help Book,2,282.93,25.0,UPI,Chennai,South,Delivered
+OD00838,2024-06-23,Karan Nair,karan.nair@example.com,electronics,Smartphone Case,2,3756.68,5.0,debit card,patna,East,Pending
+OD00749,17/04/2024,,aisha.verma@example.com,Clothing,Denim Jeans,2,2536.81,10.0,Debit Card,Chennai,South,Delivered
+OD00823,"Oct 01, 2024",Rohan Menon,rohan.menon@example.com,Sports,Dumbbell Set,1,1701.17,0.0,Net Banking,Hyderabad,South,Pending
+OD00828,03-14-2024,Sai Rao,sai.rao@example.com,sports,Cricket Bat,1,3691.42,5.0,cash on delivery,kolkata,East,Returned
+OD00507,"Jun 28, 2024",Sara Rao,sara.rao@example.com,electronics,Bluetooth Speaker,2,1846.25,5.0,upi,chennai,South,Delivered
+OD00585,06/01/2024,Aarav Nair,aarav.nair@example.com,books,Children's Storybook,1,733.77,5.0,debit card,pune,West,Delivered
+OD00556,07-08-2024,Vihaan Reddy,vihaan.reddy@example.com,  Clothing  ,Winter Jacket,2,916.05,,  Credit Card  ,  Delhi  ,North,Processing
+OD00216,03-04-2024,Priya Chatterjee,priya.chatterjee@example.com,BEAUTY,Perfume,1,1083.5,25.0,DEBIT CARD,MUMBAI,West,Delivered
+OD00209,09/07/2024,Vivaan Sharma,vivaan.sharma@example.com,Electronics,Smartphone Case,3,1645.57,15.0,UPI,Patna,East,Cancelled
+OD00065,28/08/2024,Aarav Mehta,aarav.mehta@example.com,  Home & Kitchen  ,Non-Stick Pan,1,3018.69,25.0,  Credit Card  ,  Delhi  ,North,Delivered
+OD00011,"Jun 08, 2024",Riya Sharma,riya.sharma_at_example.com,Books,Cookbook,1,569.41,,Debit Card,Delhi,North,Delivered
+OD00864,06-09-2024,Aarav Mehta,aarav.mehta@example.com,SPORTS,Football,1,3641.17,15.0,CASH ON DELIVERY,BANGALORE,South,Delivered
+OD00624,08-27-2024,,aisha.singh@example.com,sports,Dumbbell Set,1,,,debit card,jaipur,North,Pending
+OD00832,07-04-2024,Diya Reddy,diya.reddy@example.com,Clothing,Winter Jacket,2,682.29,10.0,Credit Card,Hyderabad,South,Delivered
+OD00179,"Aug 26, 2024",Vivaan Sharma,vivaan.sharma@example.com,  Clothing  ,Cotton T-Shirt,2,1537.13,20.0,  Cash on Delivery  ,  Delhi  ,North,Delivered
+OD00253,20/06/2024,Dev Verma,dev.verma@example.com,ELECTRONICS,Smartphone Case,2,3392.24,0.0,DEBIT CARD,JAIPUR,North,Delivered
+OD00606,2024-04-16,Aarav Gupta,aarav.gupta@example.com,Books,Children's Storybook,1,522.82,15.0,UPI,Delhi,North,Cancelled
+OD00604,01-24-2024,Arjun Nair,arjun.nair@example.com,home & kitchen,LED Lamp,1,3333.95,5.0,debit card,patna,East,Cancelled
+OD00262,2024-02-27,Tara Joshi,tara.joshi@example.com,CLOTHING,Denim Jeans,2,,25.0,DEBIT CARD,PATNA,East,Delivered
+OD00101,08/11/2024,Sai Iyer,sai.iyer@example.com,Sports,Dumbbell Set,2,4509.48,15.0,Debit Card,Jaipur,North,Pending
+OD00168,09-13-2024,Tara Khan,tara.khan@example.com,Sports,Cycling Helmet,1,3884.17,5.0,Net Banking,Lucknow,North,Returned
+OD00578,2024-05-16,Meera Khan,,  Electronics  ,Power Bank,2,2248.02,10.0,  UPI  ,  Lucknow  ,North,Delivered
+OD00315,"Jan 16, 2024",Dev Chatterjee,dev.chatterjee@example.com,sports,Football,3,3272.07,10.0,upi,hyderabad,South,Processing
+OD00754,2024-09-18,Kabir Khan,kabir.khan@example.com,SPORTS,Cricket Bat,1,1338.13,20.0,NET BANKING,KOLKATA,East,Cancelled
+OD00519,"Jan 14, 2024",Aarav Mehta,aarav.mehta@example.com,clothing,Winter Jacket,1,648.4,,cash on delivery,lucknow,North,Delivered
+OD00812,12-01-2024,Karan Chatterjee,karan.chatterjee@example.com,Beauty,Lipstick Set,50,2170.32,15.0,Cash on Delivery,Hyderabad,South,Pending
+OD00662,2024-04-01,Priya Joshi,priya.joshi@example.com,Home & Kitchen,Non-Stick Pan,2,2165.64,20.0,Credit Card,,North,Processing
+OD00645,30/01/2024,Aisha Singh,aisha.singh@example.com,Books,Fiction Novel,1,250.44,10.0,Net Banking,Ahmedabad,West,Processing
+OD00447,"Dec 30, 2024",,ananya.patel@example.com,BOOKS,Cookbook,3,437.96,10.0,DEBIT CARD,JAIPUR,North,Returned
+OD00863,"Aug 06, 2024",Vivaan Sharma,vivaan.sharma@example.com,HOME & KITCHEN,Pressure Cooker,2,22902.62480206745,15.0,UPI,LUCKNOW,North,Delivered
+OD00368,11-06-2024,Dev Verma,dev.verma@example.com,  Sports  ,Yoga Mat,2,510.94,15.0,  Debit Card  ,  Mumbai  ,West,Pending
+OD00146,2024-02-19,Ishaan Mehta,ishaan.mehta@example.com,clothing,Winter Jacket,1,1577.08,,upi,bangalore,South,Processing
+OD00363,"Jul 02, 2024",Neha Singh,neha.singh@example.com,Home & Kitchen,LED Lamp,2,1791.85,,Cash on Delivery,Mumbai,West,Delivered
+OD00661,23/10/2024,Tara Rao,tara.rao@example.com,CLOTHING,Cotton T-Shirt,1,442.57,10.0,UPI,LUCKNOW,North,Delivered
+OD00824,10-12-2024,Aisha Khan,aisha.khan@example.com,clothing,Running Shoes,2,2471.82,25.0,debit card,bangalore,South,Processing
+OD00856,08-18-2024,,rohan.iyer@example.com,  Clothing  ,Denim Jeans,3,690.35,0.0,  Debit Card  ,  Jaipur  ,North,Delivered
+OD00765,17/08/2024,Riya Khan,riya.khan@example.com,  Electronics  ,Smartphone Case,1,1704.83,20.0,  Credit Card  ,  Chennai  ,South,Delivered
+OD00322,2024-02-06,Ananya Khan,ananya.khan@example.com,  Home & Kitchen  ,LED Lamp,1,2808.63,,  Credit Card  ,  Delhi  ,North,Returned
+OD00186,2024-05-16,Sara Mehta,,  Sports  ,Cricket Bat,1,424.92,10.0,  Net Banking  ,  Chennai  ,South,Delivered
+OD00654,2024-08-08,Sai Chatterjee,sai.chatterjee@example.com,SPORTS,Dumbbell Set,1,4316.1,20.0,DEBIT CARD,AHMEDABAD,West,Delivered
+OD00133,13/10/2024,Rohan Menon,rohan.menon@example.com,BOOKS,Self-Help Book,2,537.76,25.0,UPI,LUCKNOW,North,Cancelled
+OD00631,"Nov 27, 2024",Ananya Menon,ananya.menon@example.com,clothing,Denim Jeans,2,1993.68,10.0,debit card,lucknow,North,Returned
+OD00757,02/12/2024,Aditya Menon,aditya.menon@example.com,BEAUTY,Hair Dryer,2,2065.02,0.0,UPI,CHENNAI,South,Processing
+OD00800,09-30-2024,Neha Nair,neha.nair@example.com,  Sports  ,Yoga Mat,1,4878.84,20.0,  Debit Card  ,  Delhi  ,North,Cancelled
+OD00120,11-24-2024,Aarav Gupta,aarav.gupta@example.com,  Beauty  ,Lipstick Set,2,2155.42,20.0,  Cash on Delivery  ,  Pune  ,West,Pending
+OD00044,08-23-2024,Aarav Iyer,aarav.iyer@example.com,BEAUTY,Lipstick Set,1,576.52,15.0,CASH ON DELIVERY,AHMEDABAD,West,Delivered
+OD00039,"Nov 13, 2024",Aditya Khan,aditya.khan@example.com,Clothing,Running Shoes,1,1353.84,5.0,UPI,Patna,East,Cancelled
+OD00494,2024-12-25,Ishaan Iyer,ishaan.iyer@example.com,BEAUTY,Perfume,1,158.5,0.0,NET BANKING,PUNE,West,Delivered
+OD00855,"Nov 17, 2024",Arjun Khan,,beauty,Face Serum,1,973.04,25.0,debit card,delhi,North,Cancelled
+OD00339,"Dec 08, 2024",Diya Verma,diya.verma@example.com,books,Cookbook,2,343.92,5.0,cash on delivery,jaipur,North,Delivered
+OD00819,"Aug 20, 2024",Kabir Verma,kabir.verma@example.com,Electronics,Smartwatch,1,2068.23,25.0,Cash on Delivery,Hyderabad,South,Delivered
+OD00085,20/06/2024,Aarav Gupta,aarav.gupta@example.com,Beauty,Hair Dryer,2,338.12,25.0,Credit Card,Lucknow,North,Delivered
+OD00225,09/10/2024,Karan Reddy,karan.reddy@example.com,HOME & KITCHEN,Blender,4,1832.45,0.0,UPI,,North,Delivered
+OD00020,09-05-2024,Aarav Khan,aarav.khan@example.com,  Home & Kitchen  ,Storage Box Set,1,2028.97,0.0,  Credit Card  ,  Pune  ,West,Returned
+OD00073,13/02/2024,Aisha Singh,aisha.singh_at_example.com,  Electronics  ,Wireless Earbuds,1,2484.25,25.0,  Credit Card  ,,West,Processing
+OD00419,"Oct 22, 2024",Meera Singh,meera.singh@example.com,BOOKS,Biography,2,159.11,5.0,DEBIT CARD,PATNA,East,Returned
+OD00076,08-02-2024,Priya Rao,priya.rao@example.com,CLOTHING,Cotton T-Shirt,2,1919.03,15.0,NET BANKING,BANGALORE,South,Delivered
+OD00381,14/05/2024,Diya Singh,diya.singh@example.com,SPORTS,Dumbbell Set,2,4361.31,5.0,CREDIT CARD,AHMEDABAD,West,Pending
+OD00386,2024-08-29,Karan Rao,karan.rao@example.com,  Beauty  ,Lipstick Set,1,801.42,25.0,  Credit Card  ,  Patna  ,East,Cancelled
+OD00453,25/10/2024,,karan.iyer@example.com,beauty,Hair Dryer,5,176.29,25.0,credit card,pune,West,Returned
+OD00265,09/01/2024,Aisha Joshi,aisha.joshi@example.com,clothing,Denim Jeans,2,2038.77,10.0,debit card,patna,East,Processing
+OD00041,03/12/2024,Aisha Patel,aisha.patel@example.com,HOME & KITCHEN,Non-Stick Pan,-1,3186.32,15.0,CREDIT CARD,PATNA,East,Delivered
+OD00429,08/09/2024,,tara.menon@example.com,Electronics,Power Bank,1,1840.78,20.0,UPI,Ahmedabad,West,Returned
+OD00161,08/01/2024,Sara Khan,sara.khan@example.com,Sports,Yoga Mat,2,3437.2,25.0,Debit Card,Delhi,North,Pending
+OD00111,"Dec 15, 2024",Ishaan Khan,ishaan.khan@example.com,HOME & KITCHEN,Non-Stick Pan,1,2267.6,20.0,UPI,DELHI,North,Processing
+OD00304,12-21-2024,Ananya Sharma,ananya.sharma@example.com,Books,Cookbook,2,877.09,5.0,Debit Card,Jaipur,North,Delivered
+OD00886,2024-10-01,Tara Iyer,tara.iyer@example.com,  Sports  ,Cricket Bat,2,703.77,10.0,  UPI  ,  Pune  ,West,Delivered
+OD00049,18/05/2024,Sara Nair,sara.nair@example.com,BOOKS,Self-Help Book,1,425.63,,NET BANKING,JAIPUR,North,Delivered
+OD00510,2024-10-14,Vivaan Singh,vivaan.singh@example.com,BOOKS,Self-Help Book,3,850.04,15.0,UPI,CHENNAI,South,Delivered
+OD00019,"Aug 25, 2024",Aditya Rao,aditya.rao@example.com,Home & Kitchen,Storage Box Set,2,1812.33,15.0,Credit Card,Pune,West,Pending
+OD00044,08-23-2024,Aarav Iyer,aarav.iyer@example.com,BEAUTY,Lipstick Set,1,576.52,15.0,CASH ON DELIVERY,AHMEDABAD,West,Delivered
+OD00274,2024-03-02,Meera Menon,meera.menon@example.com,  Books  ,Cookbook,1,684.56,10.0,  Credit Card  ,  Delhi  ,North,Delivered
+OD00444,06-20-2024,Vihaan Nair,vihaan.nair@example.com,  Electronics  ,Wireless Earbuds,1,783.62,,  Debit Card  ,  Delhi  ,North,Delivered
+OD00091,"Jan 10, 2024",Ananya Patel,ananya.patel@example.com,Books,Children's Storybook,1,283.13,15.0,Cash on Delivery,Ahmedabad,West,Returned
+OD00276,10-02-2024,Neha Iyer,,sports,Football,2,,5.0,upi,delhi,North,Returned
+OD00847,"Aug 17, 2024",Riya Verma,,BOOKS,Self-Help Book,1,278.4,10.0,CASH ON DELIVERY,LUCKNOW,North,Cancelled
+OD00673,06/07/2024,Neha Verma,neha.verma@example.com,home & kitchen,Non-Stick Pan,1,1811.88,0.0,credit card,jaipur,North,Processing
+OD00115,"Jun 28, 2024",Aditya Singh,aditya.singh@example.com,  Clothing  ,Cotton T-Shirt,1,2795.16,0.0,  Debit Card  ,  Delhi  ,North,Delivered
+OD00329,25/04/2024,Tara Singh,tara.singh@example.com,BOOKS,Biography,1,846.39,0.0,NET BANKING,PATNA,East,Delivered
+OD00581,17/10/2024,Rohan Joshi,rohan.joshi@example.com,books,Biography,2,870.95,10.0,upi,lucknow,North,Cancelled
+OD00466,2024-11-07,Priya Reddy,priya.reddy@example.com,  Home & Kitchen  ,Non-Stick Pan,1,1399.54,,  Credit Card  ,  Ahmedabad  ,West,Returned
+OD00728,02-28-2024,Karan Kapoor,karan.kapoor@example.com,Home & Kitchen,Storage Box Set,2,1207.5,5.0,UPI,Jaipur,North,Processing
+OD00132,11-18-2024,Neha Reddy,neha.reddy@example.com,Clothing,Formal Shirt,1,2942.12,20.0,Net Banking,Lucknow,North,Processing
+OD00002,2024-03-07,Tara Singh,tara.singh@example.com,Sports,Football,1,902.13,25.0,Net Banking,Jaipur,North,Returned
+OD00700,02-16-2024,Diya Iyer,diya.iyer@example.com,home & kitchen,Non-Stick Pan,5,1262.07,20.0,upi,ahmedabad,West,Delivered
+OD00228,12-03-2024,Ishaan Singh,ishaan.singh@example.com,Books,Biography,1,896.11,10.0,Cash on Delivery,Lucknow,North,Delivered
+OD00691,"Jul 14, 2024",Tara Nair,tara.nair@example.com,BOOKS,Self-Help Book,1,731.87,25.0,UPI,HYDERABAD,South,Processing
+OD00840,06-07-2024,Aisha Sharma,,  Clothing  ,Formal Shirt,1,1814.68,5.0,  Credit Card  ,  Bangalore  ,South,Delivered
+OD00694,2024-02-15,Diya Reddy,diya.reddy@example.com,ELECTRONICS,Bluetooth Speaker,1,2087.79,5.0,NET BANKING,HYDERABAD,South,Returned
+OD00134,2024-01-02,Aisha Singh,aisha.singh@example.com,Electronics,Power Bank,2,,5.0,UPI,Pune,West,Pending
+OD00736,12-03-2024,Sai Khan,sai.khan@example.com,electronics,Power Bank,1,3087.51,,debit card,patna,East,Returned
+OD00249,02/01/2024,Karan Iyer,,  Books  ,Children's Storybook,2,433.74,15.0,  UPI  ,  Bangalore  ,South,Delivered
+OD00284,12-19-2024,Aarav Verma,aarav.verma@example.com,Sports,Football,1,2978.92,5.0,UPI,Patna,East,Returned
+OD00497,25/08/2024,Kabir Patel,kabir.patel@example.com,  Clothing  ,Cotton T-Shirt,2,2633.11,10.0,  UPI  ,  Delhi  ,North,Delivered
+OD00681,04/08/2024,,arjun.iyer@example.com,CLOTHING,Denim Jeans,2,781.92,5.0,DEBIT CARD,DELHI,North,Cancelled
+OD00336,07-30-2024,Sai Singh,,Sports,Cycling Helmet,2,4857.93,25.0,Credit Card,Patna,East,Delivered
+OD00440,03-14-2024,Tara Chatterjee,,  Clothing  ,Running Shoes,2,3021.66,20.0,  Credit Card  ,  Jaipur  ,North,Cancelled
+OD00264,10-12-2024,Tara Singh,tara.singh@example.com,CLOTHING,Running Shoes,4,1379.21,,DEBIT CARD,KOLKATA,East,Pending
+OD00143,"Nov 07, 2024",Kabir Patel,,HOME & KITCHEN,LED Lamp,1,878.59,10.0,UPI,PUNE,West,Cancelled
+OD00246,2024-09-27,Ishaan Menon,ishaan.menon@example.com,BEAUTY,Sunscreen,2,2110.18,5.0,DEBIT CARD,AHMEDABAD,West,Pending
+OD00813,26/12/2024,Ananya Nair,ananya.nair@example.com,sports,Yoga Mat,4,3737.55,5.0,debit card,patna,East,Processing
+OD00028,11-05-2024,Ishaan Verma,ishaan.verma@example.com,ELECTRONICS,Smartphone Case,3,4468.74,,DEBIT CARD,HYDERABAD,South,Processing
+OD00442,2024-11-21,Priya Kapoor,priya.kapoor@example.com,Home & Kitchen,Storage Box Set,1,3557.49,10.0,Credit Card,Chennai,South,Delivered
+OD00139,"Apr 04, 2024",Vivaan Singh,vivaan.singh@example.com,home & kitchen,Blender,1,950.18,0.0,credit card,lucknow,North,Delivered
+OD00364,02-11-2024,,,  Electronics  ,Bluetooth Speaker,80,612.17,15.0,  Cash on Delivery  ,  Kolkata  ,East,Returned
+OD00090,2024-01-09,Ananya Singh,ananya.singh@example.com,  Beauty  ,Hair Dryer,1,1322.22,10.0,  Cash on Delivery  ,  Pune  ,West,Processing
+OD00839,"Jul 29, 2024",Vivaan Sharma,vivaan.sharma@example.com,home & kitchen,Blender,1,,15.0,net banking,mumbai,West,Processing
+OD00024,04-25-2024,Karan Nair,karan.nair@example.com,ELECTRONICS,Smartphone Case,1,4074.26,0.0,NET BANKING,CHENNAI,South,Returned
+OD00609,28/12/2024,,aarav.rao@example.com,  Books  ,Biography,1,686.19,0.0,  Cash on Delivery  ,  Ahmedabad  ,West,Returned
+OD00080,11-26-2024,Ananya Sharma,ananya.sharma@example.com,CLOTHING,Running Shoes,1,760.33,0.0,UPI,HYDERABAD,South,Pending
+OD00126,2024-05-31,Priya Verma,priya.verma@example.com,beauty,Lipstick Set,3,448.24,15.0,credit card,kolkata,East,Returned
+OD00705,05/09/2024,Priya Verma,priya.verma@example.com,CLOTHING,Formal Shirt,1,483.25,15.0,NET BANKING,BANGALORE,South,Processing
+OD00243,"Nov 06, 2024",Vihaan Kapoor,vihaan.kapoor@example.com,Books,Biography,1,231.49,20.0,Cash on Delivery,Mumbai,West,Returned
+OD00371,"Dec 07, 2024",Neha Nair,neha.nair@example.com,clothing,Denim Jeans,1,1889.84,15.0,net banking,lucknow,North,Processing
+OD00684,07-24-2024,Aarav Menon,aarav.menon@example.com,Clothing,Running Shoes,3,1178.33,0.0,Cash on Delivery,Patna,East,Cancelled
+OD00327,"Mar 11, 2024",Diya Nair,diya.nair@example.com,  Sports  ,Cricket Bat,1,1587.36,25.0,  Debit Card  ,  Delhi  ,North,Delivered
+OD00580,03-22-2024,Vivaan Iyer,vivaan.iyer@example.com,  Clothing  ,Formal Shirt,1,2580.59,15.0,  Debit Card  ,  Delhi  ,North,Returned
+OD00658,2024-11-16,Kabir Verma,kabir.verma@example.com,BEAUTY,Lipstick Set,2,2046.27,0.0,UPI,,West,Delivered
+OD00505,31/08/2024,Dev Verma,,CLOTHING,Running Shoes,1,1823.41,10.0,CREDIT CARD,CHENNAI,South,Delivered
+OD00409,24/05/2024,,aisha.mehta@example.com,  Clothing  ,Formal Shirt,1,2446.51,10.0,  UPI  ,  Ahmedabad  ,West,Cancelled
+OD00701,01/04/2024,Kabir Menon,kabir.menon@example.com,  Clothing  ,Cotton T-Shirt,1,2265.67,0.0,  Net Banking  ,  Delhi  ,North,Processing
+OD00082,2024-02-22,Dev Kapoor,dev.kapoor@example.com,Beauty,Face Serum,1,1964.45,,Net Banking,Bangalore,South,Delivered
+OD00469,17/06/2024,Arjun Chatterjee,arjun.chatterjee@example.com,SPORTS,Football,2,2402.71,5.0,NET BANKING,PUNE,West,Returned
+OD00232,01-17-2024,Diya Reddy,,beauty,Sunscreen,2,1148.94,20.0,upi,lucknow,North,Cancelled
+OD00502,2024-02-28,Ananya Sharma,ananya.sharma@example.com,  Electronics  ,Smartwatch,1,2717.8,20.0,  Debit Card  ,  Mumbai  ,West,Delivered
+OD00038,2024-12-07,Tara Kapoor,,  Sports  ,Cricket Bat,1,1393.41,25.0,  Net Banking  ,  Chennai  ,South,Returned
+OD00843,"Jun 14, 2024",Aisha Iyer,aisha.iyer@example.com,  Sports  ,Cricket Bat,1,3509.6,15.0,  UPI  ,  Pune  ,West,Returned
+OD00898,2024-03-25,Sai Khan,sai.khan@example.com,Sports,Cycling Helmet,2,,0.0,Cash on Delivery,Chennai,South,Processing
+OD00141,25/12/2024,Aditya Chatterjee,aditya.chatterjee@example.com,  Clothing  ,Winter Jacket,3,2836.3,10.0,  Cash on Delivery  ,  Chennai  ,South,Returned
+OD00547,"Jul 09, 2024",Sai Reddy,sai.reddy@example.com,CLOTHING,Formal Shirt,2,2797.86,5.0,DEBIT CARD,PUNE,West,Delivered
+OD00438,2024-05-15,Ishaan Kapoor,ishaan.kapoor@example.com,  Sports  ,Cricket Bat,1,2359.72,15.0,  Cash on Delivery  ,  Ahmedabad  ,West,Delivered
+OD00638,2024-06-04,Meera Singh,,  Home & Kitchen  ,Non-Stick Pan,1,417.19,5.0,  Credit Card  ,  Lucknow  ,North,Delivered
+OD00237,25/10/2024,Priya Kapoor,priya.kapoor@example.com,  Electronics  ,Wireless Earbuds,2,2372.6,5.0,  UPI  ,  Pune  ,West,Cancelled
+OD00814,2024-07-03,Aditya Joshi,aditya.joshi@example.com,clothing,Winter Jacket,2,2565.64,15.0,net banking,,North,Delivered
+OD00417,03/03/2024,Ananya Iyer,ananya.iyer@example.com,books,Children's Storybook,3,501.3,15.0,net banking,delhi,North,Pending
+OD00766,2024-07-06,Neha Sharma,neha.sharma@example.com,  Clothing  ,Winter Jacket,1,1967.39,5.0,  Net Banking  ,  Lucknow  ,North,Pending
+OD00689,15/07/2024,Aditya Khan,aditya.khan@example.com,Electronics,Power Bank,1,566.05,25.0,Debit Card,Jaipur,North,Returned
+OD00605,13/07/2024,Vivaan Mehta,vivaan.mehta@example.com,Clothing,Running Shoes,1,2694.51,20.0,UPI,Bangalore,South,Delivered
+OD00622,2024-07-08,Karan Mehta,karan.mehta_at_example.com,CLOTHING,Formal Shirt,2,1367.59,20.0,NET BANKING,JAIPUR,North,Delivered
+OD00793,22/06/2024,Aditya Verma,aditya.verma@example.com,Books,Biography,2,357.6,15.0,Debit Card,Patna,East,Delivered
+OD00851,"Oct 23, 2024",Aditya Chatterjee,aditya.chatterjee@example.com,beauty,Perfume,1,869.91,20.0,debit card,kolkata,East,Cancelled
+OD00584,02-06-2024,Arjun Joshi,arjun.joshi@example.com,sports,Yoga Mat,1,1826.42,15.0,credit card,pune,West,Returned
+OD00674,2024-03-23,Vihaan Menon,vihaan.menon@example.com,books,Self-Help Book,1,692.7,0.0,cash on delivery,kolkata,East,Cancelled
+OD00333,23/05/2024,Kabir Iyer,kabir.iyer@example.com,Beauty,Lipstick Set,1,249.78,25.0,UPI,Patna,East,Delivered
+OD00270,2024-11-02,Ishaan Sharma,ishaan.sharma@example.com,HOME & KITCHEN,Non-Stick Pan,1,2541.54,,CREDIT CARD,KOLKATA,East,Delivered
+OD00338,2024-03-07,Priya Reddy,priya.reddy_at_example.com,  Electronics  ,Smartphone Case,1,3356.27,20.0,  Credit Card  ,  Chennai  ,South,Delivered
+OD00092,03-03-2024,Ananya Gupta,ananya.gupta@example.com,  Home & Kitchen  ,LED Lamp,1,2394.67,,  UPI  ,  Delhi  ,North,Returned
+OD00081,13/02/2024,Arjun Khan,arjun.khan@example.com,  Sports  ,Cycling Helmet,1,2049.63,15.0,  Debit Card  ,  Bangalore  ,South,Cancelled
+OD00704,06-08-2024,Ananya Menon,ananya.menon@example.com,Books,Cookbook,1,807.26,,Cash on Delivery,Jaipur,North,Delivered
+OD00295,"Mar 15, 2024",Rohan Patel,rohan.patel@example.com,Books,Fiction Novel,1,827.93,20.0,Net Banking,Kolkata,East,Delivered

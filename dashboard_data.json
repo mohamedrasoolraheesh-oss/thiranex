@@ -1,0 +1,146 @@
+{
+  "kpis": {
+    "total_orders": 891,
+    "total_revenue": 2344477.46,
+    "avg_order_value": 2631.29,
+    "delivered_rate": 41.9,
+    "cancelled_returned_rate": 28.5
+  },
+  "cleaning_report": {
+    "raw_rows": 932,
+    "duplicates_removed": 32,
+    "missing_before": {
+      "customer_name": 54,
+      "email": 94,
+      "unit_price": 36,
+      "discount_percent": 90,
+      "city": 45
+    },
+    "missing_after": {
+      "email": 94
+    },
+    "invalid_qty_dropped": 9,
+    "outliers_capped": {
+      "quantity": 74,
+      "unit_price": 12
+    },
+    "final_rows": 891,
+    "final_cols": 16
+  },
+  "revenue_by_category": {
+    "labels": [
+      "Sports",
+      "Electronics",
+      "Home & Kitchen",
+      "Clothing",
+      "Beauty",
+      "Books"
+    ],
+    "values": [
+      614277.66,
+      532129.14,
+      467537.99,
+      380966.4,
+      223390.97,
+      126175.3
+    ]
+  },
+  "monthly_revenue": {
+    "labels": [
+      "2024-01",
+      "2024-02",
+      "2024-03",
+      "2024-04",
+      "2024-05",
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12"
+    ],
+    "values": [
+      201244.67,
+      183288.55,
+      183862.27,
+      173370.02,
+      178875.51,
+      218780.13,
+      226525.45,
+      194751.52,
+      200701.94,
+      179260.93,
+      192382.51,
+      211433.96
+    ]
+  },
+  "top_cities": {
+    "labels": [
+      "Patna",
+      "Lucknow",
+      "Delhi",
+      "Chennai",
+      "Pune",
+      "Jaipur",
+      "Bangalore",
+      "Hyderabad"
+    ],
+    "values": [
+      274405.46,
+      244915.25,
+      231133.7,
+      223399.23,
+      214787.69,
+      204852.19,
+      187723.73,
+      187590.27
+    ]
+  },
+  "status_counts": {
+    "labels": [
+      "Delivered",
+      "Pending",
+      "Processing",
+      "Returned",
+      "Cancelled"
+    ],
+    "values": [
+      373,
+      132,
+      132,
+      128,
+      126
+    ]
+  },
+  "payment_counts": {
+    "labels": [
+      "Credit Card",
+      "Upi",
+      "Cash On Delivery",
+      "Net Banking",
+      "Debit Card"
+    ],
+    "values": [
+      188,
+      187,
+      180,
+      170,
+      166
+    ]
+  },
+  "region_revenue": {
+    "labels": [
+      "North",
+      "South",
+      "West",
+      "East"
+    ],
+    "values": [
+      708527.52,
+      623521.38,
+      564494.65,
+      447933.91
+    ]
+  }
+}
