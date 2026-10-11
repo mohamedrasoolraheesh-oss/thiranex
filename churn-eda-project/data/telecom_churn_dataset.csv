@@ -1,0 +1,2001 @@
+customer_id,age,region,tenure_months,contract,internet_service,autopay,monthly_charges,support_tickets,churn,total_charges
+C0000,51.0,North,11,One year,None,Yes,18.18,1,0,201.64
+C0001,36.0,South,61,Month-to-month,Fiber,No,69.62,1,0,4318.88
+C0002,38.0,West,28,Two year,None,No,22.94,0,0,649.8
+C0003,24.0,South,2,One year,DSL,Yes,54.67,0,0,108.13
+C0004,40.0,North,21,Month-to-month,Fiber,No,93.16,1,1,1926.36
+C0005,52.0,East,41,Two year,None,Yes,21.84,1,0,950.43
+C0006,43.0,South,33,One year,DSL,Yes,58.92,1,1,1911.9
+C0007,29.0,North,10,One year,Fiber,No,68.36,2,1,
+C0008,23.0,North,26,Month-to-month,Fiber,No,61.6,0,1,1522.86
+C0009,74.0,West,44,Month-to-month,DSL,No,47.18,4,1,2053.92
+C0010,49.0,West,7,Month-to-month,Fiber,Yes,62.22,1,1,447.82
+C0011,32.0,East,21,Two year,Fiber,No,75.12,1,1,1550.26
+C0012,50.0,North,33,One year,Fiber,No,68.76,1,1,2369.66
+C0013,75.0,West,44,Two year,Fiber,No,59.37,0,0,2611.71
+C0014,53.0,South,56,Month-to-month,Fiber,Yes,88.89,1,1,5143.54
+C0015,18.0,South,27,Month-to-month,DSL,No,45.7,2,1,1205.85
+C0016,81.0,West,28,One year,Fiber,Yes,61.9,1,0,1694.61
+C0017,18.0,South,13,Month-to-month,Fiber,No,82.19,0,0,1071.39
+C0018,41.0,North,68,Two year,DSL,No,44.17,0,0,3047.04
+C0019,28.0,North,60,One year,Fiber,Yes,83.72,2,0,4996.23
+C0020,34.0,West,25,One year,DSL,Yes,44.13,0,0,1112.93
+C0021,48.0,East,15,Month-to-month,Fiber,No,70.67,1,1,1078.76
+C0022,18.0,East,35,Two year,Fiber,No,77.76,1,0,2605.62
+C0023,43.0,East,37,Two year,Fiber,Yes,79.75,0,0,2920.57
+C0024,60.0,North,14,One year,DSL,Yes,56.15,1,0,773.87
+C0025,32.0,South,16,Month-to-month,Fiber,No,74.28,4,1,1171.72
+C0026,25.0,West,60,Month-to-month,None,Yes,26.23,1,0,1593.01
+C0027,,North,37,Month-to-month,Fiber,No,80.97,3,1,2950.52
+C0028,39.0,West,22,Month-to-month,DSL,No,51.6,0,0,1066.92
+C0029,36.0,South,11,One year,DSL,Yes,48.86,0,0,533.65
+C0030,27.0,South,16,One year,Fiber,No,63.44,0,1,982.63
+C0031,51.0,North,16,Two year,DSL,No,54.79,1,0,889.69
+C0032,52.0,East,31,Month-to-month,Fiber,No,75.34,3,1,2391.99
+C0033,29.0,South,15,Month-to-month,Fiber,No,71.69,0,0,1005.19
+C0034,31.0,South,33,Month-to-month,Fiber,Yes,85.22,0,1,2746.94
+C0035,46.0,East,43,Month-to-month,DSL,Yes,38.58,3,0,1676.53
+C0036,30.0,East,33,Month-to-month,None,No,35.15,3,1,1110.92
+C0037,47.0,West,20,Month-to-month,Fiber,No,74.82,0,1,1531.54
+C0038,65.0,East,14,Month-to-month,DSL,Yes,52.54,0,0,758.72
+C0039,43.0,North,10,One year,DSL,Yes,46.84,0,0,466.12
+C0040,27.0,East,56,Month-to-month,Fiber,No,61.66,2,0,3372.79
+C0041,49.0,North,42,Two year,DSL,Yes,48.88,0,0,1910.65
+C0042,42.0,West,21,One year,DSL,No,52.68,1,0,1133.3
+C0043,42.0,South,39,Month-to-month,None,No,27.41,1,1,1133.21
+C0044,51.0,East,61,Two year,None,Yes,20.42,0,0,1312.72
+C0045,54.0,North,26,Two year,Fiber,No,57.46,1,0,1485.22
+C0046,44.0,South,31,Month-to-month,Fiber,Yes,62.67,0,0,1879.09
+C0047,43.0,East,32,Month-to-month,DSL,No,66.42,0,1,2178.85
+C0048,73.0,East,64,One year,Fiber,No,66.26,1,0,4224.5
+C0049,61.0,North,21,Month-to-month,Fiber,No,86.42,1,1,1840.85
+C0050,56.0,North,13,Month-to-month,None,No,15.0,1,1,196.77
+C0051,46.0,West,34,Month-to-month,Fiber,No,73.54,5,1,2507.34
+C0052,30.0,East,42,One year,DSL,No,55.0,0,0,2381.28
+C0053,60.0,West,30,One year,None,No,15.44,1,0,478.01
+C0054,46.0,North,67,One year,Fiber,Yes,87.74,4,0,5786.4
+C0055,36.0,South,20,One year,DSL,No,50.61,0,0,984.17
+C0056,41.0,East,30,Month-to-month,None,No,25.69,0,0,712.92
+C0057,30.0,West,8,One year,DSL,Yes,47.86,1,0,378.9
+C0058,,East,13,Month-to-month,Fiber,No,80.27,2,1,1009.28
+C0059,54.0,East,16,Month-to-month,Fiber,No,87.63,3,1,1419.71
+C0060,47.0,South,23,One year,None,No,20.95,0,0,476.99
+C0061,43.0,West,9,Month-to-month,Fiber,Yes,88.84,0,1,794.1
+C0062,34.0,South,39,One year,DSL,No,45.11,1,0,1802.14
+C0063,18.0,South,15,One year,Fiber,No,81.11,0,0,1231.15
+C0064,24.0,East,72,One year,Fiber,Yes,78.91,5,0,5661.63
+C0065,34.0,West,15,One year,None,No,15.0,0,0,236.38
+C0066,31.0,West,28,One year,DSL,No,51.71,3,0,1479.94
+C0067,48.0,North,26,Month-to-month,None,Yes,22.06,0,0,566.4
+C0068,55.0,West,12,Month-to-month,Fiber,No,68.17,3,0,808.93
+C0069,42.0,South,23,Month-to-month,DSL,Yes,52.86,2,0,1244.53
+C0070,64.0,North,23,Month-to-month,None,No,23.17,2,1,536.15
+C0071,33.0,West,47,Month-to-month,Fiber,No,74.42,2,0,3380.09
+C0072,42.0,West,45,Two year,Fiber,No,74.45,3,0,3440.18
+C0073,43.0,South,39,Month-to-month,None,No,21.28,1,0,861.22
+C0074,59.0,North,46,Month-to-month,Fiber,Yes,72.06,0,0,3432.24
+C0075,45.0,North,39,Month-to-month,DSL,Yes,51.12,1,0,2085.95
+C0076,46.0,East,31,Month-to-month,None,No,16.85,3,1,554.78
+C0077,21.0,North,16,One year,Fiber,Yes,96.25,3,1,1619.92
+C0078,31.0,North,30,One year,Fiber,Yes,63.73,1,0,1931.44
+C0079,59.0,North,13,One year,Fiber,Yes,70.32,1,0,908.44
+C0080,18.0,West,24,One year,Fiber,No,70.95,0,0,1609.34
+C0081,63.0,South,22,Month-to-month,Fiber,No,91.32,1,0,2009.7
+C0082,51.0,South,33,Two year,DSL,Yes,39.44,1,0,1321.79
+C0083,34.0,South,9,Month-to-month,Fiber,Yes,78.41,2,0,706.61
+C0084,32.0,North,1,Month-to-month,DSL,Yes,51.99,0,0,49.04
+C0085,71.0,East,19,Month-to-month,Fiber,Yes,77.67,0,0,1463.04
+C0086,64.0,West,54,One year,Fiber,Yes,84.89,3,0,4672.81
+C0087,42.0,West,28,Month-to-month,Fiber,No,84.73,3,1,2299.42
+C0088,,South,51,Month-to-month,DSL,No,46.39,2,0,2377.65
+C0089,,North,13,Month-to-month,DSL,Yes,51.55,1,1,678.83
+C0090,46.0,West,19,Month-to-month,Fiber,No,60.09,2,0,1180.0
+C0091,35.0,West,72,One year,None,No,22.79,1,0,1725.19
+C0092,,West,14,Month-to-month,DSL,Yes,43.65,1,1,604.17
+C0093,69.0,East,38,Month-to-month,Fiber,Yes,73.51,3,0,2808.78
+C0094,43.0,South,38,Month-to-month,None,No,15.0,2,0,573.68
+C0095,29.0,West,35,One year,Fiber,Yes,78.24,0,0,2791.75
+C0096,25.0,East,38,Month-to-month,Fiber,No,61.43,1,1,2371.97
+C0097,46.0,West,14,Month-to-month,DSL,No,51.19,0,1,747.3
+C0098,33.0,South,20,Month-to-month,Fiber,No,65.19,2,1,1212.61
+C0099,47.0,West,12,Two year,Fiber,Yes,68.2,2,0,828.66
+C0100,21.0,North,72,Two year,DSL,Yes,59.24,0,0,4327.65
+C0101,54.0,North,38,One year,Fiber,No,79.7,1,0,3007.23
+C0102,29.0,East,16,Month-to-month,None,No,31.19,2,1,465.15
+C0103,45.0,East,24,Two year,None,Yes,34.48,1,0,
+C0104,39.0,East,54,One year,DSL,No,43.82,2,0,2315.84
+C0105,68.0,West,15,One year,DSL,Yes,61.99,2,0,976.66
+C0106,,West,16,Month-to-month,DSL,No,38.28,2,1,619.38
+C0107,71.0,East,11,Month-to-month,None,No,27.97,0,1,300.33
+C0108,52.0,North,43,Month-to-month,Fiber,No,71.05,4,1,2867.02
+C0109,64.0,North,61,Two year,Fiber,No,67.56,1,0,4194.18
+C0110,41.0,North,22,Month-to-month,DSL,No,54.92,1,1,1233.47
+C0111,49.0,East,51,Month-to-month,DSL,No,57.56,2,1,2916.56
+C0112,61.0,East,33,Month-to-month,Fiber,Yes,82.32,2,0,2765.76
+C0113,57.0,West,11,One year,DSL,No,51.72,0,0,562.98
+C0114,51.0,North,63,Month-to-month,Fiber,Yes,76.06,3,0,4945.2
+C0115,39.0,South,21,Two year,None,Yes,26.21,1,0,566.8
+C0116,42.0,South,23,One year,Fiber,No,77.43,0,0,1693.33
+C0117,60.0,East,22,One year,Fiber,Yes,79.33,1,1,1672.21
+C0118,63.0,North,20,Month-to-month,Fiber,Yes,76.63,2,1,1625.99
+C0119,36.0,West,4,One year,Fiber,No,81.74,0,1,336.1
+C0120,34.0,North,72,One year,Fiber,Yes,61.98,1,0,4293.56
+C0121,31.0,East,5,One year,Fiber,No,73.95,0,0,352.33
+C0122,56.0,West,65,Month-to-month,Fiber,Yes,63.93,1,1,4181.35
+C0123,31.0,North,13,Month-to-month,Fiber,No,77.21,2,1,969.33
+C0124,55.0,East,17,Month-to-month,Fiber,No,88.14,3,1,1484.14
+C0125,52.0,East,61,Month-to-month,Fiber,Yes,71.21,1,0,4337.65
+C0126,36.0,West,36,Month-to-month,Fiber,No,76.02,1,1,2729.29
+C0127,66.0,East,8,Month-to-month,Fiber,Yes,81.05,3,1,670.31
+C0128,24.0,West,8,Month-to-month,Fiber,Yes,58.46,1,0,493.42
+C0129,67.0,South,32,One year,Fiber,Yes,70.82,3,0,2233.68
+C0130,48.0,North,11,Month-to-month,Fiber,Yes,77.92,0,1,828.05
+C0131,18.0,East,47,Two year,DSL,Yes,26.82,1,0,1275.24
+C0132,66.0,West,40,One year,None,No,15.0,0,0,629.37
+C0133,58.0,South,14,Month-to-month,None,No,30.81,0,0,426.12
+C0134,38.0,West,18,One year,DSL,No,58.02,2,0,1071.0
+C0135,30.0,West,33,Month-to-month,DSL,No,52.99,0,1,1704.75
+C0136,22.0,East,24,Two year,Fiber,Yes,82.06,2,0,1970.7
+C0137,78.0,West,28,Month-to-month,DSL,Yes,51.72,0,0,1397.68
+C0138,31.0,East,72,One year,DSL,Yes,54.44,1,0,3920.95
+C0139,26.0,West,34,Month-to-month,None,No,19.47,2,0,659.67
+C0140,48.0,South,20,Month-to-month,None,No,22.93,1,1,466.97
+C0141,21.0,East,72,Month-to-month,Fiber,Yes,69.94,2,0,5304.29
+C0142,30.0,North,55,Two year,DSL,Yes,60.11,1,0,3267.48
+C0143,58.0,North,11,One year,None,Yes,34.17,0,0,353.32
+C0144,50.0,East,13,Month-to-month,Fiber,No,86.04,3,1,1111.74
+C0145,39.0,East,6,Month-to-month,None,No,18.74,0,0,113.45
+C0146,44.0,North,33,Month-to-month,Fiber,No,67.37,2,1,2236.68
+C0147,38.0,North,4,Month-to-month,None,No,32.22,2,1,128.27
+C0148,43.0,North,72,Month-to-month,DSL,Yes,54.35,2,0,4087.85
+C0149,33.0,East,22,Month-to-month,Fiber,Yes,77.63,1,1,1714.84
+C0150,36.0,South,57,Two year,DSL,No,44.93,0,0,2552.96
+C0151,35.0,North,30,Two year,Fiber,No,78.41,2,0,2297.42
+C0152,34.0,West,32,Month-to-month,DSL,Yes,41.32,2,0,1252.95
+C0153,59.0,East,24,One year,DSL,Yes,55.07,2,1,1334.73
+C0154,55.0,North,27,Month-to-month,DSL,Yes,61.03,2,0,1659.94
+C0155,,East,57,One year,None,Yes,35.05,0,0,1934.36
+C0156,27.0,West,72,Month-to-month,Fiber,Yes,80.67,0,0,5800.51
+C0157,42.0,South,71,One year,Fiber,Yes,63.94,0,0,4520.15
+C0158,74.0,West,72,One year,Fiber,No,76.58,4,0,5410.46
+C0159,30.0,South,15,One year,Fiber,No,92.12,0,0,1348.91
+C0160,42.0,North,34,Month-to-month,Fiber,No,68.05,3,1,2341.82
+C0161,45.0,North,25,Two year,Fiber,No,74.53,2,1,1850.63
+C0162,42.0,North,55,Month-to-month,Fiber,No,86.31,0,0,4662.89
+C0163,38.0,South,12,Month-to-month,Fiber,No,79.94,5,1,934.48
+C0164,60.0,South,57,One year,None,Yes,41.84,2,0,2375.58
+C0165,50.0,South,30,Month-to-month,Fiber,Yes,69.14,2,0,2131.73
+C0166,,South,35,Two year,None,Yes,15.0,1,0,528.25
+C0167,52.0,West,37,Two year,Fiber,No,84.79,0,0,3114.91
+C0168,57.0,North,10,Month-to-month,Fiber,Yes,65.43,2,1,660.36
+C0169,66.0,West,21,Two year,DSL,Yes,48.43,0,0,1058.66
+C0170,63.0,North,31,Month-to-month,Fiber,No,74.47,5,1,2342.53
+C0171,77.0,West,30,Month-to-month,Fiber,No,83.29,0,0,2518.2
+C0172,61.0,North,16,Month-to-month,DSL,No,54.91,1,0,895.39
+C0173,35.0,North,31,Two year,Fiber,No,78.66,2,0,2426.9
+C0174,56.0,North,36,Month-to-month,Fiber,No,71.78,3,1,2598.35
+C0175,54.0,South,14,Month-to-month,DSL,No,59.72,1,1,823.82
+C0176,71.0,West,5,Month-to-month,Fiber,Yes,107.21,3,1,511.11
+C0177,30.0,South,72,Two year,None,No,27.53,2,0,2002.55
+C0178,52.0,North,42,Two year,Fiber,No,75.8,2,0,3216.71
+C0179,34.0,East,18,One year,None,Yes,15.0,1,0,267.67
+C0180,51.0,East,25,Two year,DSL,No,44.9,0,0,1157.38
+C0181,41.0,East,24,Two year,None,No,20.29,1,1,476.42
+C0182,51.0,East,55,Month-to-month,None,No,17.72,2,0,922.81
+C0183,24.0,West,9,Month-to-month,Fiber,No,74.87,1,1,659.74
+C0184,55.0,North,34,One year,DSL,Yes,64.22,3,1,2082.54
+C0185,47.0,South,34,One year,Fiber,Yes,84.98,1,0,2918.62
+C0186,46.0,East,44,Month-to-month,None,Yes,20.73,1,0,891.54
+C0187,71.0,East,20,Month-to-month,DSL,No,40.33,1,0,830.43
+C0188,39.0,West,63,One year,Fiber,No,85.7,2,0,5555.21
+C0189,49.0,West,45,Month-to-month,None,No,21.61,1,0,945.47
+C0190,45.0,West,29,Two year,Fiber,No,61.19,1,0,1731.49
+C0191,47.0,North,15,Month-to-month,DSL,No,55.7,2,0,848.9
+C0192,75.0,East,24,Month-to-month,DSL,Yes,58.21,1,0,1438.11
+C0193,,West,29,Two year,Fiber,Yes,55.59,1,0,1514.77
+C0194,36.0,South,13,Month-to-month,DSL,No,43.4,0,1,568.97
+C0195,70.0,East,28,Month-to-month,None,No,21.12,4,1,552.37
+C0196,40.0,North,21,One year,Fiber,Yes,80.88,1,0,1670.53
+C0197,22.0,North,72,Two year,DSL,No,45.87,1,0,3411.0
+C0198,34.0,North,19,Month-to-month,Fiber,No,68.34,2,1,1415.7
+C0199,27.0,West,15,Month-to-month,DSL,Yes,55.82,0,0,831.3
+C0200,19.0,West,26,One year,Fiber,No,71.25,1,0,1783.19
+C0201,39.0,West,41,Two year,None,No,26.34,1,0,1063.3
+C0202,43.0,South,33,Month-to-month,None,No,15.0,0,0,495.98
+C0203,61.0,West,33,Month-to-month,Fiber,Yes,64.18,4,1,
+C0204,53.0,North,27,Month-to-month,Fiber,Yes,81.04,3,1,2127.37
+C0205,52.0,North,26,Month-to-month,DSL,Yes,52.02,0,0,1335.2
+C0206,31.0,South,40,Month-to-month,DSL,No,57.38,0,1,2322.44
+C0207,56.0,North,12,One year,Fiber,No,70.74,2,0,844.57
+C0208,63.0,East,15,Month-to-month,Fiber,No,68.64,2,0,1002.37
+C0209,,East,7,Month-to-month,Fiber,No,85.89,1,0,589.14
+C0210,50.0,North,12,One year,None,Yes,15.0,3,0,177.77
+C0211,26.0,North,52,One year,DSL,No,60.01,4,1,3026.96
+C0212,59.0,South,39,Month-to-month,None,Yes,32.56,0,0,1242.9
+C0213,69.0,North,72,Two year,DSL,Yes,56.88,2,0,4174.44
+C0214,49.0,West,68,One year,None,No,16.5,0,0,1114.25
+C0215,36.0,South,39,One year,Fiber,No,68.47,3,0,2529.86
+C0216,42.0,South,29,Month-to-month,Fiber,No,73.32,1,1,2191.66
+C0217,38.0,North,27,Month-to-month,None,No,15.0,2,1,410.06
+C0218,39.0,East,13,Two year,None,Yes,15.0,1,0,186.91
+C0219,53.0,East,25,Month-to-month,Fiber,Yes,80.16,3,1,1982.03
+C0220,48.0,West,17,Month-to-month,Fiber,Yes,80.19,1,1,1330.84
+C0221,58.0,East,12,Month-to-month,DSL,No,41.6,0,0,509.34
+C0222,49.0,South,35,One year,Fiber,No,80.41,0,0,2782.97
+C0223,32.0,North,32,Two year,Fiber,Yes,78.63,0,0,2510.67
+C0224,37.0,South,28,Month-to-month,None,No,34.08,0,0,948.82
+C0225,36.0,East,21,Two year,Fiber,No,79.55,2,0,1596.37
+C0226,41.0,North,46,Month-to-month,DSL,No,58.47,2,1,2803.02
+C0227,69.0,North,18,One year,Fiber,Yes,78.82,1,0,1446.95
+C0228,71.0,North,33,One year,Fiber,Yes,82.84,2,1,2672.43
+C0229,56.0,North,20,Month-to-month,DSL,No,39.7,3,1,
+C0230,46.0,North,3,Month-to-month,Fiber,No,74.03,5,1,228.58
+C0231,25.0,South,36,Month-to-month,DSL,Yes,49.69,0,0,1791.83
+C0232,47.0,East,34,Two year,Fiber,Yes,73.05,1,0,2599.7
+C0233,33.0,South,6,One year,None,No,25.55,0,0,166.72
+C0234,67.0,North,20,Two year,DSL,No,55.08,1,0,1097.43
+C0235,22.0,South,57,Two year,None,Yes,25.14,3,0,1407.94
+C0236,49.0,North,7,Month-to-month,Fiber,No,73.58,0,1,499.77
+C0237,32.0,East,18,One year,Fiber,No,69.11,1,0,1161.37
+C0238,44.0,North,72,Month-to-month,Fiber,Yes,83.78,3,0,6258.03
+C0239,53.0,South,36,Month-to-month,DSL,Yes,52.8,2,1,1880.64
+C0240,58.0,West,53,Two year,Fiber,No,66.85,1,0,3636.09
+C0241,43.0,East,21,One year,Fiber,No,73.45,1,0,1592.26
+C0242,55.0,West,6,Month-to-month,Fiber,Yes,61.05,2,1,354.42
+C0243,35.0,South,30,Month-to-month,Fiber,No,75.28,1,1,2195.34
+C0244,47.0,West,10,One year,Fiber,No,73.41,1,0,772.52
+C0245,58.0,East,20,Two year,Fiber,No,70.4,0,0,1405.04
+C0246,49.0,East,27,One year,Fiber,Yes,87.68,6,1,2320.47
+C0247,37.0,East,11,Month-to-month,DSL,Yes,40.75,0,0,434.2
+C0248,40.0,East,25,Month-to-month,Fiber,Yes,80.65,2,0,2007.69
+C0249,58.0,North,15,Month-to-month,Fiber,No,92.49,1,1,1450.11
+C0250,29.0,South,25,One year,DSL,No,58.62,1,0,1495.64
+C0251,31.0,East,27,Two year,DSL,No,49.75,1,1,1350.57
+C0252,52.0,South,25,Month-to-month,Fiber,Yes,65.93,1,1,1726.8
+C0253,,West,64,Month-to-month,DSL,No,39.1,2,0,2607.18
+C0254,24.0,East,43,Month-to-month,None,No,18.71,2,0,812.59
+C0255,63.0,North,23,One year,DSL,No,44.5,0,0,1108.74
+C0256,29.0,East,68,Two year,None,Yes,16.24,0,0,1096.12
+C0257,41.0,East,34,Month-to-month,DSL,No,47.39,0,0,1664.34
+C0258,35.0,South,55,Month-to-month,Fiber,Yes,74.18,1,0,4031.8
+C0259,40.0,West,7,One year,Fiber,Yes,78.88,3,1,567.12
+C0260,32.0,South,11,Month-to-month,DSL,No,40.1,2,1,437.81
+C0261,54.0,North,40,Two year,None,Yes,16.54,1,0,
+C0262,46.0,North,23,Month-to-month,DSL,Yes,48.72,2,1,1200.91
+C0263,58.0,West,25,Month-to-month,Fiber,No,73.44,1,1,1888.43
+C0264,35.0,South,48,Two year,DSL,Yes,64.69,2,0,3149.54
+C0265,74.0,South,30,Month-to-month,Fiber,No,76.86,1,0,2252.21
+C0266,18.0,South,46,Month-to-month,DSL,No,37.09,1,1,1715.77
+C0267,22.0,East,45,Month-to-month,DSL,No,53.35,0,1,2328.15
+C0268,69.0,East,12,Month-to-month,DSL,Yes,54.37,2,1,669.8
+C0269,51.0,West,3,Month-to-month,None,No,21.0,1,0,64.63
+C0270,49.0,West,11,Month-to-month,DSL,No,40.29,1,1,440.8
+C0271,50.0,West,10,Month-to-month,DSL,Yes,64.06,0,0,672.57
+C0272,52.0,South,27,Month-to-month,DSL,No,41.44,3,1,1170.0
+C0273,48.0,East,26,One year,None,No,27.29,0,0,712.73
+C0274,30.0,South,22,One year,None,Yes,23.6,0,0,528.01
+C0275,55.0,East,35,Month-to-month,Fiber,Yes,79.81,4,1,2744.04
+C0276,53.0,East,72,Month-to-month,DSL,No,63.65,1,0,4545.38
+C0277,64.0,South,21,Month-to-month,Fiber,No,79.49,3,0,1615.3
+C0278,69.0,West,40,Two year,None,No,17.53,0,0,691.14
+C0279,49.0,South,35,Two year,DSL,Yes,58.85,1,0,2053.3
+C0280,27.0,West,16,Month-to-month,Fiber,Yes,69.95,2,1,1063.45
+C0281,69.0,West,38,Month-to-month,Fiber,No,76.31,1,1,2949.96
+C0282,30.0,North,21,Month-to-month,Fiber,No,64.66,3,1,1399.5
+C0283,49.0,South,13,Month-to-month,DSL,Yes,41.73,1,0,542.36
+C0284,40.0,South,14,One year,Fiber,No,75.41,0,1,970.31
+C0285,38.0,West,47,Month-to-month,Fiber,Yes,77.94,2,1,3635.38
+C0286,55.0,East,37,Month-to-month,None,Yes,15.0,0,0,531.8
+C0287,47.0,North,17,Month-to-month,DSL,No,53.98,1,1,900.88
+C0288,51.0,West,34,Month-to-month,Fiber,Yes,68.44,0,0,2428.32
+C0289,33.0,North,25,Month-to-month,Fiber,No,85.24,1,0,1975.36
+C0290,42.0,South,41,Two year,None,Yes,19.18,2,0,767.12
+C0291,33.0,North,16,Month-to-month,DSL,No,41.01,1,0,672.49
+C0292,41.0,North,21,Two year,DSL,Yes,50.61,1,1,1040.43
+C0293,42.0,East,20,Month-to-month,Fiber,No,67.67,2,0,1321.79
+C0294,70.0,North,22,Two year,Fiber,No,85.15,0,0,1987.52
+C0295,40.0,North,22,Two year,Fiber,Yes,75.0,2,0,1668.73
+C0296,18.0,West,18,Two year,DSL,Yes,48.79,2,0,
+C0297,64.0,South,13,Two year,Fiber,No,79.73,1,0,1051.87
+C0298,50.0,East,18,One year,Fiber,Yes,66.96,1,1,1211.13
+C0299,42.0,West,53,One year,DSL,No,39.69,1,1,2183.34
+C0300,38.0,North,45,One year,None,No,25.27,2,1,1202.15
+C0301,31.0,West,70,Month-to-month,DSL,No,41.2,1,0,2738.34
+C0302,71.0,North,11,Month-to-month,DSL,Yes,41.2,2,0,452.72
+C0303,45.0,West,40,Month-to-month,DSL,Yes,56.69,2,0,2264.66
+C0304,20.0,South,33,Two year,Fiber,Yes,79.2,1,0,
+C0305,49.0,North,14,Month-to-month,Fiber,Yes,64.97,2,1,936.35
+C0306,61.0,North,49,Month-to-month,DSL,Yes,45.05,1,1,2224.46
+C0307,46.0,South,23,One year,Fiber,No,67.77,0,0,1648.75
+C0308,31.0,East,5,Month-to-month,DSL,Yes,64.21,0,0,331.65
+C0309,30.0,East,44,Month-to-month,None,Yes,29.25,2,0,1339.69
+C0310,31.0,East,33,Month-to-month,None,Yes,18.63,0,0,592.67
+C0311,65.0,North,28,Month-to-month,Fiber,Yes,79.61,3,1,2175.18
+C0312,43.0,West,9,Month-to-month,Fiber,No,64.15,1,0,564.82
+C0313,20.0,South,30,Month-to-month,Fiber,Yes,69.62,2,1,2171.5
+C0314,49.0,North,64,Month-to-month,Fiber,No,75.84,4,0,4712.93
+C0315,46.0,West,32,Month-to-month,Fiber,No,78.62,2,1,2445.05
+C0316,38.0,West,7,Month-to-month,Fiber,Yes,74.22,0,1,502.06
+C0317,30.0,North,34,One year,DSL,No,51.98,0,0,1913.28
+C0318,29.0,South,32,Month-to-month,DSL,Yes,50.63,0,0,1613.25
+C0319,59.0,West,52,Two year,None,Yes,20.69,2,0,1092.98
+C0320,47.0,East,42,Two year,Fiber,No,72.63,3,0,2946.08
+C0321,51.0,North,12,Month-to-month,Fiber,No,71.59,0,0,883.8
+C0322,47.0,East,27,Month-to-month,Fiber,Yes,76.86,0,0,1964.8
+C0323,49.0,North,21,Month-to-month,Fiber,No,78.29,1,0,1595.8
+C0324,,South,39,Two year,Fiber,Yes,76.59,1,0,2921.47
+C0325,41.0,North,50,One year,None,No,15.0,0,0,754.92
+C0326,60.0,East,25,Two year,Fiber,No,67.01,1,0,1635.39
+C0327,64.0,West,72,Month-to-month,Fiber,Yes,78.19,5,0,5887.07
+C0328,27.0,North,34,One year,DSL,No,61.77,3,0,2131.89
+C0329,41.0,East,44,Month-to-month,DSL,No,51.22,1,0,2207.06
+C0330,56.0,North,40,One year,DSL,Yes,46.71,1,1,1924.32
+C0331,70.0,West,33,Month-to-month,Fiber,No,76.79,2,1,2504.17
+C0332,69.0,North,37,One year,None,No,15.0,0,1,545.17
+C0333,33.0,South,11,Two year,Fiber,Yes,85.47,3,0,965.44
+C0334,62.0,North,40,Month-to-month,Fiber,No,76.49,2,1,2834.46
+C0335,,West,12,One year,DSL,No,44.64,1,1,547.49
+C0336,59.0,North,24,Month-to-month,None,No,20.67,0,0,485.47
+C0337,55.0,East,33,One year,Fiber,Yes,70.78,2,1,2285.67
+C0338,26.0,North,52,Month-to-month,DSL,No,60.49,3,0,3330.26
+C0339,52.0,East,22,Two year,Fiber,No,73.38,5,0,1588.63
+C0340,58.0,West,18,Month-to-month,Fiber,No,76.24,1,0,1411.67
+C0341,44.0,West,30,Two year,Fiber,Yes,79.59,6,0,2407.7
+C0342,41.0,North,39,Two year,DSL,No,44.07,2,0,1738.48
+C0343,22.0,West,21,One year,Fiber,No,76.55,0,0,1595.47
+C0344,54.0,South,37,One year,DSL,Yes,52.2,2,0,1913.86
+C0345,47.0,East,5,One year,Fiber,Yes,62.57,0,0,327.19
+C0346,31.0,West,33,Two year,None,No,24.02,2,1,814.79
+C0347,39.0,North,68,Month-to-month,None,No,21.63,1,0,1448.79
+C0348,46.0,South,21,One year,Fiber,No,76.04,3,1,1546.74
+C0349,36.0,West,34,Month-to-month,Fiber,Yes,75.29,1,1,2514.97
+C0350,44.0,North,47,One year,Fiber,No,77.07,1,0,3728.95
+C0351,20.0,South,33,Month-to-month,None,Yes,32.7,1,0,1117.26
+C0352,63.0,East,72,One year,Fiber,No,65.56,1,0,4798.91
+C0353,44.0,West,27,One year,DSL,Yes,47.26,0,0,1214.13
+C0354,29.0,South,38,Month-to-month,Fiber,Yes,80.33,1,1,3121.57
+C0355,18.0,South,30,Month-to-month,DSL,No,53.85,0,0,1678.68
+C0356,58.0,West,60,One year,DSL,No,53.68,1,0,3237.57
+C0357,52.0,North,19,One year,DSL,Yes,72.03,3,0,1449.85
+C0358,47.0,South,72,Month-to-month,None,Yes,26.91,0,0,1860.74
+C0359,56.0,South,15,One year,Fiber,No,84.05,3,0,1286.65
+C0360,56.0,South,72,Two year,None,No,19.54,3,0,1363.82
+C0361,47.0,East,11,Month-to-month,Fiber,Yes,67.06,3,1,761.09
+C0362,40.0,North,39,Month-to-month,DSL,No,47.49,2,0,1886.16
+C0363,38.0,South,25,Month-to-month,None,Yes,27.7,3,1,729.92
+C0364,,West,46,One year,DSL,No,53.25,0,0,2486.22
+C0365,64.0,West,34,Month-to-month,DSL,Yes,53.23,2,1,1787.88
+C0366,43.0,West,44,One year,Fiber,Yes,73.29,1,0,3177.25
+C0367,65.0,East,11,One year,Fiber,No,72.01,5,1,786.16
+C0368,49.0,East,6,Month-to-month,Fiber,Yes,73.56,1,1,434.6
+C0369,49.0,North,19,Two year,DSL,No,55.8,3,0,
+C0370,78.0,North,9,One year,DSL,Yes,56.73,0,0,530.11
+C0371,67.0,East,11,Month-to-month,Fiber,Yes,66.95,5,1,703.39
+C0372,68.0,South,16,Month-to-month,Fiber,No,81.1,3,1,1299.09
+C0373,33.0,West,16,Month-to-month,Fiber,No,69.79,2,1,1118.73
+C0374,75.0,North,26,Month-to-month,Fiber,Yes,78.75,3,1,1999.51
+C0375,43.0,West,13,Month-to-month,Fiber,No,73.46,1,1,
+C0376,41.0,North,24,Two year,None,Yes,34.53,0,0,865.04
+C0377,18.0,South,22,Month-to-month,DSL,No,46.66,1,1,1053.98
+C0378,49.0,South,50,Month-to-month,Fiber,Yes,76.43,2,1,3975.93
+C0379,29.0,West,18,One year,DSL,No,54.85,0,0,966.02
+C0380,50.0,East,25,One year,None,Yes,15.01,1,0,375.66
+C0381,28.0,North,38,Two year,Fiber,No,74.42,2,1,2763.0
+C0382,69.0,West,12,One year,Fiber,No,72.87,1,0,880.72
+C0383,52.0,East,20,Month-to-month,Fiber,No,70.89,2,1,1431.81
+C0384,76.0,North,15,Month-to-month,Fiber,Yes,71.48,1,1,1103.07
+C0385,30.0,West,57,Two year,DSL,Yes,58.9,1,0,3489.59
+C0386,66.0,North,44,One year,None,Yes,17.21,1,0,772.89
+C0387,19.0,South,24,Two year,Fiber,No,79.53,2,0,1859.47
+C0388,47.0,North,24,Month-to-month,DSL,Yes,52.52,1,1,1209.35
+C0389,35.0,North,48,Two year,Fiber,No,63.82,3,0,3111.15
+C0390,38.0,East,32,One year,DSL,Yes,54.15,1,0,1810.8
+C0391,37.0,East,34,Month-to-month,DSL,No,38.69,4,0,1314.48
+C0392,31.0,South,12,One year,Fiber,No,80.02,1,0,916.24
+C0393,26.0,South,71,One year,Fiber,No,70.94,2,0,5351.75
+C0394,38.0,East,16,Month-to-month,DSL,No,50.07,1,0,812.88
+C0395,46.0,North,16,Month-to-month,None,No,15.0,1,1,241.23
+C0396,60.0,North,18,Two year,Fiber,No,75.98,2,0,1319.72
+C0397,48.0,North,23,Month-to-month,Fiber,No,82.42,3,1,1896.58
+C0398,60.0,North,54,Month-to-month,Fiber,No,68.54,2,1,3777.43
+C0399,23.0,West,32,Month-to-month,DSL,Yes,45.14,0,0,1466.28
+C0400,38.0,East,24,Month-to-month,DSL,Yes,53.64,1,0,1261.1
+C0401,54.0,North,52,Two year,DSL,No,53.84,0,0,2794.89
+C0402,49.0,East,53,One year,DSL,No,30.53,1,0,1588.19
+C0403,32.0,South,44,Month-to-month,None,Yes,38.12,1,1,1761.02
+C0404,57.0,North,15,Two year,None,Yes,26.23,0,0,
+C0405,37.0,West,53,Two year,Fiber,No,80.58,3,0,4203.56
+C0406,33.0,West,35,Month-to-month,DSL,Yes,48.85,1,0,1649.82
+C0407,51.0,West,24,Two year,Fiber,No,60.16,2,0,1455.87
+C0408,44.0,West,35,Month-to-month,Fiber,No,80.4,1,0,2772.4
+C0409,37.0,East,64,Two year,None,Yes,17.48,1,0,1104.68
+C0410,36.0,West,16,One year,DSL,Yes,54.35,0,0,839.98
+C0411,29.0,East,47,One year,None,Yes,20.25,0,0,922.87
+C0412,38.0,North,32,Month-to-month,Fiber,Yes,76.9,6,0,2472.81
+C0413,59.0,North,11,Two year,DSL,No,43.8,0,0,477.94
+C0414,47.0,West,25,Month-to-month,DSL,No,56.92,0,0,1529.58
+C0415,57.0,South,31,Month-to-month,Fiber,No,65.49,1,1,2066.38
+C0416,51.0,East,20,Month-to-month,Fiber,Yes,92.96,0,0,1794.96
+C0417,,North,33,One year,DSL,No,67.9,1,1,2137.47
+C0418,21.0,South,23,Month-to-month,Fiber,Yes,88.06,0,0,2049.57
+C0419,31.0,North,72,Two year,None,No,32.2,0,0,2290.8
+C0420,35.0,North,19,One year,Fiber,Yes,74.32,1,0,1468.48
+C0421,,North,14,Month-to-month,Fiber,No,84.33,0,1,1190.6
+C0422,58.0,North,45,Month-to-month,DSL,No,49.23,0,0,2083.59
+C0423,,East,21,Month-to-month,Fiber,Yes,62.57,1,1,1273.79
+C0424,75.0,North,24,One year,None,No,34.03,0,0,800.17
+C0425,33.0,North,33,Two year,DSL,Yes,59.03,2,0,1973.82
+C0426,66.0,East,43,Month-to-month,Fiber,Yes,74.75,1,0,3112.74
+C0427,66.0,North,21,Two year,DSL,No,40.2,1,0,848.07
+C0428,41.0,East,46,Month-to-month,DSL,No,45.31,3,0,2000.71
+C0429,51.0,West,47,Two year,DSL,Yes,35.43,3,0,1665.52
+C0430,61.0,West,72,Two year,None,Yes,29.56,3,0,2151.95
+C0431,43.0,North,29,One year,DSL,Yes,37.17,1,0,1125.19
+C0432,42.0,North,11,One year,DSL,No,52.29,3,0,579.43
+C0433,35.0,East,40,Two year,Fiber,No,68.25,0,0,2663.11
+C0434,18.0,South,32,Month-to-month,DSL,Yes,38.59,2,1,1290.19
+C0435,45.0,South,57,Month-to-month,None,Yes,23.91,2,0,1355.38
+C0436,,South,11,Month-to-month,DSL,No,47.33,0,0,532.71
+C0437,29.0,East,7,Month-to-month,DSL,No,56.71,0,1,389.67
+C0438,50.0,South,30,One year,Fiber,Yes,64.86,1,0,1951.1
+C0439,24.0,North,72,One year,DSL,No,43.94,2,0,3087.63
+C0440,55.0,North,51,Two year,None,Yes,15.0,1,0,772.4
+C0441,51.0,North,42,Month-to-month,Fiber,Yes,57.53,0,0,2474.53
+C0442,38.0,South,8,One year,Fiber,No,89.39,0,0,704.5
+C0443,43.0,West,27,Month-to-month,DSL,No,66.67,0,0,1770.33
+C0444,27.0,West,57,Month-to-month,DSL,Yes,50.74,1,0,2923.14
+C0445,55.0,South,33,One year,DSL,No,43.41,1,0,1397.07
+C0446,47.0,North,16,Two year,Fiber,No,72.61,0,0,1108.86
+C0447,48.0,North,26,One year,Fiber,No,81.99,0,0,2154.33
+C0448,51.0,West,39,Month-to-month,DSL,No,45.88,1,0,1783.54
+C0449,35.0,South,24,One year,DSL,No,51.9,1,1,1240.78
+C0450,23.0,West,13,Month-to-month,DSL,No,49.9,2,0,658.84
+C0451,57.0,East,56,Two year,DSL,Yes,45.45,0,0,2595.65
+C0452,54.0,West,19,One year,DSL,No,45.79,0,0,865.81
+C0453,37.0,North,35,Month-to-month,DSL,Yes,52.35,0,0,1770.54
+C0454,50.0,West,26,Month-to-month,DSL,No,42.18,1,0,1075.67
+C0455,62.0,East,18,Month-to-month,DSL,Yes,53.61,2,0,981.91
+C0456,60.0,South,72,Two year,DSL,Yes,46.23,1,0,3342.18
+C0457,36.0,East,17,Month-to-month,Fiber,No,76.02,1,1,1271.03
+C0458,23.0,South,27,One year,Fiber,Yes,86.07,1,0,2269.21
+C0459,26.0,East,26,One year,DSL,Yes,48.65,2,0,1288.34
+C0460,40.0,West,30,One year,None,Yes,29.36,0,0,874.94
+C0461,64.0,West,72,Month-to-month,DSL,No,35.66,1,0,2625.5
+C0462,34.0,West,49,Two year,Fiber,Yes,71.24,3,0,3582.85
+C0463,36.0,South,18,Month-to-month,DSL,Yes,50.22,2,0,895.48
+C0464,35.0,West,66,One year,Fiber,No,90.39,1,0,6135.7
+C0465,37.0,West,43,One year,DSL,No,34.32,1,0,1481.89
+C0466,44.0,North,18,One year,None,No,21.23,2,0,385.21
+C0467,26.0,South,69,Two year,DSL,Yes,61.65,1,0,3974.53
+C0468,59.0,East,8,Month-to-month,DSL,No,43.72,1,0,339.57
+C0469,42.0,South,10,Month-to-month,Fiber,No,73.3,1,1,712.84
+C0470,79.0,North,6,Month-to-month,Fiber,No,77.65,0,1,461.45
+C0471,28.0,East,3,Month-to-month,None,No,23.48,1,1,70.68
+C0472,,South,56,Month-to-month,DSL,Yes,62.53,0,0,3517.99
+C0473,63.0,East,30,Month-to-month,DSL,No,53.59,0,0,1621.48
+C0474,38.0,North,6,Month-to-month,Fiber,No,85.62,1,0,503.16
+C0475,38.0,North,25,Month-to-month,Fiber,Yes,72.12,3,0,1840.4
+C0476,31.0,East,47,Month-to-month,Fiber,Yes,69.08,0,0,3422.99
+C0477,31.0,West,14,One year,Fiber,Yes,73.19,0,0,1013.8
+C0478,44.0,East,20,One year,Fiber,No,65.73,2,1,1288.43
+C0479,44.0,West,72,Month-to-month,None,Yes,25.87,0,0,1824.34
+C0480,,West,22,Month-to-month,DSL,No,46.91,0,0,1034.67
+C0481,76.0,South,7,Month-to-month,Fiber,No,69.63,2,1,479.72
+C0482,40.0,North,17,One year,Fiber,Yes,78.99,0,1,1273.12
+C0483,45.0,East,6,Month-to-month,Fiber,Yes,65.85,1,1,377.83
+C0484,,East,41,Month-to-month,None,Yes,28.16,0,0,1189.9
+C0485,40.0,West,13,Month-to-month,Fiber,Yes,71.17,1,1,960.79
+C0486,39.0,East,12,Month-to-month,DSL,No,59.27,0,1,745.38
+C0487,44.0,West,72,Month-to-month,None,No,18.86,1,0,1367.14
+C0488,44.0,West,9,One year,Fiber,No,80.06,0,0,699.12
+C0489,55.0,East,8,One year,DSL,No,51.44,1,0,406.11
+C0490,47.0,East,11,One year,None,Yes,27.95,3,1,293.69
+C0491,54.0,North,48,One year,Fiber,No,75.88,2,1,3475.07
+C0492,44.0,West,37,One year,Fiber,No,61.69,3,1,2300.01
+C0493,47.0,East,17,Month-to-month,None,No,30.07,3,0,519.46
+C0494,41.0,West,16,One year,None,Yes,21.3,4,0,360.82
+C0495,58.0,North,36,Month-to-month,DSL,Yes,56.32,0,1,2022.47
+C0496,49.0,North,31,Month-to-month,DSL,No,55.52,1,0,1651.01
+C0497,42.0,East,23,One year,Fiber,No,68.81,1,0,1576.84
+C0498,41.0,South,38,Month-to-month,None,Yes,15.0,1,1,565.17
+C0499,,East,10,Month-to-month,DSL,Yes,55.24,0,1,544.26
+C0500,44.0,South,13,One year,Fiber,No,72.57,0,0,953.14
+C0501,43.0,East,50,Two year,DSL,No,57.49,0,0,2769.77
+C0502,36.0,East,42,Two year,None,No,20.57,0,0,867.33
+C0503,55.0,North,27,Month-to-month,None,Yes,30.19,0,1,831.06
+C0504,56.0,West,72,Month-to-month,Fiber,Yes,78.39,1,0,5884.47
+C0505,69.0,South,44,One year,Fiber,No,77.3,1,1,
+C0506,36.0,East,17,Month-to-month,None,No,19.01,2,1,333.28
+C0507,53.0,East,24,Two year,None,Yes,23.86,0,0,565.01
+C0508,18.0,East,34,Month-to-month,DSL,No,59.54,1,0,2005.88
+C0509,56.0,South,56,Month-to-month,DSL,Yes,49.57,4,1,2888.17
+C0510,,North,5,Month-to-month,DSL,No,54.25,1,1,260.09
+C0511,30.0,North,42,Two year,Fiber,Yes,75.37,0,0,3127.26
+C0512,49.0,West,20,Month-to-month,Fiber,No,76.0,1,1,1571.46
+C0513,35.0,North,30,Month-to-month,Fiber,No,88.79,1,1,2646.83
+C0514,33.0,North,7,Month-to-month,Fiber,Yes,84.61,1,1,587.2
+C0515,37.0,West,56,Month-to-month,None,Yes,22.64,0,0,1257.75
+C0516,54.0,North,66,Month-to-month,Fiber,Yes,76.72,0,0,5081.32
+C0517,31.0,South,42,One year,Fiber,Yes,69.39,3,1,3009.34
+C0518,43.0,South,72,Month-to-month,DSL,No,48.62,2,0,3597.7
+C0519,39.0,East,29,Two year,Fiber,No,77.48,1,0,2247.69
+C0520,55.0,East,41,Two year,Fiber,Yes,81.8,0,0,3463.71
+C0521,56.0,East,42,Month-to-month,DSL,No,55.99,1,0,2375.69
+C0522,18.0,East,34,Month-to-month,Fiber,Yes,66.13,2,1,2306.37
+C0523,59.0,West,21,One year,DSL,No,57.82,0,0,1176.76
+C0524,35.0,East,23,Month-to-month,None,No,21.29,2,0,515.21
+C0525,47.0,East,63,Month-to-month,Fiber,Yes,67.1,1,0,4255.23
+C0526,31.0,West,36,Two year,None,No,32.69,1,0,1079.81
+C0527,49.0,North,64,Two year,None,No,33.71,3,0,2264.85
+C0528,80.0,West,25,One year,None,Yes,24.11,1,0,602.84
+C0529,46.0,North,54,Month-to-month,DSL,No,55.67,1,0,2970.51
+C0530,38.0,South,28,One year,DSL,Yes,56.14,0,1,1543.36
+C0531,41.0,North,40,One year,DSL,Yes,61.17,1,1,2479.06
+C0532,23.0,East,15,Month-to-month,DSL,No,55.82,1,1,814.98
+C0533,64.0,West,31,One year,Fiber,Yes,64.38,1,0,1961.24
+C0534,48.0,South,16,Month-to-month,None,Yes,38.08,1,0,599.17
+C0535,29.0,East,19,Month-to-month,DSL,Yes,58.53,0,0,1102.32
+C0536,30.0,South,20,Month-to-month,DSL,Yes,45.92,0,1,904.2
+C0537,44.0,West,23,Month-to-month,Fiber,Yes,66.76,0,0,1574.76
+C0538,57.0,West,50,Month-to-month,Fiber,Yes,79.04,1,0,3984.14
+C0539,28.0,East,28,Two year,DSL,No,47.77,0,0,1353.33
+C0540,60.0,South,39,Two year,DSL,No,52.64,0,0,2090.57
+C0541,43.0,West,54,One year,Fiber,No,80.95,2,0,4359.09
+C0542,31.0,North,49,Two year,Fiber,No,70.47,4,0,3347.34
+C0543,37.0,West,15,Two year,Fiber,Yes,66.07,3,0,1044.72
+C0544,68.0,West,7,Month-to-month,DSL,No,53.09,0,1,381.97
+C0545,25.0,East,34,Month-to-month,Fiber,No,70.73,2,0,2521.18
+C0546,34.0,East,18,Month-to-month,None,No,23.17,1,1,430.0
+C0547,57.0,South,6,Month-to-month,Fiber,No,64.25,0,1,380.18
+C0548,47.0,South,17,One year,Fiber,Yes,72.98,0,0,1153.27
+C0549,33.0,North,35,Month-to-month,Fiber,Yes,80.72,0,0,2721.03
+C0550,58.0,South,20,Month-to-month,DSL,No,54.85,3,1,1117.95
+C0551,58.0,East,27,Month-to-month,DSL,No,43.69,2,0,1176.03
+C0552,49.0,South,22,Month-to-month,DSL,No,40.65,2,1,883.04
+C0553,35.0,West,25,Two year,None,No,22.13,1,0,511.83
+C0554,38.0,West,31,Month-to-month,Fiber,Yes,79.49,0,0,2463.22
+C0555,48.0,East,6,Month-to-month,DSL,Yes,53.24,2,1,309.07
+C0556,26.0,South,13,Month-to-month,Fiber,No,70.9,0,1,901.67
+C0557,63.0,South,44,Month-to-month,Fiber,Yes,77.38,1,1,3491.55
+C0558,,East,7,One year,DSL,No,62.02,0,0,420.74
+C0559,41.0,East,26,Month-to-month,Fiber,No,76.64,3,1,1936.82
+C0560,49.0,North,19,Month-to-month,DSL,Yes,36.93,0,0,
+C0561,61.0,South,18,Month-to-month,DSL,Yes,51.63,0,0,953.66
+C0562,71.0,South,57,Two year,DSL,No,66.35,2,0,3736.26
+C0563,66.0,South,53,One year,DSL,No,39.7,0,0,2196.72
+C0564,20.0,North,11,One year,DSL,No,50.24,0,0,531.44
+C0565,40.0,West,23,One year,Fiber,Yes,73.19,0,0,1609.94
+C0566,51.0,South,4,One year,Fiber,Yes,75.77,1,0,289.08
+C0567,37.0,East,45,Month-to-month,Fiber,Yes,76.55,1,1,3274.01
+C0568,,North,25,Month-to-month,DSL,Yes,59.12,2,1,1492.92
+C0569,67.0,South,7,Month-to-month,None,Yes,22.68,1,1,154.1
+C0570,33.0,North,14,Month-to-month,Fiber,No,85.22,0,1,1142.61
+C0571,42.0,South,20,Two year,DSL,Yes,49.06,1,0,992.38
+C0572,34.0,West,13,Month-to-month,DSL,No,47.2,0,0,628.77
+C0573,41.0,East,5,One year,None,No,16.65,0,0,85.87
+C0574,41.0,West,72,Two year,DSL,No,35.46,1,0,2620.16
+C0575,57.0,South,11,Month-to-month,DSL,No,52.21,1,1,558.49
+C0576,32.0,West,36,Two year,DSL,Yes,66.43,1,0,2411.29
+C0577,18.0,North,35,One year,None,No,25.67,2,0,911.84
+C0578,22.0,West,63,Two year,Fiber,Yes,80.49,3,0,4998.63
+C0579,30.0,East,27,Month-to-month,None,Yes,18.7,0,0,507.4
+C0580,35.0,North,21,Month-to-month,Fiber,No,73.05,0,1,1476.45
+C0581,47.0,East,28,Month-to-month,None,Yes,29.88,0,0,820.89
+C0582,29.0,South,11,Month-to-month,Fiber,Yes,91.07,0,0,1012.94
+C0583,27.0,North,12,Month-to-month,Fiber,No,86.9,0,1,1089.96
+C0584,31.0,West,31,Two year,Fiber,No,81.44,0,0,2611.85
+C0585,28.0,East,3,One year,Fiber,Yes,75.28,5,1,230.32
+C0586,36.0,East,15,Month-to-month,Fiber,Yes,76.68,1,1,1152.95
+C0587,36.0,East,18,Month-to-month,Fiber,Yes,68.97,3,0,1238.66
+C0588,54.0,North,72,Month-to-month,DSL,No,38.41,1,0,2645.42
+C0589,,South,58,Month-to-month,Fiber,No,65.99,0,0,3731.48
+C0590,39.0,East,45,Two year,DSL,Yes,50.4,0,0,2213.37
+C0591,36.0,South,46,Month-to-month,None,No,19.66,0,1,919.95
+C0592,55.0,West,11,Month-to-month,DSL,No,38.24,1,1,432.56
+C0593,42.0,South,28,One year,Fiber,No,74.7,0,0,2137.82
+C0594,59.0,South,42,Month-to-month,Fiber,No,72.45,3,0,3150.86
+C0595,28.0,South,12,Month-to-month,None,No,15.0,1,1,180.39
+C0596,43.0,North,7,One year,Fiber,No,72.04,2,0,489.41
+C0597,36.0,West,32,One year,Fiber,No,72.43,1,1,2314.29
+C0598,27.0,North,18,Two year,None,Yes,17.07,1,0,300.58
+C0599,43.0,South,37,One year,None,Yes,29.41,0,0,1109.65
+C0600,68.0,West,53,Month-to-month,Fiber,Yes,59.78,2,1,3134.21
+C0601,32.0,West,12,One year,DSL,No,34.11,0,0,408.11
+C0602,42.0,North,23,Two year,DSL,Yes,50.03,0,0,1174.63
+C0603,26.0,South,52,One year,DSL,No,50.77,2,0,2581.34
+C0604,24.0,East,37,Two year,Fiber,Yes,78.23,2,1,2978.22
+C0605,33.0,East,47,One year,Fiber,No,70.69,1,0,3188.11
+C0606,38.0,South,31,Two year,DSL,Yes,42.66,2,0,1334.62
+C0607,38.0,East,23,Month-to-month,Fiber,No,74.94,3,1,1718.92
+C0608,41.0,West,26,One year,DSL,Yes,46.47,0,0,1238.21
+C0609,21.0,West,72,Month-to-month,Fiber,No,87.41,0,1,6034.03
+C0610,35.0,West,45,One year,None,No,19.41,1,0,833.34
+C0611,51.0,West,15,One year,None,Yes,21.57,0,0,330.83
+C0612,25.0,West,40,Two year,DSL,No,69.8,1,0,2759.26
+C0613,39.0,East,30,Two year,DSL,No,48.44,3,0,1449.24
+C0614,48.0,West,18,Month-to-month,Fiber,No,79.45,2,1,1401.79
+C0615,33.0,South,36,One year,DSL,No,55.17,2,0,2040.51
+C0616,49.0,East,32,One year,Fiber,No,80.85,1,0,
+C0617,23.0,West,12,Month-to-month,None,No,24.32,0,0,293.95
+C0618,56.0,North,26,Month-to-month,None,No,23.55,2,0,590.82
+C0619,49.0,West,17,Month-to-month,None,No,22.8,1,1,393.43
+C0620,45.0,West,35,One year,None,No,17.39,0,0,590.53
+C0621,60.0,West,17,Month-to-month,None,Yes,24.6,3,1,409.94
+C0622,39.0,West,33,Two year,Fiber,Yes,91.23,2,0,2887.27
+C0623,35.0,North,18,Month-to-month,None,No,31.69,0,0,
+C0624,63.0,South,15,Two year,DSL,No,52.43,1,1,811.56
+C0625,70.0,North,70,Month-to-month,Fiber,No,81.85,2,1,5768.47
+C0626,34.0,East,26,One year,DSL,No,43.05,2,0,1104.46
+C0627,42.0,South,71,Month-to-month,Fiber,No,72.92,2,0,5194.27
+C0628,59.0,South,27,One year,Fiber,Yes,82.58,1,0,2236.59
+C0629,43.0,East,51,Two year,Fiber,No,86.9,2,0,4440.68
+C0630,52.0,West,26,Two year,Fiber,Yes,68.83,2,0,1799.1
+C0631,55.0,North,26,Two year,DSL,No,46.13,3,0,1161.96
+C0632,36.0,West,25,Month-to-month,None,No,39.45,0,0,989.4
+C0633,50.0,South,71,Month-to-month,DSL,Yes,50.77,0,1,3414.86
+C0634,44.0,West,12,Month-to-month,DSL,No,64.59,1,0,788.46
+C0635,27.0,East,4,Month-to-month,Fiber,No,76.65,3,1,296.46
+C0636,30.0,South,51,One year,DSL,Yes,51.97,1,0,2744.11
+C0637,35.0,North,43,One year,Fiber,No,72.56,1,0,2891.2
+C0638,57.0,North,19,One year,None,No,29.54,1,0,589.45
+C0639,57.0,East,72,Two year,Fiber,No,85.86,2,0,5877.91
+C0640,54.0,South,72,One year,DSL,Yes,41.72,0,0,2895.71
+C0641,50.0,North,15,Two year,DSL,Yes,47.18,1,0,714.05
+C0642,50.0,North,15,Month-to-month,DSL,No,57.32,0,0,875.76
+C0643,48.0,West,25,Month-to-month,None,Yes,20.96,0,0,519.55
+C0644,50.0,South,34,One year,Fiber,Yes,71.05,0,0,2480.39
+C0645,51.0,South,41,Two year,None,No,30.08,1,0,1203.81
+C0646,24.0,South,26,Month-to-month,DSL,No,58.83,2,1,1511.24
+C0647,33.0,East,11,Month-to-month,DSL,No,46.4,0,1,505.77
+C0648,,South,37,One year,DSL,No,51.7,0,0,1882.0
+C0649,60.0,East,39,Month-to-month,None,Yes,15.0,0,0,551.06
+C0650,67.0,South,48,Month-to-month,None,Yes,15.0,0,0,719.47
+C0651,18.0,South,20,Two year,Fiber,No,75.99,2,0,1514.56
+C0652,66.0,West,22,One year,None,Yes,22.25,2,0,505.33
+C0653,45.0,South,18,Month-to-month,DSL,Yes,42.26,0,0,731.33
+C0654,58.0,West,19,Two year,DSL,No,44.27,1,0,825.0
+C0655,,West,22,Month-to-month,None,Yes,15.0,2,1,341.91
+C0656,64.0,East,21,Two year,Fiber,No,78.64,1,0,1665.97
+C0657,47.0,East,8,Month-to-month,DSL,No,34.26,1,1,278.6
+C0658,25.0,West,43,One year,Fiber,No,66.91,5,0,2916.27
+C0659,43.0,North,19,Month-to-month,Fiber,Yes,60.1,2,0,1157.59
+C0660,51.0,South,15,Month-to-month,None,Yes,25.35,0,1,401.02
+C0661,41.0,East,66,Two year,Fiber,No,60.58,2,0,4009.26
+C0662,,North,39,Month-to-month,Fiber,No,75.25,2,0,2845.71
+C0663,43.0,North,4,Month-to-month,Fiber,No,88.12,2,1,359.23
+C0664,36.0,North,34,Month-to-month,DSL,Yes,63.39,1,0,2118.63
+C0665,,South,34,One year,None,No,15.0,1,0,508.32
+C0666,39.0,East,31,Two year,None,Yes,24.39,2,0,764.49
+C0667,47.0,South,31,Two year,Fiber,Yes,67.09,1,0,2028.54
+C0668,18.0,North,6,Month-to-month,DSL,Yes,40.45,2,0,238.98
+C0669,33.0,South,72,Month-to-month,DSL,Yes,49.09,2,0,3584.94
+C0670,18.0,West,22,Month-to-month,DSL,Yes,59.83,1,0,1294.6
+C0671,35.0,North,33,One year,Fiber,Yes,79.8,2,0,2710.3
+C0672,61.0,West,33,Two year,Fiber,No,69.28,1,0,2218.6
+C0673,27.0,South,15,One year,DSL,No,55.64,2,0,809.82
+C0674,54.0,North,45,One year,DSL,Yes,32.05,1,0,1524.72
+C0675,84.0,North,29,Month-to-month,DSL,Yes,43.98,4,1,1216.87
+C0676,64.0,North,32,Two year,DSL,No,43.41,0,1,1388.01
+C0677,46.0,South,33,Month-to-month,None,Yes,22.63,2,0,788.27
+C0678,56.0,South,24,Month-to-month,DSL,Yes,48.38,1,0,1160.12
+C0679,25.0,East,72,Month-to-month,Fiber,No,73.87,1,0,5533.53
+C0680,22.0,North,44,Month-to-month,None,No,20.6,2,0,924.14
+C0681,44.0,East,37,Month-to-month,None,No,22.18,2,1,820.48
+C0682,50.0,East,7,Month-to-month,Fiber,Yes,79.32,1,1,553.06
+C0683,59.0,North,37,Month-to-month,DSL,Yes,51.19,1,1,1773.61
+C0684,36.0,East,37,One year,Fiber,Yes,72.73,2,0,2665.25
+C0685,47.0,North,11,Month-to-month,DSL,No,53.21,1,0,589.39
+C0686,46.0,South,7,Month-to-month,Fiber,Yes,81.61,1,1,575.24
+C0687,42.0,East,53,Two year,DSL,Yes,45.55,0,0,2592.74
+C0688,43.0,West,47,One year,Fiber,Yes,74.52,3,0,3531.96
+C0689,32.0,East,16,Month-to-month,DSL,No,59.3,3,1,966.74
+C0690,48.0,South,15,Month-to-month,None,Yes,15.0,1,1,232.86
+C0691,47.0,West,39,Two year,Fiber,Yes,89.44,1,0,3544.72
+C0692,38.0,North,19,Month-to-month,None,No,15.0,0,0,284.26
+C0693,53.0,North,6,Month-to-month,None,No,19.24,1,0,115.16
+C0694,58.0,South,21,Two year,None,No,15.0,1,0,311.69
+C0695,53.0,North,32,Month-to-month,Fiber,No,92.5,3,1,2999.45
+C0696,29.0,North,12,One year,None,Yes,17.97,4,0,214.54
+C0697,45.0,South,48,One year,Fiber,No,70.99,2,0,3471.4
+C0698,31.0,North,36,One year,Fiber,Yes,72.03,2,0,2514.58
+C0699,45.0,East,33,Month-to-month,None,No,22.76,1,0,754.39
+C0700,31.0,East,28,Month-to-month,DSL,Yes,47.37,0,0,1388.12
+C0701,62.0,South,14,Month-to-month,DSL,No,48.94,0,1,680.54
+C0702,55.0,South,40,Month-to-month,Fiber,No,46.77,2,0,1974.24
+C0703,60.0,North,24,Two year,None,Yes,22.46,1,0,541.69
+C0704,59.0,South,50,Month-to-month,DSL,Yes,50.14,3,1,2502.75
+C0705,40.0,North,67,One year,DSL,No,58.31,0,0,
+C0706,38.0,South,29,One year,None,Yes,32.47,1,1,932.83
+C0707,68.0,East,61,One year,Fiber,No,73.5,1,0,4217.11
+C0708,42.0,West,11,Month-to-month,Fiber,Yes,81.53,0,0,920.51
+C0709,25.0,South,37,Month-to-month,DSL,No,41.19,1,1,1624.28
+C0710,,South,36,Two year,None,No,28.14,2,0,1027.64
+C0711,,East,44,One year,Fiber,No,70.42,1,0,
+C0712,65.0,West,14,Two year,Fiber,No,65.52,1,0,912.26
+C0713,47.0,South,52,Two year,Fiber,No,73.52,1,0,3955.83
+C0714,44.0,West,16,One year,None,No,33.2,0,0,530.57
+C0715,65.0,South,27,Month-to-month,Fiber,No,76.45,0,1,2080.7
+C0716,22.0,East,72,One year,DSL,No,61.97,0,0,4252.33
+C0717,36.0,North,38,Month-to-month,None,Yes,16.01,0,0,598.72
+C0718,32.0,South,34,One year,Fiber,Yes,83.38,1,0,2866.16
+C0719,18.0,West,42,Two year,DSL,Yes,44.78,1,0,1931.95
+C0720,56.0,South,53,Month-to-month,DSL,No,51.8,2,0,2822.4
+C0721,36.0,North,44,Month-to-month,None,No,23.73,1,0,994.65
+C0722,57.0,West,33,Month-to-month,Fiber,Yes,80.29,1,0,2532.11
+C0723,49.0,North,40,Two year,Fiber,No,77.01,3,0,3134.38
+C0724,52.0,North,29,Month-to-month,Fiber,Yes,69.09,3,1,1958.72
+C0725,38.0,West,25,Month-to-month,DSL,No,57.04,0,0,1464.27
+C0726,33.0,South,9,Month-to-month,DSL,No,63.85,0,1,546.55
+C0727,45.0,North,37,Month-to-month,Fiber,No,70.33,3,1,2594.53
+C0728,57.0,West,17,Month-to-month,Fiber,No,60.32,3,1,1024.39
+C0729,43.0,South,22,Month-to-month,None,No,25.99,0,1,580.02
+C0730,34.0,East,47,Month-to-month,Fiber,Yes,72.35,5,0,3295.26
+C0731,27.0,South,25,Month-to-month,Fiber,No,73.95,2,1,1739.67
+C0732,,East,24,Month-to-month,DSL,Yes,54.45,0,0,1313.51
+C0733,36.0,East,29,Month-to-month,Fiber,No,71.35,2,0,2101.83
+C0734,43.0,West,20,Month-to-month,Fiber,No,72.85,3,1,1501.04
+C0735,41.0,South,72,One year,DSL,Yes,49.2,1,0,3504.3
+C0736,38.0,East,72,Month-to-month,Fiber,Yes,86.76,1,0,6392.08
+C0737,48.0,West,72,Month-to-month,DSL,No,50.24,0,0,3670.0
+C0738,,West,32,Month-to-month,DSL,No,40.11,0,1,
+C0739,72.0,East,16,Month-to-month,DSL,Yes,40.43,1,1,645.81
+C0740,55.0,South,47,Month-to-month,Fiber,No,76.11,2,0,3391.53
+C0741,,East,21,Month-to-month,None,Yes,15.0,2,0,314.36
+C0742,33.0,West,60,Two year,Fiber,No,62.5,4,0,3759.95
+C0743,22.0,North,15,Month-to-month,DSL,No,55.08,2,1,839.04
+C0744,44.0,East,34,Month-to-month,Fiber,Yes,80.48,0,0,2610.5
+C0745,56.0,West,55,Month-to-month,DSL,No,47.05,0,0,2563.53
+C0746,54.0,South,21,Month-to-month,Fiber,Yes,77.35,0,1,1666.65
+C0747,61.0,West,21,Month-to-month,Fiber,No,76.5,1,1,1601.48
+C0748,18.0,South,7,One year,DSL,Yes,54.82,1,1,380.22
+C0749,62.0,West,26,Two year,Fiber,No,79.84,1,0,2194.56
+C0750,49.0,East,32,Month-to-month,Fiber,Yes,54.15,2,1,1677.18
+C0751,22.0,North,35,Month-to-month,DSL,No,48.08,4,0,1745.05
+C0752,54.0,West,39,Month-to-month,None,Yes,26.14,1,0,1050.69
+C0753,46.0,East,5,Month-to-month,Fiber,No,71.72,1,1,356.18
+C0754,49.0,North,21,One year,None,Yes,22.29,0,0,467.63
+C0755,58.0,East,8,Month-to-month,DSL,Yes,56.01,0,0,447.59
+C0756,50.0,East,31,Month-to-month,None,No,22.65,2,0,705.98
+C0757,23.0,West,16,Two year,DSL,No,62.06,1,0,975.25
+C0758,42.0,South,10,Month-to-month,DSL,No,59.02,1,1,582.62
+C0759,21.0,South,44,Month-to-month,DSL,No,49.05,0,0,2135.2
+C0760,53.0,North,17,One year,DSL,Yes,48.42,1,0,815.16
+C0761,64.0,West,62,Month-to-month,None,No,15.0,3,0,921.33
+C0762,27.0,West,40,Month-to-month,Fiber,Yes,72.39,2,0,2700.94
+C0763,35.0,East,21,Month-to-month,Fiber,No,64.17,1,0,1351.52
+C0764,32.0,South,59,Two year,Fiber,No,76.77,1,1,4457.76
+C0765,38.0,West,23,Month-to-month,None,Yes,23.22,2,1,504.15
+C0766,50.0,South,42,Month-to-month,Fiber,Yes,80.57,0,0,3348.4
+C0767,38.0,East,15,Month-to-month,DSL,No,61.17,0,0,907.06
+C0768,53.0,East,50,Month-to-month,None,No,21.79,0,0,1131.18
+C0769,59.0,West,7,One year,None,Yes,40.24,1,0,277.12
+C0770,59.0,West,10,Month-to-month,Fiber,Yes,76.86,0,1,784.0
+C0771,,South,12,One year,DSL,Yes,39.52,1,0,493.91
+C0772,63.0,North,16,One year,None,No,17.5,0,0,274.72
+C0773,65.0,North,43,Two year,Fiber,No,72.02,1,0,3092.45
+C0774,66.0,East,26,Month-to-month,DSL,Yes,54.74,2,1,1497.05
+C0775,42.0,South,53,Two year,Fiber,No,67.42,4,0,3597.81
+C0776,33.0,North,55,One year,DSL,No,47.62,5,1,2648.47
+C0777,30.0,West,6,Month-to-month,DSL,No,48.71,3,1,288.69
+C0778,29.0,East,60,One year,Fiber,Yes,71.42,0,0,4373.52
+C0779,44.0,North,32,Two year,Fiber,Yes,81.49,1,0,2604.58
+C0780,56.0,East,72,Month-to-month,Fiber,Yes,80.13,5,0,5452.26
+C0781,62.0,East,25,Two year,Fiber,No,84.33,5,1,2085.78
+C0782,37.0,West,4,Month-to-month,DSL,Yes,47.35,2,1,182.68
+C0783,43.0,West,40,One year,Fiber,Yes,84.62,1,0,3396.2
+C0784,43.0,West,48,Two year,Fiber,No,64.09,0,0,2991.71
+C0785,35.0,West,11,Month-to-month,DSL,No,38.89,1,0,433.93
+C0786,54.0,West,22,Two year,DSL,Yes,40.29,1,0,887.57
+C0787,49.0,East,45,Month-to-month,DSL,Yes,50.07,2,1,2168.79
+C0788,46.0,East,34,One year,None,Yes,31.62,0,0,1059.19
+C0789,49.0,West,21,One year,Fiber,Yes,70.18,4,0,1501.22
+C0790,53.0,West,36,Month-to-month,None,Yes,18.19,1,0,677.39
+C0791,52.0,North,32,Month-to-month,Fiber,Yes,73.27,1,1,2281.16
+C0792,32.0,North,13,Month-to-month,DSL,Yes,54.58,1,0,686.18
+C0793,57.0,South,47,Month-to-month,None,No,18.18,0,1,904.47
+C0794,48.0,South,41,Month-to-month,None,No,17.73,0,0,726.72
+C0795,38.0,East,26,Month-to-month,DSL,Yes,39.24,1,0,1023.04
+C0796,47.0,South,45,Month-to-month,DSL,No,45.43,1,1,1999.0
+C0797,49.0,West,72,Month-to-month,Fiber,Yes,84.42,1,0,6117.48
+C0798,59.0,West,11,One year,DSL,No,50.73,1,0,586.74
+C0799,29.0,South,22,One year,DSL,No,44.08,0,0,977.16
+C0800,63.0,West,22,One year,None,No,31.89,0,0,723.99
+C0801,44.0,North,44,Month-to-month,DSL,No,45.32,0,0,1995.81
+C0802,37.0,West,26,Two year,Fiber,Yes,86.36,1,0,2176.26
+C0803,36.0,East,43,One year,DSL,Yes,61.23,2,0,2578.92
+C0804,30.0,East,18,Month-to-month,Fiber,No,75.45,1,1,1312.56
+C0805,20.0,South,10,Month-to-month,Fiber,Yes,63.01,0,0,634.22
+C0806,53.0,North,28,One year,Fiber,No,93.32,1,0,2708.9
+C0807,72.0,West,17,Month-to-month,DSL,No,53.1,0,1,907.06
+C0808,21.0,North,30,Month-to-month,Fiber,Yes,72.41,3,1,2152.24
+C0809,31.0,South,45,Two year,Fiber,No,82.65,2,0,3631.14
+C0810,55.0,North,6,Month-to-month,Fiber,No,80.62,1,1,488.88
+C0811,43.0,West,19,Month-to-month,None,No,32.49,1,1,594.38
+C0812,56.0,East,38,Two year,DSL,No,44.7,1,1,1640.81
+C0813,43.0,East,45,One year,Fiber,No,77.55,1,0,3583.99
+C0814,36.0,South,41,Month-to-month,Fiber,Yes,65.51,1,0,2663.53
+C0815,41.0,West,24,Two year,DSL,No,55.33,0,0,1316.07
+C0816,18.0,North,33,Two year,Fiber,Yes,74.82,2,0,2456.54
+C0817,28.0,East,36,Month-to-month,DSL,Yes,52.25,2,1,1921.96
+C0818,57.0,West,22,One year,Fiber,No,73.83,1,0,1632.32
+C0819,61.0,South,15,Month-to-month,None,Yes,19.99,1,1,293.17
+C0820,64.0,East,25,Month-to-month,Fiber,Yes,68.05,3,1,1665.16
+C0821,50.0,South,34,One year,DSL,Yes,56.32,0,0,1903.67
+C0822,18.0,West,12,Month-to-month,Fiber,No,86.92,1,1,1052.5
+C0823,35.0,West,38,One year,None,No,17.55,0,0,666.19
+C0824,63.0,South,39,Two year,None,Yes,26.43,2,0,1026.92
+C0825,67.0,North,39,Month-to-month,DSL,No,53.46,1,1,2087.83
+C0826,63.0,North,25,One year,DSL,Yes,50.06,1,1,1250.14
+C0827,41.0,East,72,Month-to-month,Fiber,No,62.79,2,0,4415.04
+C0828,26.0,West,43,Two year,None,No,15.0,0,0,666.42
+C0829,43.0,North,42,Month-to-month,DSL,Yes,43.75,2,0,1810.91
+C0830,44.0,West,38,One year,Fiber,No,57.89,2,0,2208.35
+C0831,66.0,West,23,One year,DSL,No,61.26,2,0,1321.89
+C0832,47.0,South,31,Month-to-month,DSL,Yes,52.94,0,0,1630.55
+C0833,44.0,North,17,One year,None,Yes,21.76,2,0,357.72
+C0834,45.0,East,71,One year,DSL,No,32.48,2,0,2238.35
+C0835,50.0,East,36,One year,DSL,Yes,35.41,0,0,1367.39
+C0836,53.0,West,14,One year,DSL,No,49.98,0,0,704.96
+C0837,34.0,East,71,Two year,Fiber,No,90.76,3,0,6680.97
+C0838,29.0,North,24,Month-to-month,Fiber,Yes,69.41,2,0,1708.58
+C0839,63.0,North,46,Month-to-month,Fiber,Yes,81.91,0,1,
+C0840,21.0,South,6,Month-to-month,DSL,Yes,46.16,3,0,275.31
+C0841,,South,54,One year,Fiber,Yes,75.44,1,0,4270.08
+C0842,18.0,South,35,Month-to-month,Fiber,No,84.72,1,1,3040.52
+C0843,36.0,West,13,Month-to-month,Fiber,No,72.23,2,1,940.15
+C0844,58.0,South,34,Month-to-month,Fiber,Yes,69.48,1,1,2380.98
+C0845,,East,72,Two year,DSL,No,61.34,2,0,4398.36
+C0846,26.0,South,17,Month-to-month,Fiber,Yes,75.36,1,0,1283.13
+C0847,50.0,West,17,One year,Fiber,Yes,83.73,3,0,1421.55
+C0848,45.0,West,23,Month-to-month,DSL,No,44.52,3,0,1035.68
+C0849,41.0,West,37,Two year,Fiber,Yes,86.25,0,0,3357.83
+C0850,35.0,West,48,Month-to-month,Fiber,No,77.19,0,1,3571.16
+C0851,44.0,East,36,Month-to-month,Fiber,Yes,78.48,2,1,2922.1
+C0852,36.0,East,33,Two year,None,No,23.05,0,0,752.25
+C0853,78.0,East,42,Two year,Fiber,No,70.96,1,0,3093.84
+C0854,41.0,North,72,Month-to-month,DSL,Yes,49.99,1,0,3563.28
+C0855,39.0,West,40,Month-to-month,None,No,18.46,0,0,747.54
+C0856,36.0,West,24,One year,DSL,Yes,57.68,2,0,1377.72
+C0857,69.0,East,32,Two year,Fiber,Yes,73.38,1,0,2226.25
+C0858,21.0,West,31,Month-to-month,DSL,Yes,38.03,1,0,1240.43
+C0859,49.0,South,48,Month-to-month,DSL,No,36.56,2,0,1705.25
+C0860,41.0,North,15,One year,Fiber,No,61.19,1,0,
+C0861,24.0,West,44,One year,DSL,No,54.94,1,0,
+C0862,33.0,East,24,One year,Fiber,No,65.79,1,1,1515.63
+C0863,48.0,West,27,One year,Fiber,Yes,77.4,1,1,2076.95
+C0864,32.0,North,72,Month-to-month,Fiber,No,76.09,2,0,5380.93
+C0865,48.0,South,51,Two year,Fiber,No,74.48,1,0,3665.29
+C0866,68.0,East,28,Two year,Fiber,No,78.51,1,0,2195.94
+C0867,46.0,North,35,One year,DSL,No,51.27,3,0,1714.67
+C0868,24.0,West,50,Month-to-month,None,No,15.0,1,0,752.82
+C0869,32.0,East,41,Month-to-month,Fiber,Yes,72.41,2,1,2957.47
+C0870,40.0,North,4,One year,DSL,No,53.4,0,0,197.71
+C0871,39.0,East,26,Month-to-month,DSL,No,63.12,2,1,1615.37
+C0872,,West,46,Two year,Fiber,No,88.49,4,0,4127.74
+C0873,48.0,South,34,Month-to-month,Fiber,Yes,64.09,2,1,2109.53
+C0874,68.0,East,19,One year,Fiber,Yes,72.2,1,1,1392.86
+C0875,44.0,East,52,Two year,Fiber,No,62.47,2,0,3290.61
+C0876,28.0,North,54,Month-to-month,Fiber,No,87.16,1,0,4562.94
+C0877,60.0,East,7,Month-to-month,Fiber,No,83.1,4,1,581.49
+C0878,62.0,East,6,One year,DSL,No,52.8,2,0,324.64
+C0879,47.0,South,34,One year,Fiber,No,76.33,1,0,2526.98
+C0880,41.0,South,44,Month-to-month,Fiber,No,86.05,1,1,3762.82
+C0881,,East,17,One year,Fiber,Yes,84.69,1,0,1489.41
+C0882,41.0,West,14,Two year,DSL,Yes,59.26,0,0,808.29
+C0883,18.0,South,26,Month-to-month,Fiber,No,78.65,2,0,2073.07
+C0884,52.0,North,34,Month-to-month,DSL,Yes,47.21,1,0,1553.17
+C0885,56.0,West,21,Month-to-month,Fiber,Yes,81.14,2,1,1695.71
+C0886,64.0,North,50,Month-to-month,Fiber,No,81.53,2,1,4131.13
+C0887,34.0,North,33,Month-to-month,None,Yes,20.47,1,1,626.78
+C0888,47.0,South,16,Month-to-month,Fiber,No,72.19,1,1,1136.53
+C0889,47.0,West,17,One year,Fiber,Yes,84.07,4,0,1447.6
+C0890,45.0,West,27,Month-to-month,Fiber,No,88.31,0,0,2400.52
+C0891,46.0,South,30,Two year,None,Yes,16.0,0,0,472.48
+C0892,45.0,East,6,Month-to-month,DSL,No,47.89,0,1,277.82
+C0893,47.0,West,31,Month-to-month,DSL,No,52.81,0,0,1667.98
+C0894,54.0,East,17,One year,None,Yes,25.89,1,0,435.87
+C0895,61.0,West,30,Two year,Fiber,Yes,70.82,0,0,2159.36
+C0896,,North,11,Month-to-month,None,Yes,37.07,1,0,412.42
+C0897,42.0,North,68,Month-to-month,Fiber,Yes,78.38,0,0,
+C0898,38.0,North,39,Month-to-month,DSL,Yes,54.25,0,0,2183.83
+C0899,36.0,West,72,Month-to-month,Fiber,Yes,89.07,1,0,6298.71
+C0900,21.0,South,21,Month-to-month,Fiber,No,71.41,5,1,1553.17
+C0901,44.0,South,41,Month-to-month,None,Yes,21.29,1,0,907.49
+C0902,51.0,East,31,Month-to-month,Fiber,Yes,64.97,1,0,2077.52
+C0903,42.0,East,16,Month-to-month,None,Yes,20.62,0,0,328.13
+C0904,44.0,North,31,Two year,Fiber,No,63.09,1,0,2105.24
+C0905,50.0,West,39,One year,DSL,No,55.98,2,0,2193.17
+C0906,64.0,South,11,Month-to-month,None,No,25.36,0,1,280.98
+C0907,38.0,West,51,Month-to-month,Fiber,No,72.78,1,0,3709.32
+C0908,28.0,West,29,Month-to-month,None,No,21.2,3,1,593.96
+C0909,43.0,East,46,Month-to-month,DSL,Yes,56.09,2,0,2680.38
+C0910,70.0,East,34,One year,DSL,Yes,40.91,0,1,1367.05
+C0911,28.0,West,17,Two year,Fiber,No,76.63,0,0,1338.65
+C0912,53.0,South,36,Two year,DSL,Yes,55.6,2,0,2071.23
+C0913,60.0,South,61,Two year,DSL,No,35.74,2,0,2219.6
+C0914,18.0,East,39,Two year,DSL,No,55.48,0,0,2118.8
+C0915,50.0,North,36,Two year,Fiber,No,61.61,3,0,2195.27
+C0916,52.0,West,29,Month-to-month,Fiber,No,74.06,3,1,1975.25
+C0917,40.0,North,5,Month-to-month,None,No,15.0,2,1,74.74
+C0918,35.0,West,55,Month-to-month,Fiber,Yes,86.45,3,0,4869.25
+C0919,36.0,South,3,One year,DSL,Yes,40.74,1,0,121.35
+C0920,39.0,North,62,Month-to-month,None,No,15.0,0,0,913.54
+C0921,40.0,East,30,Two year,Fiber,No,76.07,1,1,2261.72
+C0922,37.0,South,36,One year,Fiber,Yes,71.69,0,0,2674.94
+C0923,39.0,South,5,Month-to-month,DSL,Yes,37.96,2,0,189.49
+C0924,61.0,South,44,Month-to-month,Fiber,Yes,79.21,2,1,3679.5
+C0925,27.0,East,39,Month-to-month,DSL,No,34.07,1,0,1305.98
+C0926,,North,37,Month-to-month,DSL,Yes,41.71,0,0,1553.33
+C0927,61.0,North,14,Two year,DSL,Yes,45.4,1,0,627.34
+C0928,41.0,South,14,One year,Fiber,Yes,81.42,1,1,1210.82
+C0929,39.0,South,34,One year,DSL,No,60.36,0,0,2063.3
+C0930,42.0,East,54,Month-to-month,DSL,No,58.82,0,0,3379.06
+C0931,47.0,East,13,Month-to-month,Fiber,No,73.77,1,1,946.92
+C0932,37.0,East,13,Month-to-month,DSL,No,30.58,0,0,415.76
+C0933,51.0,North,33,One year,None,Yes,25.13,0,0,832.23
+C0934,31.0,West,72,One year,DSL,No,61.76,1,0,4558.33
+C0935,40.0,East,16,Month-to-month,DSL,No,59.87,2,0,
+C0936,18.0,North,30,Two year,Fiber,No,78.7,1,0,2385.68
+C0937,60.0,West,18,Month-to-month,Fiber,No,65.48,3,0,1140.84
+C0938,42.0,West,34,Two year,Fiber,No,70.8,1,0,2425.77
+C0939,53.0,East,57,Month-to-month,Fiber,Yes,90.47,3,0,4921.89
+C0940,51.0,West,25,Month-to-month,None,Yes,15.0,1,0,373.94
+C0941,52.0,West,72,Two year,Fiber,No,65.82,4,0,4894.8
+C0942,44.0,West,28,Month-to-month,None,Yes,29.54,0,0,840.71
+C0943,49.0,West,60,Month-to-month,Fiber,No,71.55,0,0,4134.08
+C0944,31.0,North,21,Month-to-month,Fiber,Yes,65.55,0,1,1298.15
+C0945,28.0,North,9,Month-to-month,Fiber,No,87.22,2,0,796.68
+C0946,43.0,East,25,One year,Fiber,No,78.69,2,0,2060.57
+C0947,34.0,East,48,Two year,DSL,No,46.95,2,0,2188.43
+C0948,64.0,East,25,Two year,None,No,15.0,2,0,398.6
+C0949,49.0,North,54,Month-to-month,None,No,38.38,1,0,2072.12
+C0950,34.0,West,19,Month-to-month,Fiber,No,74.8,2,1,1337.69
+C0951,40.0,South,11,Month-to-month,DSL,No,61.18,2,0,641.47
+C0952,46.0,East,72,Month-to-month,Fiber,No,82.15,1,1,6051.42
+C0953,43.0,East,14,Month-to-month,None,No,17.83,0,1,250.59
+C0954,48.0,West,28,Two year,DSL,No,45.9,1,0,1342.35
+C0955,45.0,East,52,Two year,Fiber,Yes,86.57,1,0,4339.83
+C0956,25.0,East,21,One year,Fiber,Yes,86.7,1,1,1827.17
+C0957,18.0,West,12,Month-to-month,Fiber,No,59.98,1,1,719.91
+C0958,39.0,North,17,Month-to-month,Fiber,Yes,79.4,2,1,1344.01
+C0959,52.0,East,72,Month-to-month,None,No,21.03,1,0,1496.78
+C0960,39.0,East,39,Month-to-month,DSL,Yes,41.73,2,1,1609.76
+C0961,61.0,West,44,Month-to-month,None,Yes,24.09,2,0,1065.51
+C0962,43.0,North,32,Month-to-month,Fiber,No,64.2,3,1,2073.05
+C0963,63.0,East,35,Month-to-month,DSL,Yes,46.27,0,0,1631.72
+C0964,60.0,South,29,Two year,Fiber,No,68.61,2,0,2061.68
+C0965,59.0,North,29,Month-to-month,DSL,No,46.0,1,0,1285.92
+C0966,27.0,East,14,Two year,Fiber,No,74.43,1,0,985.39
+C0967,44.0,North,49,Month-to-month,Fiber,Yes,66.88,2,0,3377.1
+C0968,61.0,North,19,One year,DSL,Yes,62.59,2,0,1155.55
+C0969,48.0,East,10,Month-to-month,Fiber,No,78.95,1,0,780.51
+C0970,52.0,West,30,Month-to-month,DSL,Yes,64.36,4,0,1895.34
+C0971,25.0,East,23,Month-to-month,DSL,No,48.72,1,1,1099.26
+C0972,71.0,North,48,Month-to-month,Fiber,No,70.61,1,0,3241.01
+C0973,33.0,North,35,Two year,None,Yes,36.07,0,0,1240.88
+C0974,18.0,South,17,Month-to-month,DSL,No,45.38,0,1,786.49
+C0975,39.0,South,26,One year,None,No,20.57,0,0,534.76
+C0976,18.0,North,64,Month-to-month,DSL,No,55.76,0,0,3622.65
+C0977,29.0,South,49,Month-to-month,DSL,Yes,40.1,0,0,1935.66
+C0978,80.0,North,39,Month-to-month,DSL,No,55.69,2,0,2230.74
+C0979,39.0,East,51,Month-to-month,None,Yes,26.67,1,0,1339.43
+C0980,24.0,East,51,Two year,DSL,No,60.15,1,0,2873.6
+C0981,44.0,South,23,Two year,Fiber,No,82.12,2,0,1906.7
+C0982,31.0,East,44,One year,Fiber,No,85.4,3,0,3844.11
+C0983,56.0,North,54,Month-to-month,DSL,No,49.12,2,1,2607.98
+C0984,32.0,West,56,Month-to-month,Fiber,No,68.1,0,1,3950.8
+C0985,48.0,North,21,Two year,Fiber,No,91.88,1,0,1880.24
+C0986,28.0,East,18,Month-to-month,Fiber,Yes,62.79,1,0,1152.96
+C0987,80.0,South,16,Month-to-month,DSL,No,38.59,2,1,649.76
+C0988,51.0,South,21,Month-to-month,Fiber,Yes,79.52,3,0,1671.76
+C0989,42.0,East,36,One year,DSL,No,63.0,1,1,2252.59
+C0990,40.0,East,30,One year,DSL,Yes,51.52,2,0,1540.7
+C0991,36.0,West,30,One year,None,Yes,29.99,6,0,943.65
+C0992,33.0,East,9,One year,Fiber,No,59.03,1,0,537.69
+C0993,33.0,North,18,Month-to-month,DSL,Yes,46.0,0,0,881.26
+C0994,67.0,East,69,Two year,DSL,No,35.01,0,0,2435.93
+C0995,36.0,East,54,Month-to-month,DSL,Yes,56.24,1,0,2977.39
+C0996,18.0,West,25,One year,DSL,Yes,37.62,0,0,924.04
+C0997,28.0,East,44,Month-to-month,Fiber,No,64.78,0,1,2855.59
+C0998,,West,44,Two year,None,No,26.11,3,0,1078.49
+C0999,40.0,East,47,Month-to-month,Fiber,No,83.49,2,1,3868.11
+C1000,42.0,East,45,Month-to-month,None,Yes,20.73,2,0,920.18
+C1001,60.0,South,27,Month-to-month,DSL,Yes,54.56,0,1,1483.72
+C1002,33.0,South,39,Month-to-month,Fiber,Yes,79.3,0,0,3272.86
+C1003,53.0,North,35,Month-to-month,DSL,Yes,48.28,1,0,1692.58
+C1004,35.0,East,27,One year,Fiber,No,66.24,3,1,1685.32
+C1005,52.0,West,23,Month-to-month,DSL,Yes,54.52,1,1,1219.58
+C1006,,North,72,Two year,DSL,No,54.9,2,0,3983.9
+C1007,41.0,West,27,Month-to-month,Fiber,No,82.15,1,1,2224.24
+C1008,55.0,West,42,One year,Fiber,Yes,77.5,4,0,3413.63
+C1009,54.0,South,71,Month-to-month,DSL,No,40.65,0,0,2969.28
+C1010,42.0,South,39,One year,Fiber,Yes,80.52,2,0,3227.9
+C1011,37.0,East,38,One year,None,No,21.99,1,0,830.18
+C1012,66.0,West,27,Month-to-month,DSL,Yes,46.14,0,0,1286.86
+C1013,52.0,North,46,Two year,DSL,No,47.64,0,0,2132.54
+C1014,39.0,South,22,Month-to-month,Fiber,Yes,69.48,2,0,1572.96
+C1015,35.0,North,72,Month-to-month,DSL,Yes,57.11,0,0,4077.08
+C1016,58.0,East,9,One year,None,Yes,15.0,0,0,129.14
+C1017,46.0,North,34,Two year,Fiber,Yes,67.05,1,0,2320.27
+C1018,42.0,South,39,Month-to-month,Fiber,No,72.37,1,0,2940.76
+C1019,46.0,East,38,Month-to-month,Fiber,Yes,87.91,0,0,3299.83
+C1020,49.0,West,32,Two year,Fiber,No,83.43,3,0,2794.93
+C1021,43.0,North,6,One year,DSL,No,36.87,3,0,210.23
+C1022,61.0,East,20,Two year,DSL,Yes,60.81,0,0,1172.53
+C1023,62.0,North,31,Month-to-month,DSL,Yes,60.8,2,1,1876.5
+C1024,51.0,East,4,One year,Fiber,Yes,65.61,0,0,259.52
+C1025,63.0,North,41,Month-to-month,Fiber,No,54.83,2,0,2203.04
+C1026,44.0,West,67,Two year,Fiber,Yes,74.42,0,0,5006.14
+C1027,54.0,North,46,Month-to-month,None,No,30.98,0,0,1402.48
+C1028,58.0,East,52,One year,DSL,Yes,62.73,2,0,3226.83
+C1029,58.0,South,5,Month-to-month,Fiber,Yes,68.03,2,0,342.99
+C1030,57.0,North,22,One year,DSL,Yes,64.02,0,0,1380.23
+C1031,53.0,East,12,One year,Fiber,No,57.18,1,1,683.98
+C1032,71.0,North,7,Month-to-month,Fiber,No,72.06,0,1,494.65
+C1033,36.0,East,29,Two year,Fiber,No,71.66,2,0,2002.98
+C1034,42.0,East,70,Month-to-month,None,Yes,31.22,0,0,2235.47
+C1035,41.0,South,72,One year,DSL,Yes,60.39,1,0,4570.85
+C1036,39.0,South,14,Month-to-month,DSL,No,57.63,2,1,
+C1037,18.0,South,29,Month-to-month,Fiber,No,64.2,1,1,1880.33
+C1038,63.0,West,35,Month-to-month,Fiber,No,81.9,3,0,2811.33
+C1039,30.0,West,22,Month-to-month,DSL,Yes,54.07,0,0,1179.3
+C1040,46.0,North,60,Month-to-month,Fiber,No,61.63,0,0,3815.06
+C1041,24.0,South,19,One year,None,Yes,15.0,0,0,265.49
+C1042,53.0,North,17,One year,DSL,No,58.3,1,0,980.3
+C1043,33.0,North,14,One year,Fiber,Yes,73.56,2,0,1052.52
+C1044,28.0,West,22,Month-to-month,DSL,No,39.72,0,0,844.0
+C1045,47.0,West,2,Month-to-month,None,Yes,20.33,1,1,41.18
+C1046,34.0,South,23,Month-to-month,DSL,No,52.91,1,1,1230.69
+C1047,36.0,East,30,One year,DSL,No,49.34,0,0,1415.62
+C1048,46.0,South,41,Two year,None,No,15.0,1,0,616.6
+C1049,55.0,South,12,Month-to-month,Fiber,No,90.08,1,1,1060.94
+C1050,33.0,West,31,One year,None,Yes,30.03,1,0,942.55
+C1051,30.0,South,30,Month-to-month,Fiber,No,72.32,3,1,2213.2
+C1052,44.0,South,31,Month-to-month,DSL,No,47.64,1,0,1494.52
+C1053,52.0,North,46,Month-to-month,DSL,No,52.88,1,0,2437.78
+C1054,64.0,North,11,Month-to-month,DSL,Yes,40.96,2,0,454.46
+C1055,29.0,North,23,One year,DSL,Yes,52.58,0,0,1166.67
+C1056,40.0,West,16,Two year,DSL,Yes,39.35,1,0,629.02
+C1057,60.0,West,44,Month-to-month,Fiber,No,74.44,2,1,3197.1
+C1058,72.0,South,13,Month-to-month,Fiber,Yes,65.65,2,1,879.86
+C1059,30.0,East,51,One year,Fiber,Yes,66.06,1,0,3438.12
+C1060,34.0,North,62,Two year,DSL,No,63.17,0,0,3996.48
+C1061,,North,24,One year,Fiber,No,75.47,1,0,1904.39
+C1062,36.0,East,23,Month-to-month,Fiber,No,76.66,3,1,1745.73
+C1063,33.0,North,8,One year,None,Yes,15.0,1,0,118.02
+C1064,47.0,West,28,Month-to-month,Fiber,Yes,70.22,4,0,1945.3
+C1065,66.0,South,56,Two year,Fiber,No,78.69,1,0,4194.83
+C1066,26.0,East,33,Month-to-month,Fiber,Yes,76.55,1,0,2410.69
+C1067,65.0,South,64,One year,Fiber,No,57.77,2,0,3766.17
+C1068,36.0,North,21,Month-to-month,DSL,Yes,51.66,0,1,1039.45
+C1069,49.0,East,21,Month-to-month,Fiber,No,77.93,0,1,1583.76
+C1070,66.0,North,24,Two year,Fiber,Yes,85.27,3,0,2040.23
+C1071,49.0,South,72,One year,None,No,16.76,0,0,1191.8
+C1072,40.0,South,8,Month-to-month,None,No,15.0,1,0,123.19
+C1073,54.0,West,54,Two year,DSL,Yes,42.03,3,0,2273.74
+C1074,42.0,East,57,Two year,None,No,15.0,0,0,834.52
+C1075,51.0,East,45,Month-to-month,None,No,27.89,3,0,1291.63
+C1076,41.0,East,14,Month-to-month,Fiber,No,53.27,2,0,762.09
+C1077,56.0,West,24,Month-to-month,DSL,Yes,46.41,2,1,1066.69
+C1078,24.0,South,40,One year,DSL,Yes,61.41,0,0,2474.99
+C1079,30.0,West,17,Month-to-month,Fiber,No,75.06,3,1,1248.65
+C1080,24.0,West,22,Month-to-month,Fiber,No,82.17,2,1,1767.53
+C1081,43.0,West,27,Two year,Fiber,No,61.87,0,0,1764.18
+C1082,23.0,East,39,Two year,DSL,Yes,37.18,1,0,1455.43
+C1083,34.0,West,38,Two year,DSL,No,61.5,2,0,2321.75
+C1084,28.0,East,72,Two year,DSL,Yes,50.81,0,0,3667.64
+C1085,65.0,South,40,One year,Fiber,Yes,75.83,6,1,3112.75
+C1086,30.0,North,10,One year,Fiber,No,66.05,1,1,646.6
+C1087,26.0,North,10,One year,DSL,No,50.81,0,0,500.01
+C1088,,East,44,Month-to-month,DSL,No,40.83,1,0,1831.91
+C1089,68.0,North,28,Month-to-month,None,Yes,31.49,2,0,841.61
+C1090,42.0,North,72,Month-to-month,None,Yes,43.82,0,0,3248.82
+C1091,43.0,East,72,One year,None,No,25.87,1,0,1772.94
+C1092,62.0,South,13,Month-to-month,None,Yes,16.92,2,0,218.34
+C1093,56.0,East,34,Month-to-month,None,No,15.0,1,1,485.54
+C1094,50.0,West,11,One year,DSL,No,36.52,0,0,388.99
+C1095,36.0,North,44,Month-to-month,Fiber,Yes,87.44,1,1,3997.14
+C1096,50.0,East,72,Month-to-month,Fiber,No,66.77,1,1,4958.08
+C1097,25.0,West,41,Two year,Fiber,No,72.03,1,0,3055.23
+C1098,35.0,North,30,Two year,Fiber,No,80.24,1,0,2302.56
+C1099,64.0,West,36,Month-to-month,Fiber,Yes,86.86,1,1,3028.36
+C1100,62.0,East,50,Month-to-month,None,No,20.4,1,1,1030.4
+C1101,50.0,East,50,Month-to-month,Fiber,No,71.76,1,1,3665.0
+C1102,18.0,North,20,One year,None,No,22.57,2,0,440.57
+C1103,27.0,South,27,Two year,DSL,Yes,44.98,1,0,1193.37
+C1104,34.0,South,32,Month-to-month,DSL,Yes,45.41,2,1,1403.8
+C1105,42.0,North,21,One year,DSL,No,53.3,1,0,1174.98
+C1106,26.0,West,60,Month-to-month,Fiber,No,76.48,3,0,4523.42
+C1107,41.0,East,21,Month-to-month,DSL,No,67.05,1,1,1409.37
+C1108,69.0,West,39,Two year,Fiber,No,78.51,1,0,3069.57
+C1109,50.0,North,35,Month-to-month,None,Yes,31.21,0,0,1128.58
+C1110,47.0,East,8,Month-to-month,Fiber,No,66.43,0,1,516.25
+C1111,30.0,East,18,Month-to-month,Fiber,Yes,79.2,1,1,1475.56
+C1112,21.0,East,72,One year,DSL,Yes,44.22,2,0,3061.7
+C1113,27.0,South,59,Two year,DSL,Yes,53.16,0,0,3246.13
+C1114,20.0,East,31,Two year,DSL,No,55.51,0,0,1632.26
+C1115,45.0,North,44,Month-to-month,DSL,Yes,50.4,0,0,2210.64
+C1116,49.0,West,59,Month-to-month,Fiber,No,94.26,2,1,5832.53
+C1117,30.0,South,24,One year,DSL,Yes,61.42,0,0,1504.91
+C1118,46.0,South,47,Month-to-month,Fiber,Yes,84.42,1,1,4017.88
+C1119,65.0,East,53,Two year,Fiber,No,81.11,2,0,4163.62
+C1120,71.0,North,11,One year,Fiber,Yes,89.11,4,1,958.6
+C1121,55.0,South,24,Month-to-month,Fiber,Yes,63.5,3,1,1585.47
+C1122,42.0,North,72,Two year,Fiber,No,85.96,3,0,6276.82
+C1123,54.0,West,72,Month-to-month,DSL,No,42.07,0,0,3109.94
+C1124,63.0,South,49,Month-to-month,Fiber,No,70.49,1,1,3461.66
+C1125,18.0,North,17,One year,Fiber,No,79.49,1,0,1339.91
+C1126,65.0,North,3,Month-to-month,DSL,Yes,59.87,1,0,183.74
+C1127,36.0,West,16,One year,Fiber,Yes,65.77,0,0,1060.51
+C1128,37.0,North,9,One year,DSL,Yes,45.9,0,0,410.99
+C1129,39.0,North,72,Two year,None,No,22.78,2,0,1570.58
+C1130,48.0,North,15,Two year,Fiber,Yes,73.51,1,0,1134.2
+C1131,28.0,North,11,Month-to-month,None,Yes,28.83,0,0,321.32
+C1132,40.0,North,32,Month-to-month,Fiber,No,102.49,0,1,3220.03
+C1133,51.0,West,28,One year,Fiber,No,78.35,1,0,2271.41
+C1134,47.0,North,72,Two year,DSL,Yes,44.12,0,0,3199.88
+C1135,49.0,East,41,Month-to-month,DSL,No,39.63,2,0,1637.67
+C1136,39.0,West,25,Month-to-month,None,Yes,19.4,2,1,497.86
+C1137,54.0,East,61,Month-to-month,Fiber,No,67.48,2,0,4198.86
+C1138,59.0,North,21,Month-to-month,DSL,No,53.74,1,1,1138.48
+C1139,58.0,East,72,One year,Fiber,No,78.62,4,1,5628.61
+C1140,50.0,South,14,Month-to-month,Fiber,Yes,71.29,1,0,1057.45
+C1141,57.0,South,27,One year,Fiber,No,90.88,1,1,2399.74
+C1142,56.0,South,14,Two year,None,Yes,16.12,1,0,230.73
+C1143,81.0,West,61,Two year,Fiber,No,74.04,1,0,4505.08
+C1144,61.0,East,31,Month-to-month,None,No,27.11,1,0,851.87
+C1145,43.0,North,72,Month-to-month,DSL,No,57.14,1,0,4266.31
+C1146,31.0,South,23,One year,DSL,No,60.22,2,0,1372.11
+C1147,40.0,West,18,Two year,DSL,No,53.43,0,1,979.1
+C1148,39.0,West,38,Month-to-month,None,No,30.41,1,0,1164.79
+C1149,51.0,West,28,Two year,Fiber,Yes,69.68,2,0,1913.5
+C1150,34.0,North,46,Month-to-month,Fiber,No,82.34,2,0,3930.6
+C1151,61.0,West,24,Two year,DSL,No,57.24,0,0,1403.07
+C1152,25.0,East,66,Month-to-month,Fiber,Yes,87.1,1,0,5673.66
+C1153,21.0,East,29,Month-to-month,Fiber,No,61.65,0,0,1847.04
+C1154,42.0,South,25,Month-to-month,Fiber,Yes,67.74,1,1,1651.26
+C1155,32.0,East,63,Month-to-month,Fiber,No,81.59,1,1,5135.71
+C1156,26.0,South,51,Month-to-month,Fiber,Yes,53.79,1,0,2707.97
+C1157,35.0,East,16,Month-to-month,Fiber,Yes,78.94,1,1,1291.51
+C1158,33.0,North,50,Month-to-month,None,No,30.48,1,1,1502.07
+C1159,44.0,South,44,One year,Fiber,No,70.39,0,0,3167.63
+C1160,35.0,South,26,Month-to-month,None,No,18.56,2,1,491.17
+C1161,36.0,West,48,One year,None,No,15.0,1,0,711.89
+C1162,,East,72,Two year,Fiber,Yes,70.83,3,0,5379.69
+C1163,58.0,East,27,Month-to-month,DSL,Yes,46.06,1,0,1215.82
+C1164,65.0,South,27,Month-to-month,DSL,No,44.54,1,0,1151.75
+C1165,46.0,South,36,Two year,DSL,No,44.1,0,0,1628.37
+C1166,,South,25,Two year,Fiber,No,72.83,2,0,1703.34
+C1167,41.0,West,26,Month-to-month,Fiber,Yes,72.74,4,0,1975.88
+C1168,51.0,North,34,Two year,Fiber,Yes,89.99,0,0,3069.0
+C1169,,North,23,Month-to-month,DSL,Yes,46.85,1,0,1031.42
+C1170,63.0,East,23,Month-to-month,None,No,24.75,3,0,553.05
+C1171,18.0,West,11,One year,DSL,Yes,45.38,2,0,474.71
+C1172,41.0,East,54,Month-to-month,DSL,No,45.28,0,0,2473.21
+C1173,49.0,West,18,One year,None,Yes,15.0,0,0,259.25
+C1174,44.0,South,68,Month-to-month,DSL,No,37.43,1,0,2583.58
+C1175,31.0,North,13,One year,Fiber,Yes,65.34,2,0,841.65
+C1176,26.0,East,72,Month-to-month,None,No,23.47,0,0,1665.74
+C1177,55.0,North,21,Month-to-month,Fiber,No,83.61,1,0,1782.64
+C1178,33.0,West,51,Month-to-month,Fiber,Yes,60.71,4,0,3154.13
+C1179,19.0,East,31,Month-to-month,DSL,Yes,45.61,1,0,1462.51
+C1180,56.0,East,10,One year,None,Yes,15.0,1,0,147.15
+C1181,50.0,North,10,Month-to-month,Fiber,No,72.89,0,0,728.25
+C1182,42.0,South,17,Month-to-month,DSL,No,58.61,0,0,977.38
+C1183,31.0,West,20,Month-to-month,Fiber,Yes,71.42,1,1,1435.38
+C1184,42.0,North,27,Month-to-month,Fiber,No,74.62,2,0,1967.7
+C1185,61.0,North,45,Two year,Fiber,Yes,86.64,4,0,3849.2
+C1186,21.0,South,25,Month-to-month,DSL,No,53.66,0,1,
+C1187,22.0,North,44,Two year,None,No,15.92,1,0,706.64
+C1188,35.0,East,38,Month-to-month,Fiber,No,76.27,1,0,2898.52
+C1189,44.0,North,24,One year,Fiber,Yes,68.38,3,0,1666.05
+C1190,37.0,West,43,Month-to-month,Fiber,Yes,78.36,2,1,3358.66
+C1191,53.0,West,50,Month-to-month,Fiber,No,79.12,0,1,3887.19
+C1192,59.0,North,48,Two year,DSL,Yes,39.06,0,0,1885.64
+C1193,48.0,East,50,Two year,DSL,No,51.4,2,0,2499.29
+C1194,52.0,East,42,Two year,DSL,No,49.06,1,0,2095.7
+C1195,48.0,West,58,Month-to-month,Fiber,No,79.36,0,0,4563.46
+C1196,44.0,East,28,Month-to-month,DSL,No,56.65,2,0,1595.93
+C1197,26.0,West,17,One year,Fiber,No,78.82,1,0,1348.78
+C1198,30.0,North,28,Month-to-month,Fiber,No,72.57,0,1,2129.59
+C1199,25.0,East,10,One year,None,Yes,29.47,1,0,298.07
+C1200,42.0,West,9,One year,DSL,No,43.02,0,1,388.03
+C1201,47.0,North,50,One year,None,Yes,15.0,1,0,734.42
+C1202,24.0,North,72,Two year,None,No,15.0,1,0,1106.0
+C1203,45.0,North,22,One year,DSL,No,49.44,0,0,1078.86
+C1204,32.0,West,50,Month-to-month,None,No,15.43,1,0,736.19
+C1205,29.0,West,5,Month-to-month,Fiber,Yes,78.18,0,1,388.61
+C1206,35.0,North,39,One year,Fiber,Yes,59.23,2,1,2323.24
+C1207,28.0,North,28,Month-to-month,Fiber,No,69.82,3,0,1906.96
+C1208,52.0,South,72,Month-to-month,Fiber,No,78.76,4,1,5650.61
+C1209,42.0,West,25,Month-to-month,Fiber,Yes,66.76,0,0,
+C1210,55.0,West,12,One year,Fiber,No,78.27,2,1,937.66
+C1211,38.0,West,18,Two year,DSL,No,45.54,2,0,850.08
+C1212,38.0,West,28,One year,DSL,No,49.74,0,0,
+C1213,70.0,East,32,Month-to-month,DSL,No,54.76,3,1,1859.24
+C1214,21.0,South,24,Month-to-month,Fiber,No,82.62,3,1,1980.93
+C1215,62.0,East,51,Month-to-month,DSL,No,50.74,0,0,2632.78
+C1216,67.0,South,64,Month-to-month,Fiber,Yes,68.49,1,0,4400.17
+C1217,55.0,West,22,One year,Fiber,No,71.34,2,0,1488.21
+C1218,39.0,South,6,One year,Fiber,No,80.1,3,0,465.37
+C1219,64.0,West,34,Month-to-month,Fiber,No,66.83,3,0,2236.48
+C1220,39.0,North,58,Month-to-month,Fiber,No,73.58,1,0,
+C1221,34.0,East,22,Month-to-month,None,No,18.91,0,0,398.74
+C1222,39.0,South,50,Two year,DSL,Yes,49.17,1,0,2395.39
+C1223,36.0,South,11,One year,DSL,Yes,41.93,0,0,463.51
+C1224,31.0,West,34,Month-to-month,Fiber,Yes,60.18,2,1,2075.15
+C1225,60.0,South,50,Two year,None,No,26.17,1,0,1325.88
+C1226,33.0,North,34,Month-to-month,DSL,No,57.71,1,1,1904.22
+C1227,44.0,South,72,Month-to-month,Fiber,Yes,60.66,1,0,4158.14
+C1228,24.0,West,72,Two year,DSL,Yes,52.95,1,0,3874.05
+C1229,44.0,West,45,Month-to-month,DSL,No,58.67,1,1,2753.66
+C1230,28.0,East,55,Month-to-month,Fiber,Yes,79.77,3,0,4341.9
+C1231,27.0,East,33,One year,Fiber,Yes,71.67,1,0,2283.89
+C1232,42.0,South,27,Month-to-month,DSL,Yes,42.45,0,0,1131.37
+C1233,59.0,West,20,One year,Fiber,No,75.65,2,0,1530.89
+C1234,50.0,East,11,Month-to-month,Fiber,No,76.98,1,0,
+C1235,51.0,North,71,Month-to-month,Fiber,No,75.77,2,0,5606.78
+C1236,42.0,West,72,Month-to-month,None,Yes,20.56,2,0,1521.4
+C1237,39.0,West,29,Month-to-month,Fiber,Yes,66.34,0,1,1934.5
+C1238,55.0,North,29,Month-to-month,Fiber,No,78.38,3,1,
+C1239,36.0,South,42,Month-to-month,Fiber,No,78.77,2,0,3239.63
+C1240,56.0,East,35,Two year,None,Yes,23.61,0,0,812.76
+C1241,61.0,East,12,Month-to-month,DSL,No,50.89,1,0,597.0
+C1242,32.0,North,10,Month-to-month,None,No,35.43,1,1,356.33
+C1243,34.0,North,72,Month-to-month,Fiber,No,70.0,1,0,5071.97
+C1244,36.0,West,7,Month-to-month,Fiber,Yes,85.25,0,0,566.78
+C1245,23.0,West,35,Month-to-month,DSL,Yes,44.13,1,0,1581.83
+C1246,37.0,East,7,One year,Fiber,Yes,83.87,0,0,587.37
+C1247,62.0,East,26,Month-to-month,None,No,31.87,1,0,837.51
+C1248,29.0,East,32,Two year,None,No,19.66,0,0,643.18
+C1249,,South,19,Two year,DSL,No,63.29,2,0,1174.84
+C1250,,East,43,Month-to-month,None,Yes,25.75,2,1,1149.07
+C1251,74.0,South,12,Month-to-month,DSL,Yes,42.98,1,0,
+C1252,34.0,North,8,Month-to-month,Fiber,No,72.01,1,1,602.22
+C1253,42.0,South,46,One year,DSL,No,59.06,1,0,2643.9
+C1254,31.0,South,22,Month-to-month,Fiber,Yes,82.38,3,0,1890.56
+C1255,34.0,South,26,Two year,None,No,15.0,2,0,379.42
+C1256,63.0,South,47,One year,Fiber,No,73.89,3,0,3738.37
+C1257,51.0,North,21,Two year,Fiber,No,76.63,2,0,1563.28
+C1258,58.0,South,6,Month-to-month,DSL,No,45.94,1,0,284.38
+C1259,26.0,South,72,Two year,Fiber,Yes,93.86,3,0,6684.45
+C1260,53.0,North,72,Month-to-month,Fiber,No,76.87,1,0,5653.36
+C1261,30.0,South,25,Month-to-month,DSL,No,49.51,1,0,1236.25
+C1262,25.0,East,1,Month-to-month,Fiber,No,84.53,1,1,81.76
+C1263,47.0,South,35,Two year,DSL,No,47.08,2,0,1509.54
+C1264,47.0,North,49,One year,Fiber,Yes,83.06,0,0,4376.11
+C1265,45.0,East,68,Two year,Fiber,No,61.66,0,0,4202.07
+C1266,54.0,East,12,Month-to-month,Fiber,No,71.37,0,0,
+C1267,56.0,South,32,Two year,DSL,Yes,58.39,0,0,1885.44
+C1268,65.0,North,33,Month-to-month,None,No,34.56,1,0,1164.07
+C1269,27.0,North,47,Month-to-month,Fiber,Yes,68.81,1,1,3164.69
+C1270,65.0,North,54,Two year,None,No,15.0,0,0,792.79
+C1271,70.0,West,40,Month-to-month,DSL,Yes,54.54,0,0,2180.3
+C1272,39.0,South,58,Month-to-month,DSL,Yes,45.02,0,1,2705.36
+C1273,21.0,South,27,One year,DSL,No,47.85,0,0,1295.82
+C1274,25.0,East,71,Month-to-month,DSL,No,57.01,3,0,4225.39
+C1275,38.0,East,18,Month-to-month,None,No,17.65,3,1,328.48
+C1276,72.0,North,45,Month-to-month,DSL,No,34.28,3,1,1532.01
+C1277,44.0,West,20,Month-to-month,DSL,Yes,39.59,2,0,754.49
+C1278,35.0,South,36,Two year,Fiber,No,75.08,0,0,2684.5
+C1279,34.0,West,29,One year,Fiber,No,60.09,1,0,1770.13
+C1280,25.0,West,20,Month-to-month,DSL,Yes,47.62,1,1,954.11
+C1281,56.0,East,59,Month-to-month,Fiber,No,63.86,1,0,3839.45
+C1282,43.0,North,21,Month-to-month,Fiber,Yes,88.12,2,0,1898.45
+C1283,73.0,East,28,One year,Fiber,Yes,92.32,2,0,2626.13
+C1284,53.0,North,51,Two year,Fiber,No,66.53,2,0,3365.0
+C1285,56.0,West,72,Two year,DSL,No,52.05,2,0,3806.05
+C1286,41.0,West,42,Month-to-month,DSL,No,42.32,2,1,1896.64
+C1287,29.0,West,29,Month-to-month,Fiber,No,72.53,1,1,2009.36
+C1288,32.0,West,5,Month-to-month,Fiber,Yes,89.43,0,1,453.69
+C1289,25.0,North,25,One year,Fiber,No,71.27,5,0,1879.68
+C1290,57.0,North,17,Month-to-month,Fiber,Yes,72.71,1,1,1192.51
+C1291,39.0,East,22,One year,DSL,Yes,42.46,1,1,962.17
+C1292,,East,20,One year,DSL,Yes,59.17,1,0,1223.68
+C1293,46.0,West,41,Month-to-month,DSL,Yes,23.89,0,0,936.09
+C1294,40.0,East,25,Month-to-month,DSL,Yes,46.46,2,1,1186.32
+C1295,,West,14,Month-to-month,None,No,21.63,1,0,300.36
+C1296,48.0,South,51,Month-to-month,DSL,No,44.71,1,1,2276.08
+C1297,41.0,North,10,Month-to-month,DSL,No,56.91,1,0,563.55
+C1298,57.0,North,28,One year,DSL,Yes,59.62,0,0,1735.1
+C1299,34.0,South,25,Month-to-month,Fiber,No,63.7,2,1,1587.14
+C1300,53.0,North,36,Month-to-month,None,Yes,38.75,0,0,1375.61
+C1301,67.0,East,58,One year,Fiber,No,63.61,2,0,3639.97
+C1302,48.0,South,72,One year,Fiber,No,85.31,3,0,6079.49
+C1303,55.0,South,29,Month-to-month,None,Yes,23.2,0,1,651.01
+C1304,52.0,East,27,Two year,DSL,No,45.97,1,0,1223.61
+C1305,71.0,East,26,Two year,Fiber,No,71.73,0,0,1871.56
+C1306,49.0,North,16,One year,Fiber,Yes,74.73,0,0,1210.19
+C1307,54.0,South,35,One year,Fiber,No,76.67,0,0,2780.38
+C1308,43.0,West,4,Month-to-month,DSL,No,42.64,3,1,171.79
+C1309,33.0,South,20,Two year,Fiber,Yes,73.13,1,0,1441.78
+C1310,27.0,West,35,Month-to-month,None,Yes,15.83,1,0,537.24
+C1311,62.0,South,62,Two year,None,No,15.0,2,0,938.22
+C1312,30.0,South,52,One year,DSL,No,43.46,2,0,2251.96
+C1313,54.0,West,30,Month-to-month,DSL,Yes,40.8,0,0,1220.9
+C1314,50.0,South,48,Month-to-month,Fiber,No,71.64,2,1,3465.8
+C1315,57.0,West,59,One year,Fiber,Yes,78.46,1,0,4701.27
+C1316,37.0,East,21,One year,DSL,No,50.97,1,0,1079.03
+C1317,33.0,West,55,Month-to-month,Fiber,No,90.79,1,1,4967.91
+C1318,49.0,West,7,One year,Fiber,No,57.32,2,0,391.59
+C1319,40.0,West,20,Two year,Fiber,No,78.75,0,0,1546.05
+C1320,27.0,East,22,Month-to-month,Fiber,No,75.05,2,0,1693.12
+C1321,71.0,West,6,Month-to-month,Fiber,No,81.53,1,1,482.96
+C1322,33.0,North,41,Month-to-month,DSL,Yes,55.73,1,0,2192.66
+C1323,30.0,South,19,One year,None,Yes,20.68,2,0,406.59
+C1324,41.0,South,26,Month-to-month,DSL,No,51.38,3,1,1298.11
+C1325,62.0,North,36,Two year,None,Yes,16.05,2,0,578.41
+C1326,18.0,West,21,Month-to-month,Fiber,Yes,79.91,0,1,1702.84
+C1327,60.0,West,15,One year,None,No,15.0,0,0,225.02
+C1328,31.0,East,40,Month-to-month,DSL,No,56.21,1,0,2081.24
+C1329,48.0,East,18,Month-to-month,Fiber,Yes,74.81,1,1,1362.35
+C1330,35.0,East,26,One year,None,Yes,18.1,0,0,489.33
+C1331,72.0,South,36,Month-to-month,Fiber,Yes,73.14,1,0,2695.17
+C1332,46.0,East,58,Month-to-month,Fiber,Yes,73.73,2,1,4003.85
+C1333,34.0,West,66,Two year,Fiber,Yes,85.38,2,0,5994.7
+C1334,40.0,South,30,Two year,Fiber,No,100.87,0,0,2905.74
+C1335,45.0,South,25,Two year,Fiber,No,84.76,1,0,2050.44
+C1336,46.0,North,66,Month-to-month,DSL,Yes,45.48,0,0,3072.09
+C1337,50.0,West,18,One year,None,Yes,27.04,3,1,493.33
+C1338,44.0,East,49,Two year,Fiber,No,80.39,0,0,3948.6
+C1339,25.0,East,6,Month-to-month,DSL,Yes,42.6,1,1,251.23
+C1340,39.0,South,4,Month-to-month,Fiber,Yes,64.91,0,1,270.01
+C1341,52.0,North,39,Two year,None,Yes,21.49,0,0,837.12
+C1342,35.0,West,24,Month-to-month,Fiber,No,81.46,0,1,1863.2
+C1343,53.0,West,46,One year,Fiber,Yes,62.11,3,0,2962.68
+C1344,44.0,South,26,Two year,DSL,Yes,44.23,0,0,1157.55
+C1345,41.0,West,34,One year,DSL,No,54.58,1,0,1917.79
+C1346,61.0,East,44,Month-to-month,DSL,No,50.33,2,1,2252.56
+C1347,20.0,East,16,Month-to-month,DSL,No,61.33,1,1,1051.69
+C1348,35.0,North,22,Month-to-month,DSL,No,38.71,0,0,843.7
+C1349,61.0,East,11,Month-to-month,Fiber,No,93.82,1,1,1032.52
+C1350,70.0,North,47,One year,Fiber,Yes,62.7,1,0,3010.54
+C1351,76.0,North,50,Two year,Fiber,Yes,58.77,2,0,2911.72
+C1352,45.0,South,42,Month-to-month,Fiber,Yes,74.53,3,1,3205.63
+C1353,50.0,North,23,Month-to-month,Fiber,Yes,65.92,2,1,1382.1
+C1354,55.0,West,50,Two year,DSL,Yes,49.69,2,0,2479.08
+C1355,62.0,North,25,Month-to-month,Fiber,Yes,74.41,2,1,1854.5
+C1356,48.0,West,72,Month-to-month,DSL,No,48.43,1,0,3472.4
+C1357,57.0,North,28,Month-to-month,DSL,No,43.26,1,1,1179.41
+C1358,50.0,West,53,One year,DSL,Yes,53.46,1,0,2910.4
+C1359,51.0,South,24,Month-to-month,DSL,No,47.46,0,0,1121.8
+C1360,31.0,West,64,One year,Fiber,Yes,83.83,2,0,5397.35
+C1361,39.0,East,15,Month-to-month,Fiber,No,73.56,3,0,1102.17
+C1362,37.0,South,37,One year,DSL,No,42.28,0,0,1587.84
+C1363,27.0,North,17,Month-to-month,DSL,Yes,36.5,1,0,647.14
+C1364,21.0,South,33,Month-to-month,Fiber,Yes,73.62,0,0,2443.68
+C1365,38.0,East,18,Month-to-month,Fiber,No,64.85,0,1,1196.76
+C1366,40.0,West,28,Month-to-month,DSL,No,39.2,0,1,1102.37
+C1367,45.0,South,20,Month-to-month,DSL,No,54.22,1,0,1067.94
+C1368,52.0,North,43,Month-to-month,Fiber,Yes,60.78,3,1,2602.44
+C1369,47.0,South,38,Month-to-month,Fiber,Yes,86.3,1,1,3251.5
+C1370,40.0,North,17,Month-to-month,None,Yes,23.28,1,0,402.51
+C1371,31.0,West,26,Two year,Fiber,No,74.65,1,0,1947.11
+C1372,56.0,North,14,Month-to-month,None,Yes,15.0,1,0,205.0
+C1373,43.0,West,22,Two year,Fiber,Yes,81.11,2,0,1772.54
+C1374,,North,55,Two year,DSL,No,49.98,1,0,2623.06
+C1375,41.0,West,13,Month-to-month,Fiber,No,69.51,0,1,898.63
+C1376,34.0,South,35,One year,Fiber,Yes,76.6,1,0,2681.11
+C1377,37.0,North,29,Two year,None,No,15.0,0,0,458.6
+C1378,36.0,East,52,One year,DSL,No,36.92,1,0,1997.5
+C1379,40.0,East,72,Month-to-month,None,No,15.0,1,0,1046.5
+C1380,53.0,West,1,Month-to-month,Fiber,Yes,77.8,2,1,78.27
+C1381,50.0,North,15,Month-to-month,None,No,21.97,1,0,331.72
+C1382,66.0,East,19,Month-to-month,None,Yes,30.39,2,1,573.42
+C1383,61.0,East,34,Two year,DSL,No,42.64,1,0,1442.51
+C1384,71.0,South,33,Two year,Fiber,No,79.6,1,0,2598.91
+C1385,52.0,West,9,Month-to-month,DSL,No,49.09,0,0,466.63
+C1386,52.0,South,72,One year,DSL,No,42.46,1,1,3018.95
+C1387,37.0,South,24,Month-to-month,None,No,25.08,4,1,608.08
+C1388,56.0,East,48,Two year,Fiber,Yes,74.47,4,0,3303.35
+C1389,35.0,West,39,Month-to-month,Fiber,Yes,69.97,0,0,2796.25
+C1390,23.0,West,18,Two year,Fiber,Yes,75.34,1,0,1404.3
+C1391,65.0,East,31,Two year,DSL,No,48.96,0,0,1469.86
+C1392,27.0,North,45,Month-to-month,None,Yes,20.77,1,1,920.3
+C1393,50.0,South,66,Month-to-month,Fiber,No,71.7,5,1,4796.3
+C1394,32.0,North,32,Two year,DSL,No,39.56,1,0,1266.66
+C1395,60.0,North,9,Month-to-month,None,No,22.6,0,0,206.25
+C1396,62.0,West,18,Month-to-month,Fiber,Yes,68.58,1,1,1223.8
+C1397,51.0,West,31,Two year,Fiber,No,66.84,1,0,2187.86
+C1398,61.0,North,20,One year,DSL,No,48.07,1,0,942.08
+C1399,44.0,South,14,Month-to-month,DSL,No,55.87,0,1,845.34
+C1400,75.0,South,8,Month-to-month,Fiber,No,76.48,1,1,634.64
+C1401,54.0,North,11,Month-to-month,None,Yes,17.75,1,1,200.12
+C1402,31.0,South,28,Two year,DSL,Yes,45.43,0,0,1232.33
+C1403,45.0,North,45,Month-to-month,None,No,27.09,0,0,1252.32
+C1404,42.0,East,56,Month-to-month,None,No,15.0,3,0,855.22
+C1405,40.0,West,30,Month-to-month,None,No,28.38,1,0,797.26
+C1406,21.0,South,21,Two year,DSL,No,35.01,0,0,704.23
+C1407,49.0,North,19,Month-to-month,Fiber,No,63.68,1,1,1222.9
+C1408,25.0,South,14,Two year,DSL,No,45.89,1,0,639.89
+C1409,18.0,West,67,One year,Fiber,No,92.36,1,0,6092.24
+C1410,39.0,North,26,Two year,DSL,No,63.42,1,0,1702.29
+C1411,33.0,East,46,Two year,Fiber,Yes,80.65,2,0,3611.54
+C1412,32.0,North,64,Two year,DSL,Yes,52.85,0,0,3336.21
+C1413,18.0,South,72,Two year,Fiber,Yes,60.1,0,0,4243.21
+C1414,32.0,South,48,Month-to-month,Fiber,Yes,76.25,0,0,3716.02
+C1415,42.0,South,20,One year,Fiber,No,70.61,0,1,1339.35
+C1416,35.0,North,39,Month-to-month,DSL,No,43.47,0,0,1670.02
+C1417,49.0,West,72,Month-to-month,DSL,Yes,51.24,3,0,3498.61
+C1418,63.0,East,26,Two year,Fiber,Yes,71.23,6,1,1834.6
+C1419,51.0,South,18,Two year,None,No,28.95,0,0,532.4
+C1420,58.0,South,14,One year,None,No,15.0,0,1,214.67
+C1421,60.0,North,38,Month-to-month,Fiber,No,75.6,1,1,
+C1422,30.0,East,21,Month-to-month,DSL,Yes,42.97,0,0,916.81
+C1423,50.0,North,26,Month-to-month,Fiber,Yes,71.72,0,0,1854.36
+C1424,,South,42,Month-to-month,Fiber,No,77.44,2,0,3385.29
+C1425,38.0,West,14,Month-to-month,DSL,No,41.06,0,1,572.6
+C1426,33.0,East,25,Month-to-month,Fiber,No,76.31,1,0,1737.6
+C1427,51.0,East,18,Month-to-month,None,No,20.3,2,0,375.21
+C1428,23.0,South,72,One year,None,Yes,16.72,1,0,1187.26
+C1429,29.0,East,47,Month-to-month,None,Yes,18.24,3,0,850.23
+C1430,35.0,North,31,Two year,DSL,Yes,48.76,3,0,1526.79
+C1431,50.0,North,20,One year,DSL,Yes,43.86,1,0,839.71
+C1432,47.0,West,72,Month-to-month,None,Yes,22.06,0,0,1591.88
+C1433,58.0,South,72,Month-to-month,Fiber,Yes,72.77,2,1,5323.45
+C1434,31.0,East,37,Month-to-month,Fiber,Yes,70.11,6,1,2622.4
+C1435,30.0,West,37,Two year,DSL,No,62.72,0,0,2278.94
+C1436,51.0,West,10,Month-to-month,Fiber,Yes,78.32,1,1,806.51
+C1437,,North,14,Month-to-month,Fiber,No,71.94,2,1,977.02
+C1438,36.0,East,19,Two year,Fiber,Yes,76.17,1,1,1420.07
+C1439,18.0,West,65,Two year,DSL,Yes,41.79,0,0,2705.27
+C1440,48.0,North,10,Month-to-month,Fiber,Yes,71.51,1,1,721.44
+C1441,66.0,West,20,Month-to-month,Fiber,Yes,72.44,1,0,1434.69
+C1442,30.0,East,5,Month-to-month,Fiber,Yes,65.03,1,1,337.13
+C1443,58.0,South,7,Month-to-month,Fiber,No,78.1,0,1,551.54
+C1444,43.0,West,43,Month-to-month,None,No,17.96,1,0,774.03
+C1445,19.0,West,34,One year,Fiber,Yes,72.16,1,0,2472.59
+C1446,31.0,North,37,Two year,DSL,Yes,45.45,0,0,1718.62
+C1447,31.0,East,20,Month-to-month,DSL,Yes,73.67,0,0,1484.04
+C1448,40.0,West,6,One year,Fiber,No,69.7,2,1,395.5
+C1449,50.0,East,18,Month-to-month,None,Yes,15.0,1,1,278.83
+C1450,70.0,East,34,Two year,DSL,Yes,37.2,3,1,1269.34
+C1451,24.0,North,41,One year,DSL,No,56.07,0,0,2346.1
+C1452,37.0,South,63,Two year,Fiber,No,85.69,2,0,5332.73
+C1453,31.0,West,54,Two year,Fiber,No,69.55,3,0,3549.88
+C1454,26.0,West,33,Month-to-month,None,Yes,32.23,2,0,990.88
+C1455,45.0,South,27,Month-to-month,DSL,Yes,55.93,0,0,1467.33
+C1456,44.0,South,31,Month-to-month,None,Yes,20.48,0,0,644.73
+C1457,19.0,West,17,Month-to-month,None,No,19.92,0,1,351.83
+C1458,44.0,West,39,Two year,Fiber,No,76.45,0,0,3008.56
+C1459,27.0,South,24,Month-to-month,DSL,Yes,57.02,1,1,1325.28
+C1460,44.0,West,72,One year,DSL,No,53.18,1,0,3738.89
+C1461,62.0,South,32,Month-to-month,DSL,No,44.59,1,0,1485.13
+C1462,50.0,West,4,Month-to-month,Fiber,No,73.61,1,1,282.86
+C1463,46.0,West,19,Month-to-month,Fiber,Yes,90.85,1,1,1834.99
+C1464,37.0,East,22,One year,DSL,Yes,52.01,1,0,1208.62
+C1465,45.0,South,48,One year,DSL,Yes,56.95,1,1,
+C1466,52.0,South,35,Month-to-month,DSL,No,54.32,0,1,1922.91
+C1467,50.0,North,33,Month-to-month,Fiber,Yes,77.19,1,1,2521.17
+C1468,43.0,North,63,One year,Fiber,Yes,75.87,3,0,4830.91
+C1469,47.0,West,72,Month-to-month,None,No,29.18,1,0,2158.23
+C1470,26.0,East,53,Two year,Fiber,No,80.75,1,0,4196.2
+C1471,34.0,North,20,Month-to-month,Fiber,No,77.11,0,1,1491.25
+C1472,54.0,East,21,Month-to-month,DSL,No,44.45,0,0,925.5
+C1473,56.0,West,57,Month-to-month,Fiber,No,78.08,1,1,4347.44
+C1474,45.0,East,21,Month-to-month,DSL,No,49.46,0,0,1077.33
+C1475,65.0,West,26,Month-to-month,Fiber,Yes,72.53,2,1,1850.91
+C1476,51.0,North,19,Month-to-month,None,Yes,43.43,0,0,827.54
+C1477,41.0,North,21,Two year,None,Yes,15.0,1,0,324.29
+C1478,27.0,East,72,Month-to-month,None,Yes,29.67,1,0,2218.26
+C1479,64.0,East,26,Month-to-month,DSL,No,43.1,2,1,1127.61
+C1480,55.0,East,68,Month-to-month,Fiber,No,76.05,0,0,5231.02
+C1481,69.0,West,21,Month-to-month,DSL,Yes,70.55,0,0,1436.35
+C1482,74.0,North,16,One year,None,No,15.0,0,0,247.37
+C1483,26.0,West,41,Month-to-month,DSL,No,44.21,1,0,1881.32
+C1484,26.0,North,53,One year,DSL,No,49.86,0,0,2494.3
+C1485,18.0,East,55,Month-to-month,DSL,No,43.22,0,0,2502.82
+C1486,57.0,West,34,Two year,DSL,Yes,57.07,2,0,1899.59
+C1487,53.0,East,44,Month-to-month,DSL,Yes,45.72,2,1,2047.57
+C1488,45.0,North,28,Two year,Fiber,Yes,80.23,2,0,2251.67
+C1489,27.0,East,29,Month-to-month,DSL,No,39.37,1,0,1139.66
+C1490,43.0,West,22,Month-to-month,DSL,Yes,35.55,2,1,777.25
+C1491,47.0,North,30,Two year,Fiber,No,73.17,1,0,
+C1492,55.0,West,29,One year,None,Yes,15.0,0,0,441.84
+C1493,48.0,East,11,One year,DSL,No,62.15,1,1,677.78
+C1494,53.0,North,50,Month-to-month,Fiber,No,62.76,2,0,3014.73
+C1495,42.0,South,20,One year,None,Yes,15.0,1,0,290.68
+C1496,61.0,West,59,Two year,DSL,No,53.31,2,0,3023.34
+C1497,53.0,South,13,One year,DSL,No,45.31,1,0,579.76
+C1498,27.0,West,20,Month-to-month,Fiber,No,62.85,0,1,1275.29
+C1499,63.0,South,11,One year,None,No,38.32,1,1,412.53
+C1500,61.0,South,11,One year,Fiber,No,66.99,3,1,758.45
+C1501,51.0,West,24,Two year,DSL,Yes,48.43,0,0,1158.16
+C1502,48.0,West,13,Month-to-month,Fiber,No,73.33,0,1,945.01
+C1503,67.0,North,11,Month-to-month,DSL,Yes,55.68,1,0,612.79
+C1504,21.0,West,37,Two year,DSL,Yes,53.7,1,0,2070.06
+C1505,61.0,South,40,Month-to-month,DSL,Yes,43.39,1,0,1664.2
+C1506,37.0,West,42,One year,DSL,No,47.39,0,0,2089.28
+C1507,59.0,North,6,Month-to-month,None,Yes,20.18,2,1,124.57
+C1508,46.0,East,22,Month-to-month,DSL,No,55.99,2,0,1230.98
+C1509,27.0,North,20,One year,Fiber,Yes,65.65,1,0,1359.6
+C1510,37.0,East,63,Month-to-month,None,Yes,38.14,1,0,2379.57
+C1511,58.0,West,22,Month-to-month,DSL,Yes,43.93,0,0,974.74
+C1512,41.0,East,26,One year,None,Yes,21.93,0,0,560.92
+C1513,35.0,South,8,One year,None,Yes,15.0,2,1,123.48
+C1514,35.0,West,24,Two year,None,No,15.0,0,0,352.36
+C1515,53.0,North,7,Month-to-month,DSL,Yes,43.0,0,0,300.54
+C1516,69.0,East,28,Month-to-month,DSL,Yes,42.24,0,0,1206.82
+C1517,18.0,West,72,Two year,Fiber,Yes,71.69,1,0,5323.99
+C1518,83.0,South,15,Month-to-month,DSL,Yes,42.17,2,1,616.97
+C1519,47.0,North,23,Month-to-month,DSL,No,55.56,3,0,1306.75
+C1520,52.0,South,13,Month-to-month,DSL,Yes,43.74,0,1,551.87
+C1521,38.0,South,17,Month-to-month,None,No,15.0,0,0,238.55
+C1522,44.0,West,39,Two year,Fiber,No,71.86,2,0,2739.65
+C1523,47.0,West,72,One year,Fiber,Yes,82.94,2,0,6121.21
+C1524,29.0,South,63,One year,DSL,No,51.72,1,0,3257.17
+C1525,33.0,West,72,Month-to-month,Fiber,Yes,74.2,1,0,5256.65
+C1526,61.0,North,49,Month-to-month,Fiber,No,63.54,4,1,3118.64
+C1527,22.0,North,22,Month-to-month,Fiber,No,65.86,3,0,1449.89
+C1528,50.0,East,20,Month-to-month,None,Yes,15.0,0,0,305.6
+C1529,39.0,East,15,Month-to-month,DSL,No,60.45,2,1,862.91
+C1530,31.0,West,2,Month-to-month,Fiber,Yes,79.24,4,1,157.99
+C1531,72.0,East,22,Month-to-month,Fiber,No,68.11,0,0,1504.01
+C1532,31.0,North,65,One year,DSL,No,45.49,2,0,2835.73
+C1533,28.0,East,65,One year,Fiber,Yes,68.4,2,0,4262.06
+C1534,41.0,South,72,Month-to-month,DSL,Yes,42.91,1,0,3055.72
+C1535,33.0,South,30,Month-to-month,DSL,No,53.68,2,0,1610.81
+C1536,44.0,South,10,One year,Fiber,Yes,72.7,1,0,727.26
+C1537,46.0,West,38,One year,DSL,No,66.65,0,1,2490.43
+C1538,47.0,North,72,Two year,Fiber,Yes,85.0,1,0,6010.33
+C1539,42.0,East,71,Month-to-month,Fiber,Yes,85.48,2,0,5997.13
+C1540,34.0,North,28,Two year,None,No,27.37,2,0,773.22
+C1541,53.0,East,10,Month-to-month,DSL,No,46.62,2,1,483.61
+C1542,42.0,North,10,Month-to-month,None,No,26.78,0,1,249.96
+C1543,37.0,West,15,Month-to-month,Fiber,No,72.21,1,0,1103.39
+C1544,65.0,West,17,Month-to-month,Fiber,Yes,88.04,3,1,1491.69
+C1545,42.0,West,21,Month-to-month,DSL,Yes,53.23,1,0,1135.46
+C1546,59.0,South,42,Month-to-month,DSL,Yes,52.1,2,1,2266.03
+C1547,61.0,West,21,One year,None,Yes,23.02,2,0,472.47
+C1548,,North,28,Month-to-month,Fiber,Yes,88.92,2,0,2560.29
+C1549,54.0,South,7,Month-to-month,None,No,15.0,1,0,101.05
+C1550,,North,15,Month-to-month,None,Yes,36.71,0,1,552.76
+C1551,43.0,North,14,Month-to-month,DSL,Yes,48.51,0,0,674.2
+C1552,41.0,South,6,Month-to-month,Fiber,No,63.75,1,1,383.03
+C1553,,East,20,Month-to-month,DSL,Yes,43.98,0,0,853.5
+C1554,54.0,West,7,Month-to-month,Fiber,No,61.79,2,1,438.2
+C1555,47.0,North,19,One year,DSL,Yes,55.23,0,0,1099.31
+C1556,,South,39,Two year,DSL,Yes,41.69,3,0,1578.51
+C1557,42.0,East,66,Month-to-month,None,No,23.35,1,0,1549.87
+C1558,53.0,North,14,One year,DSL,No,59.07,0,0,848.21
+C1559,25.0,East,39,Two year,DSL,No,44.62,0,0,1724.69
+C1560,28.0,East,26,Two year,DSL,Yes,47.86,1,0,1295.14
+C1561,18.0,East,7,One year,DSL,Yes,39.57,0,0,273.42
+C1562,42.0,North,72,Two year,None,No,18.89,2,0,1355.33
+C1563,33.0,North,40,Two year,Fiber,Yes,95.59,0,0,3709.68
+C1564,,West,37,One year,None,No,28.22,1,0,1048.11
+C1565,49.0,West,72,Month-to-month,None,Yes,19.88,2,0,1431.49
+C1566,38.0,South,19,Month-to-month,None,Yes,17.11,0,0,331.29
+C1567,24.0,East,9,Month-to-month,DSL,Yes,49.66,2,0,438.41
+C1568,,East,13,Month-to-month,None,No,23.04,3,1,293.39
+C1569,43.0,East,8,Month-to-month,Fiber,Yes,71.65,0,0,581.15
+C1570,29.0,East,55,Month-to-month,DSL,No,54.24,2,0,3108.24
+C1571,35.0,East,72,One year,Fiber,Yes,67.37,1,0,4942.17
+C1572,42.0,North,29,One year,Fiber,No,67.33,0,0,2060.79
+C1573,42.0,North,53,Two year,Fiber,Yes,77.96,0,0,4200.71
+C1574,62.0,West,50,Month-to-month,Fiber,No,65.65,0,0,3333.64
+C1575,43.0,East,72,Month-to-month,Fiber,No,80.83,0,0,5938.36
+C1576,70.0,North,72,One year,None,No,21.89,1,0,1646.44
+C1577,38.0,North,15,Two year,Fiber,Yes,60.38,0,0,939.33
+C1578,50.0,North,27,Two year,DSL,No,50.88,1,0,1329.05
+C1579,58.0,East,37,Two year,Fiber,Yes,61.52,1,0,2330.91
+C1580,61.0,East,25,Two year,DSL,No,55.55,0,0,1399.81
+C1581,62.0,North,22,Month-to-month,DSL,No,48.01,1,0,1050.07
+C1582,40.0,North,35,Month-to-month,Fiber,Yes,89.81,1,1,2976.16
+C1583,44.0,North,35,Month-to-month,DSL,No,58.57,0,0,1955.23
+C1584,18.0,South,49,One year,None,No,15.0,0,0,726.96
+C1585,41.0,North,37,Two year,None,Yes,15.0,0,0,530.61
+C1586,59.0,South,2,Month-to-month,Fiber,Yes,68.96,1,1,136.5
+C1587,57.0,North,20,One year,DSL,Yes,40.23,1,1,821.84
+C1588,43.0,West,33,Month-to-month,DSL,No,64.61,0,0,2094.97
+C1589,68.0,West,51,Month-to-month,Fiber,No,74.92,1,0,3830.49
+C1590,39.0,South,47,Month-to-month,None,Yes,29.47,1,0,1340.63
+C1591,34.0,West,24,Month-to-month,Fiber,Yes,72.72,2,1,1760.92
+C1592,37.0,East,26,Two year,None,Yes,20.56,0,0,542.71
+C1593,28.0,North,25,Month-to-month,Fiber,Yes,74.74,3,0,
+C1594,53.0,South,15,Two year,Fiber,Yes,83.85,0,0,1229.38
+C1595,48.0,North,17,One year,None,Yes,24.49,1,1,400.5
+C1596,53.0,East,58,Month-to-month,None,Yes,15.0,1,1,883.29
+C1597,38.0,West,25,Month-to-month,None,No,34.98,1,1,878.8
+C1598,43.0,East,44,Two year,None,No,19.66,4,0,863.75
+C1599,18.0,North,8,Month-to-month,Fiber,Yes,71.36,1,0,568.68
+C1600,49.0,North,61,Two year,Fiber,No,52.36,3,0,3224.89
+C1601,,South,24,Month-to-month,Fiber,Yes,80.08,4,1,1941.69
+C1602,29.0,North,33,One year,DSL,Yes,50.81,2,0,1651.8
+C1603,43.0,North,48,Two year,Fiber,No,75.8,3,0,3569.02
+C1604,40.0,South,50,Month-to-month,None,No,18.78,2,0,937.34
+C1605,69.0,East,30,Month-to-month,Fiber,Yes,70.4,0,0,2099.98
+C1606,29.0,North,34,Two year,Fiber,Yes,72.04,2,0,
+C1607,49.0,West,10,Month-to-month,Fiber,No,78.71,1,1,778.04
+C1608,29.0,South,7,Month-to-month,Fiber,Yes,80.11,3,1,565.64
+C1609,36.0,North,29,Month-to-month,Fiber,No,73.15,0,0,2151.0
+C1610,48.0,North,33,Month-to-month,DSL,Yes,57.59,1,1,1980.32
+C1611,41.0,West,37,One year,Fiber,Yes,74.37,1,0,2684.73
+C1612,44.0,East,14,One year,DSL,No,45.97,0,0,669.45
+C1613,49.0,West,17,Month-to-month,None,No,23.59,2,0,399.26
+C1614,37.0,West,39,Two year,DSL,No,39.12,1,0,1640.17
+C1615,56.0,West,19,Month-to-month,DSL,No,51.86,0,1,996.06
+C1616,40.0,West,72,Month-to-month,Fiber,No,62.66,3,0,4345.19
+C1617,43.0,West,17,One year,Fiber,Yes,66.78,2,0,1128.55
+C1618,49.0,West,45,Two year,Fiber,Yes,58.85,1,0,2754.41
+C1619,47.0,West,46,Month-to-month,None,Yes,20.6,1,0,949.92
+C1620,53.0,South,48,Month-to-month,DSL,No,62.88,2,1,3012.84
+C1621,,East,19,Month-to-month,Fiber,No,74.06,3,1,1437.49
+C1622,51.0,West,49,Two year,DSL,Yes,55.15,0,0,2674.38
+C1623,39.0,West,35,Month-to-month,None,No,40.82,1,0,1419.67
+C1624,29.0,North,40,Month-to-month,DSL,Yes,53.23,1,0,2068.86
+C1625,24.0,North,29,One year,DSL,No,43.88,1,0,1338.52
+C1626,21.0,North,46,Month-to-month,None,No,16.98,1,1,752.43
+C1627,69.0,East,31,Month-to-month,DSL,Yes,50.01,1,1,1558.19
+C1628,18.0,South,9,Month-to-month,DSL,Yes,44.94,1,0,410.28
+C1629,61.0,East,31,Month-to-month,Fiber,Yes,70.54,1,1,2185.84
+C1630,33.0,North,33,Month-to-month,Fiber,No,82.88,2,1,2632.16
+C1631,61.0,North,54,Two year,None,Yes,30.21,0,0,1582.46
+C1632,18.0,West,29,One year,DSL,No,36.82,0,0,1084.52
+C1633,41.0,South,72,One year,Fiber,No,68.45,2,0,
+C1634,64.0,North,35,Two year,DSL,No,46.29,2,0,1519.44
+C1635,54.0,North,18,Month-to-month,Fiber,No,79.79,4,1,1452.89
+C1636,39.0,South,63,Month-to-month,None,Yes,31.14,3,1,1910.47
+C1637,18.0,South,34,Two year,Fiber,No,96.62,1,0,3347.29
+C1638,25.0,West,28,Month-to-month,None,Yes,18.27,1,0,508.47
+C1639,63.0,North,33,One year,DSL,Yes,46.67,1,0,1528.57
+C1640,39.0,East,31,One year,Fiber,Yes,79.71,0,0,2474.88
+C1641,43.0,South,39,Month-to-month,Fiber,Yes,69.54,1,1,2619.43
+C1642,48.0,South,42,Month-to-month,None,No,20.87,1,1,854.83
+C1643,26.0,South,17,Month-to-month,Fiber,Yes,71.68,3,1,1209.06
+C1644,50.0,South,11,Month-to-month,Fiber,No,54.03,2,0,573.93
+C1645,38.0,East,12,Month-to-month,DSL,Yes,50.99,2,1,624.98
+C1646,48.0,East,58,Month-to-month,Fiber,No,73.54,1,0,
+C1647,36.0,North,23,One year,Fiber,No,85.17,1,0,1873.73
+C1648,22.0,North,56,Two year,Fiber,No,75.04,2,0,4131.76
+C1649,38.0,North,53,Two year,None,No,15.0,1,0,797.41
+C1650,53.0,West,28,Month-to-month,Fiber,Yes,72.94,1,1,2014.99
+C1651,50.0,South,13,Month-to-month,Fiber,Yes,58.27,2,0,766.6
+C1652,44.0,East,44,Month-to-month,Fiber,No,65.31,2,0,2923.13
+C1653,57.0,South,27,Month-to-month,Fiber,Yes,80.08,2,0,2317.95
+C1654,41.0,South,20,Two year,Fiber,No,73.02,0,0,1510.81
+C1655,45.0,North,19,Month-to-month,Fiber,No,82.38,0,1,1488.38
+C1656,37.0,South,7,Month-to-month,Fiber,Yes,59.26,2,0,410.34
+C1657,57.0,West,30,Two year,Fiber,No,73.06,2,0,2174.27
+C1658,48.0,West,29,Month-to-month,None,Yes,18.2,3,0,536.91
+C1659,36.0,South,25,Month-to-month,Fiber,No,82.65,0,1,2008.38
+C1660,23.0,East,23,Month-to-month,Fiber,Yes,80.38,2,0,1819.28
+C1661,59.0,South,28,One year,None,No,27.14,1,0,731.55
+C1662,34.0,West,38,One year,None,Yes,34.33,1,0,1280.97
+C1663,45.0,East,48,Month-to-month,DSL,No,47.06,1,1,2220.59
+C1664,77.0,West,62,Two year,Fiber,No,85.68,3,0,5262.28
+C1665,55.0,West,25,Two year,Fiber,No,66.65,4,0,1606.94
+C1666,67.0,South,66,Two year,Fiber,No,66.35,2,0,4508.11
+C1667,36.0,South,27,Month-to-month,Fiber,No,81.02,2,1,2218.53
+C1668,59.0,East,21,Month-to-month,Fiber,No,62.96,3,0,1264.69
+C1669,44.0,North,22,Two year,DSL,No,54.58,2,0,1201.7
+C1670,49.0,West,2,Month-to-month,Fiber,No,75.81,1,1,144.5
+C1671,72.0,East,36,One year,DSL,No,58.57,1,0,
+C1672,40.0,North,35,One year,Fiber,No,74.52,1,0,2734.5
+C1673,44.0,South,18,Month-to-month,Fiber,Yes,75.45,2,1,1355.83
+C1674,31.0,West,18,One year,DSL,No,54.07,1,1,948.36
+C1675,56.0,South,34,Two year,None,Yes,16.7,2,0,556.48
+C1676,36.0,East,21,One year,Fiber,Yes,69.35,3,0,1436.53
+C1677,58.0,West,15,Month-to-month,DSL,No,53.8,1,1,804.41
+C1678,21.0,South,21,Two year,Fiber,Yes,74.77,3,0,1634.73
+C1679,52.0,West,56,Month-to-month,Fiber,Yes,71.74,3,1,4132.61
+C1680,35.0,South,19,One year,DSL,No,49.34,1,0,964.77
+C1681,54.0,East,45,Two year,Fiber,No,87.76,3,0,3969.41
+C1682,44.0,West,40,One year,Fiber,Yes,71.46,1,0,2759.48
+C1683,37.0,North,36,Month-to-month,DSL,No,46.22,0,1,1625.48
+C1684,39.0,East,41,Month-to-month,Fiber,Yes,61.34,2,0,2519.52
+C1685,32.0,East,36,Month-to-month,Fiber,Yes,74.66,7,1,2590.91
+C1686,56.0,East,16,Month-to-month,Fiber,Yes,80.26,1,1,1295.87
+C1687,29.0,West,22,Month-to-month,None,Yes,28.69,1,1,646.43
+C1688,40.0,South,55,One year,DSL,No,50.87,1,0,2843.62
+C1689,49.0,West,18,Month-to-month,Fiber,No,82.65,4,1,1510.25
+C1690,67.0,East,27,One year,Fiber,No,80.85,1,0,2060.73
+C1691,44.0,North,48,Two year,DSL,No,58.9,2,0,2940.29
+C1692,41.0,East,68,Month-to-month,Fiber,No,82.87,0,0,5370.19
+C1693,48.0,North,52,One year,DSL,No,62.56,1,0,3238.21
+C1694,18.0,West,13,One year,DSL,Yes,48.64,1,0,644.05
+C1695,27.0,North,34,Month-to-month,Fiber,No,64.38,4,1,2212.47
+C1696,39.0,South,32,Month-to-month,Fiber,No,80.31,4,1,2471.4
+C1697,34.0,West,22,One year,Fiber,Yes,81.24,2,1,1728.39
+C1698,22.0,North,38,Two year,Fiber,Yes,87.56,1,0,3355.94
+C1699,56.0,South,16,One year,Fiber,Yes,85.25,2,0,1384.9
+C1700,48.0,East,34,Two year,None,No,37.56,0,0,
+C1701,46.0,South,29,Two year,Fiber,No,79.96,1,0,2346.15
+C1702,34.0,East,29,Month-to-month,DSL,No,51.83,0,1,1434.74
+C1703,45.0,South,21,One year,DSL,Yes,38.92,1,0,832.63
+C1704,51.0,South,71,Month-to-month,Fiber,Yes,77.46,2,0,5353.84
+C1705,40.0,South,40,Two year,Fiber,No,70.58,0,0,2830.02
+C1706,50.0,East,26,Month-to-month,Fiber,Yes,76.69,6,1,1988.71
+C1707,33.0,West,23,Month-to-month,DSL,Yes,50.44,3,1,1200.52
+C1708,45.0,North,31,Two year,Fiber,No,78.77,1,0,2459.61
+C1709,60.0,South,10,Month-to-month,DSL,No,49.22,0,0,483.35
+C1710,61.0,North,45,One year,None,No,29.48,2,0,1340.91
+C1711,63.0,North,63,Month-to-month,DSL,No,28.21,1,0,1891.46
+C1712,48.0,West,28,Two year,None,Yes,23.52,1,0,673.18
+C1713,44.0,East,65,Two year,DSL,No,59.62,2,0,3868.42
+C1714,38.0,West,72,Month-to-month,None,No,36.96,1,1,2594.57
+C1715,19.0,East,72,One year,None,No,27.86,1,0,1968.82
+C1716,25.0,East,61,Month-to-month,DSL,Yes,63.48,1,1,3951.27
+C1717,42.0,East,11,One year,None,No,23.35,2,0,250.02
+C1718,42.0,East,11,One year,None,Yes,22.02,1,0,242.24
+C1719,64.0,West,51,Two year,DSL,No,54.24,2,0,2885.54
+C1720,62.0,South,27,Month-to-month,DSL,No,49.97,2,1,1355.28
+C1721,34.0,North,4,Month-to-month,DSL,No,43.74,3,1,169.3
+C1722,55.0,South,20,One year,None,Yes,17.88,0,0,380.96
+C1723,37.0,North,40,One year,Fiber,No,66.1,4,0,2783.8
+C1724,54.0,North,24,Month-to-month,None,Yes,26.23,1,0,638.99
+C1725,55.0,North,27,Month-to-month,DSL,No,50.09,0,1,1404.19
+C1726,61.0,North,11,Month-to-month,None,Yes,19.12,0,0,208.64
+C1727,37.0,East,30,Two year,Fiber,Yes,70.47,0,0,2160.05
+C1728,58.0,East,41,Month-to-month,DSL,No,54.04,0,0,2187.49
+C1729,18.0,West,19,Month-to-month,DSL,Yes,56.24,1,0,1025.11
+C1730,62.0,South,68,Two year,None,No,15.0,1,0,1099.31
+C1731,44.0,South,28,Month-to-month,None,Yes,15.0,3,1,402.28
+C1732,44.0,South,36,One year,DSL,No,57.64,2,0,2093.56
+C1733,18.0,West,41,Month-to-month,DSL,Yes,39.0,1,0,1612.71
+C1734,39.0,West,50,Two year,Fiber,No,79.38,1,0,4030.44
+C1735,63.0,East,13,One year,None,No,34.94,0,0,453.0
+C1736,38.0,East,25,Two year,Fiber,No,87.95,2,0,2193.52
+C1737,54.0,West,4,Month-to-month,DSL,Yes,55.9,0,1,224.53
+C1738,44.0,North,22,Month-to-month,DSL,No,55.67,0,1,1242.37
+C1739,59.0,South,14,One year,Fiber,No,93.02,2,0,1302.21
+C1740,47.0,North,19,Month-to-month,Fiber,Yes,56.32,0,0,1067.89
+C1741,31.0,North,23,Month-to-month,Fiber,No,71.29,0,1,1574.68
+C1742,45.0,South,30,Month-to-month,None,No,28.79,1,1,915.88
+C1743,66.0,West,34,Two year,DSL,No,47.3,1,0,1634.05
+C1744,51.0,South,24,One year,Fiber,Yes,84.92,2,0,2050.85
+C1745,42.0,West,34,One year,DSL,Yes,49.69,1,0,1657.81
+C1746,76.0,East,26,One year,Fiber,No,76.05,2,0,1917.77
+C1747,60.0,East,48,Month-to-month,None,No,19.8,0,0,974.92
+C1748,55.0,North,26,Month-to-month,Fiber,No,70.82,3,1,1832.49
+C1749,48.0,West,68,Month-to-month,Fiber,No,70.62,2,0,4891.63
+C1750,54.0,North,12,One year,Fiber,Yes,77.17,3,1,888.48
+C1751,55.0,South,21,Month-to-month,DSL,Yes,43.8,1,0,962.48
+C1752,18.0,West,26,Two year,DSL,No,57.63,1,0,1538.9
+C1753,50.0,East,41,Two year,DSL,No,55.23,1,0,2258.92
+C1754,42.0,South,12,Month-to-month,DSL,No,58.8,1,0,715.5
+C1755,37.0,South,8,One year,Fiber,No,65.97,1,1,
+C1756,41.0,South,14,Month-to-month,Fiber,Yes,61.4,2,0,825.12
+C1757,22.0,South,19,Two year,Fiber,Yes,74.97,2,0,1496.13
+C1758,19.0,North,33,Two year,None,Yes,45.19,1,0,1512.89
+C1759,61.0,North,40,Two year,Fiber,No,85.13,5,0,3333.27
+C1760,50.0,North,7,Month-to-month,None,Yes,17.56,2,0,118.88
+C1761,18.0,North,20,Month-to-month,Fiber,No,78.4,2,1,1614.43
+C1762,36.0,South,52,Month-to-month,Fiber,Yes,80.82,4,0,4229.26
+C1763,56.0,North,61,Month-to-month,Fiber,Yes,64.05,3,0,3963.62
+C1764,40.0,East,43,Month-to-month,Fiber,Yes,85.96,2,0,3699.24
+C1765,61.0,East,3,Month-to-month,DSL,No,48.66,1,0,141.59
+C1766,59.0,North,38,Two year,DSL,Yes,49.27,4,0,1900.83
+C1767,25.0,West,56,Month-to-month,Fiber,No,75.19,3,0,4185.69
+C1768,42.0,East,19,Month-to-month,DSL,No,59.16,0,1,1123.31
+C1769,38.0,South,20,Two year,DSL,Yes,43.96,2,0,941.9
+C1770,25.0,North,53,One year,None,No,15.0,2,0,815.73
+C1771,24.0,South,58,One year,None,Yes,24.58,1,0,1465.28
+C1772,33.0,West,26,One year,DSL,Yes,33.65,0,0,946.31
+C1773,35.0,North,20,Two year,None,Yes,19.59,1,0,396.32
+C1774,48.0,North,6,One year,DSL,No,59.49,2,1,358.22
+C1775,59.0,South,33,Month-to-month,DSL,No,54.63,2,1,1766.06
+C1776,51.0,West,17,One year,DSL,Yes,58.34,0,1,978.32
+C1777,55.0,South,25,Month-to-month,Fiber,No,79.96,1,0,1876.24
+C1778,40.0,East,23,Month-to-month,DSL,No,69.28,0,1,1631.22
+C1779,52.0,East,14,Month-to-month,None,No,17.29,1,1,232.86
+C1780,42.0,North,6,Month-to-month,Fiber,No,78.19,1,1,481.85
+C1781,38.0,West,19,One year,None,No,18.5,4,1,351.05
+C1782,71.0,North,29,Month-to-month,None,No,29.65,0,1,863.15
+C1783,18.0,East,30,Month-to-month,Fiber,Yes,74.51,2,0,2232.46
+C1784,18.0,East,16,Month-to-month,DSL,No,63.75,3,1,1062.41
+C1785,49.0,East,67,Two year,None,Yes,17.75,1,0,1232.4
+C1786,40.0,West,11,Month-to-month,None,No,33.26,2,1,365.54
+C1787,24.0,East,49,One year,Fiber,No,79.75,1,1,3802.36
+C1788,29.0,East,38,Two year,Fiber,Yes,74.74,1,0,2918.84
+C1789,31.0,North,19,Month-to-month,DSL,Yes,54.34,0,0,1002.27
+C1790,56.0,South,36,One year,Fiber,No,77.09,1,1,2645.79
+C1791,61.0,South,22,Month-to-month,Fiber,No,77.85,3,1,1738.31
+C1792,67.0,South,8,Month-to-month,Fiber,No,73.35,1,1,608.25
+C1793,22.0,North,10,One year,Fiber,No,69.39,4,1,685.47
+C1794,25.0,North,31,Two year,DSL,Yes,47.32,0,0,1484.72
+C1795,24.0,South,17,Month-to-month,DSL,Yes,36.53,1,0,613.27
+C1796,62.0,East,48,One year,DSL,No,56.74,1,0,2782.51
+C1797,50.0,West,17,Month-to-month,DSL,Yes,40.12,1,1,704.45
+C1798,45.0,West,16,One year,Fiber,No,73.26,0,0,1162.92
+C1799,47.0,South,15,One year,Fiber,Yes,80.18,3,1,1165.62
+C1800,43.0,West,14,One year,Fiber,Yes,81.72,0,0,1094.07
+C1801,28.0,South,14,One year,Fiber,No,60.8,0,0,874.84
+C1802,,South,9,Month-to-month,Fiber,No,74.27,0,1,645.64
+C1803,41.0,North,29,One year,Fiber,No,78.68,1,0,2307.19
+C1804,27.0,East,24,One year,Fiber,Yes,75.42,1,0,1852.3
+C1805,52.0,South,23,One year,Fiber,No,85.75,2,0,1942.59
+C1806,38.0,South,7,Month-to-month,DSL,No,43.43,1,0,302.49
+C1807,47.0,West,34,Month-to-month,DSL,No,33.61,0,0,1176.99
+C1808,42.0,East,36,Month-to-month,None,No,28.48,1,0,1000.42
+C1809,56.0,South,66,Month-to-month,DSL,Yes,45.7,2,0,2933.88
+C1810,47.0,East,35,Month-to-month,DSL,No,35.93,1,1,1248.71
+C1811,32.0,East,72,Month-to-month,Fiber,No,73.73,3,0,5512.08
+C1812,49.0,East,16,One year,DSL,No,59.84,0,0,1003.71
+C1813,49.0,North,68,Month-to-month,Fiber,No,64.89,4,1,4399.44
+C1814,51.0,North,46,Two year,Fiber,Yes,93.69,5,0,4217.67
+C1815,59.0,North,33,Month-to-month,Fiber,No,68.3,2,1,2325.85
+C1816,35.0,West,23,One year,Fiber,Yes,75.7,2,1,1653.91
+C1817,,South,19,Month-to-month,Fiber,Yes,65.25,0,1,1248.96
+C1818,20.0,South,16,Month-to-month,DSL,No,50.33,2,0,804.22
+C1819,42.0,West,70,One year,None,Yes,20.93,0,0,1521.97
+C1820,40.0,West,32,Two year,DSL,No,38.08,1,0,1269.56
+C1821,64.0,North,36,Month-to-month,DSL,Yes,72.61,0,1,2540.05
+C1822,42.0,West,42,Month-to-month,DSL,Yes,46.04,1,0,1943.41
+C1823,53.0,East,41,One year,Fiber,Yes,71.04,3,0,2862.78
+C1824,19.0,East,29,One year,DSL,Yes,57.75,1,1,1660.01
+C1825,39.0,North,68,Month-to-month,DSL,Yes,64.51,0,0,4467.93
+C1826,32.0,East,34,Month-to-month,Fiber,Yes,84.01,0,0,2827.64
+C1827,79.0,East,16,Month-to-month,Fiber,Yes,65.39,4,1,1052.33
+C1828,35.0,South,30,Two year,None,Yes,23.71,2,0,731.73
+C1829,45.0,East,7,Month-to-month,DSL,Yes,34.95,2,1,255.77
+C1830,46.0,North,32,Month-to-month,DSL,Yes,57.21,0,0,1846.57
+C1831,22.0,East,48,Two year,DSL,Yes,36.92,0,0,1778.42
+C1832,37.0,North,40,Month-to-month,Fiber,Yes,68.57,3,1,2651.69
+C1833,50.0,South,36,Month-to-month,DSL,Yes,49.97,2,0,1884.5
+C1834,45.0,South,23,Month-to-month,Fiber,Yes,78.56,3,1,1833.75
+C1835,18.0,North,26,Month-to-month,Fiber,Yes,72.91,1,0,1903.41
+C1836,36.0,West,26,Month-to-month,DSL,Yes,62.15,1,0,1620.02
+C1837,58.0,West,49,Month-to-month,Fiber,No,80.79,0,1,4001.54
+C1838,52.0,South,5,One year,DSL,Yes,55.16,1,0,282.19
+C1839,61.0,East,18,One year,Fiber,Yes,65.16,1,0,1204.39
+C1840,30.0,South,12,Month-to-month,DSL,No,63.59,0,1,799.96
+C1841,62.0,North,72,One year,DSL,No,43.58,0,0,3160.6
+C1842,43.0,West,55,Month-to-month,DSL,Yes,63.9,0,0,3699.45
+C1843,66.0,South,29,Two year,DSL,No,66.18,0,0,1980.12
+C1844,,West,8,Month-to-month,None,No,26.1,1,0,208.42
+C1845,18.0,North,10,One year,DSL,No,58.26,0,0,553.46
+C1846,56.0,North,48,Month-to-month,DSL,No,25.34,1,0,1219.44
+C1847,38.0,South,7,One year,DSL,No,48.44,0,1,354.93
+C1848,39.0,West,26,Month-to-month,Fiber,No,83.82,1,1,2128.63
+C1849,24.0,South,43,One year,Fiber,Yes,82.4,1,0,3551.97
+C1850,67.0,West,10,Month-to-month,Fiber,No,65.24,0,1,655.63
+C1851,37.0,North,36,Two year,Fiber,No,72.65,3,0,2689.32
+C1852,,West,19,Month-to-month,Fiber,Yes,54.71,2,1,1027.4
+C1853,38.0,South,17,One year,Fiber,Yes,78.3,2,1,1296.38
+C1854,31.0,South,25,Two year,DSL,No,34.93,1,0,888.18
+C1855,62.0,East,56,Two year,Fiber,No,84.04,1,0,4601.28
+C1856,43.0,West,62,Month-to-month,None,No,31.46,0,0,1843.11
+C1857,43.0,West,21,Month-to-month,Fiber,Yes,71.21,2,0,1577.97
+C1858,26.0,North,33,Month-to-month,DSL,No,54.17,5,1,1837.33
+C1859,38.0,East,26,Month-to-month,Fiber,Yes,73.26,2,1,2012.38
+C1860,50.0,South,5,One year,DSL,No,51.94,0,0,266.51
+C1861,26.0,East,31,Two year,Fiber,Yes,65.82,1,0,2082.07
+C1862,36.0,South,14,Two year,DSL,Yes,54.98,2,0,778.25
+C1863,38.0,West,18,Month-to-month,Fiber,Yes,61.87,2,1,1107.44
+C1864,45.0,South,25,One year,None,Yes,15.0,0,0,380.76
+C1865,65.0,South,51,Two year,Fiber,Yes,74.02,0,0,3712.37
+C1866,40.0,South,41,Two year,DSL,No,48.31,1,0,1917.18
+C1867,34.0,East,46,Month-to-month,Fiber,Yes,77.18,1,1,3514.9
+C1868,82.0,West,13,Month-to-month,DSL,No,44.8,0,1,604.96
+C1869,38.0,North,67,Two year,DSL,No,65.09,1,0,4199.79
+C1870,,East,62,Month-to-month,Fiber,Yes,76.28,3,0,4556.76
+C1871,39.0,North,4,Month-to-month,Fiber,No,76.86,1,1,312.89
+C1872,40.0,East,16,Two year,Fiber,No,76.58,0,0,1210.02
+C1873,45.0,East,35,Two year,Fiber,No,83.02,1,0,2948.02
+C1874,57.0,West,27,Two year,None,No,26.61,0,0,739.81
+C1875,50.0,North,19,One year,Fiber,No,78.54,4,0,1512.92
+C1876,59.0,West,31,Month-to-month,Fiber,No,80.89,2,1,2460.03
+C1877,59.0,East,47,Month-to-month,None,Yes,15.0,0,0,732.13
+C1878,47.0,East,13,Month-to-month,Fiber,Yes,60.71,0,1,806.8
+C1879,49.0,East,53,One year,Fiber,No,74.39,0,0,
+C1880,60.0,East,15,Month-to-month,DSL,Yes,48.42,1,1,725.83
+C1881,28.0,North,72,One year,None,No,26.64,3,0,1939.6
+C1882,79.0,West,58,Month-to-month,DSL,Yes,50.16,0,0,2882.05
+C1883,37.0,South,16,One year,DSL,Yes,54.65,2,0,831.61
+C1884,39.0,North,8,Month-to-month,None,No,15.0,1,1,122.7
+C1885,27.0,East,16,Month-to-month,Fiber,Yes,74.91,1,1,1223.4
+C1886,27.0,West,14,Month-to-month,None,Yes,15.0,0,0,195.5
+C1887,58.0,East,38,Month-to-month,None,No,25.09,1,0,968.03
+C1888,76.0,North,14,Two year,None,No,15.0,0,0,221.07
+C1889,36.0,West,7,Month-to-month,Fiber,No,77.79,3,1,526.11
+C1890,49.0,West,37,Month-to-month,Fiber,Yes,63.25,1,0,2335.1
+C1891,47.0,South,14,One year,DSL,No,46.93,1,1,653.43
+C1892,58.0,East,18,One year,DSL,No,57.16,1,0,1080.13
+C1893,75.0,West,43,Month-to-month,DSL,No,51.82,1,1,2303.19
+C1894,65.0,North,49,Month-to-month,None,Yes,15.0,0,0,715.63
+C1895,41.0,South,56,Month-to-month,DSL,Yes,44.62,1,0,2524.37
+C1896,51.0,South,41,One year,Fiber,No,62.99,4,0,2761.0
+C1897,53.0,North,22,Month-to-month,Fiber,No,61.44,1,1,1326.35
+C1898,44.0,North,21,Month-to-month,Fiber,Yes,75.94,2,0,1594.21
+C1899,29.0,East,19,Month-to-month,Fiber,No,79.48,1,1,1533.38
+C1900,33.0,South,10,One year,Fiber,No,78.52,2,0,770.83
+C1901,60.0,North,12,Month-to-month,None,Yes,26.82,2,1,338.86
+C1902,62.0,South,61,Two year,DSL,No,49.9,2,0,3000.74
+C1903,41.0,North,15,Month-to-month,DSL,Yes,47.81,0,0,687.27
+C1904,48.0,East,10,One year,Fiber,No,66.42,2,0,
+C1905,61.0,South,54,Month-to-month,DSL,No,46.48,0,1,2559.09
+C1906,20.0,East,30,Month-to-month,None,No,15.0,0,0,439.22
+C1907,38.0,West,71,Month-to-month,None,No,15.24,0,0,1091.85
+C1908,72.0,South,72,Two year,DSL,No,50.71,1,0,3712.74
+C1909,48.0,West,20,Two year,None,Yes,21.06,2,0,405.92
+C1910,28.0,North,24,Month-to-month,DSL,No,74.52,2,1,1758.23
+C1911,46.0,West,12,Month-to-month,DSL,No,39.23,1,1,475.69
+C1912,58.0,South,22,Two year,None,Yes,21.0,1,0,471.74
+C1913,18.0,South,19,Month-to-month,Fiber,No,63.61,0,0,1189.05
+C1914,46.0,West,38,Month-to-month,Fiber,Yes,71.9,2,1,2744.64
+C1915,39.0,South,39,Month-to-month,Fiber,No,72.22,4,1,2792.59
+C1916,21.0,East,35,One year,DSL,No,56.76,2,0,2029.98
+C1917,45.0,West,22,One year,DSL,No,46.4,2,0,1036.71
+C1918,42.0,South,40,One year,DSL,No,48.47,3,0,1917.08
+C1919,44.0,South,20,Two year,Fiber,Yes,71.56,2,0,1451.74
+C1920,39.0,South,30,Month-to-month,Fiber,No,63.79,6,1,1890.01
+C1921,30.0,South,26,Month-to-month,None,No,16.78,2,1,442.27
+C1922,24.0,South,21,Month-to-month,Fiber,Yes,71.94,0,0,1532.1
+C1923,34.0,North,31,Month-to-month,None,Yes,22.59,1,0,750.1
+C1924,56.0,West,4,Month-to-month,Fiber,No,79.47,1,1,314.67
+C1925,47.0,East,12,Month-to-month,DSL,No,48.12,5,0,574.99
+C1926,43.0,West,36,Month-to-month,DSL,Yes,47.98,0,0,1693.74
+C1927,29.0,East,25,One year,None,Yes,15.0,0,0,363.38
+C1928,39.0,South,7,Month-to-month,Fiber,Yes,79.32,0,1,547.64
+C1929,54.0,South,25,Month-to-month,None,No,16.43,1,0,418.95
+C1930,51.0,West,17,One year,DSL,No,55.98,2,0,972.71
+C1931,37.0,North,52,One year,DSL,No,60.53,5,0,3175.48
+C1932,18.0,South,10,One year,DSL,No,48.5,1,0,480.7
+C1933,35.0,East,20,Two year,Fiber,Yes,66.81,2,0,1316.42
+C1934,37.0,East,33,One year,DSL,No,49.87,0,0,1600.44
+C1935,31.0,East,23,Month-to-month,Fiber,Yes,77.79,0,0,1759.28
+C1936,38.0,North,22,Month-to-month,Fiber,Yes,72.48,1,1,1532.61
+C1937,55.0,North,72,One year,DSL,No,45.49,1,0,3408.7
+C1938,43.0,East,39,Month-to-month,DSL,No,54.51,2,0,2243.06
+C1939,58.0,South,20,Month-to-month,Fiber,No,78.98,1,1,1487.86
+C1940,23.0,South,6,Month-to-month,Fiber,Yes,72.23,1,1,437.14
+C1941,40.0,West,19,Month-to-month,Fiber,Yes,61.77,5,1,1183.23
+C1942,18.0,East,9,Month-to-month,Fiber,Yes,78.65,0,1,712.28
+C1943,38.0,East,12,Month-to-month,DSL,No,43.86,0,0,
+C1944,29.0,North,23,Two year,Fiber,Yes,76.71,3,0,1818.45
+C1945,62.0,East,59,Two year,None,No,23.21,0,0,1386.25
+C1946,50.0,West,8,Month-to-month,Fiber,No,59.89,1,0,493.98
+C1947,58.0,East,56,Two year,Fiber,No,75.65,1,0,4142.67
+C1948,38.0,West,34,Month-to-month,None,No,26.12,0,0,851.23
+C1949,30.0,West,44,Two year,Fiber,Yes,80.1,2,0,3570.38
+C1950,29.0,West,22,Two year,Fiber,No,75.94,3,0,1622.42
+C1951,48.0,South,42,Month-to-month,None,No,15.0,1,0,649.93
+C1952,69.0,South,11,One year,None,No,32.22,1,0,331.81
+C1953,50.0,South,72,Two year,DSL,No,53.29,4,0,3782.95
+C1954,39.0,West,60,Two year,Fiber,Yes,65.37,1,0,3849.73
+C1955,41.0,South,72,Two year,DSL,Yes,43.7,0,0,3115.03
+C1956,44.0,West,26,One year,None,Yes,23.85,2,0,
+C1957,72.0,West,23,Month-to-month,None,No,27.44,4,0,638.62
+C1958,61.0,East,29,Two year,Fiber,No,71.1,1,0,2101.47
+C1959,48.0,North,72,One year,Fiber,No,81.6,2,0,6008.27
+C1960,46.0,East,38,One year,Fiber,No,60.66,1,0,2293.22
+C1961,48.0,North,9,Month-to-month,Fiber,Yes,66.66,2,1,637.89
+C1962,51.0,East,58,One year,DSL,No,33.49,0,1,2023.25
+C1963,38.0,North,22,Month-to-month,Fiber,No,67.82,2,0,1478.08
+C1964,32.0,North,2,One year,Fiber,Yes,87.06,5,0,173.41
+C1965,58.0,East,14,Month-to-month,Fiber,No,91.46,3,1,1267.65
+C1966,44.0,South,50,One year,DSL,No,51.88,0,0,2622.27
+C1967,57.0,East,44,Two year,Fiber,No,69.89,0,0,2985.49
+C1968,67.0,South,39,Month-to-month,Fiber,Yes,73.23,2,0,2788.32
+C1969,51.0,South,58,Month-to-month,Fiber,No,78.79,3,0,4272.69
+C1970,49.0,North,5,Month-to-month,None,No,15.0,3,1,74.1
+C1971,85.0,South,24,Two year,Fiber,No,70.42,1,0,1744.07
+C1972,47.0,West,26,One year,DSL,Yes,61.48,1,0,1591.19
+C1973,29.0,West,51,Month-to-month,Fiber,Yes,66.63,4,1,3388.33
+C1974,40.0,South,11,Month-to-month,Fiber,No,69.01,2,1,765.44
+C1975,66.0,North,20,Month-to-month,Fiber,Yes,75.11,0,1,1457.03
+C1976,26.0,West,25,Month-to-month,Fiber,Yes,77.27,2,0,1933.22
+C1977,33.0,East,24,Two year,Fiber,No,70.0,1,0,1724.87
+C1978,59.0,North,25,One year,DSL,Yes,50.62,2,0,1277.14
+C1979,40.0,North,23,Month-to-month,DSL,Yes,54.86,0,1,1298.81
+C1980,42.0,North,27,Two year,Fiber,No,90.69,1,0,2541.49
+C1981,59.0,West,42,Month-to-month,Fiber,Yes,73.99,1,0,3169.35
+C1982,34.0,West,47,Two year,DSL,No,49.67,0,0,2284.53
+C1983,23.0,South,44,Month-to-month,Fiber,Yes,87.22,1,0,3798.06
+C1984,25.0,North,46,One year,Fiber,Yes,70.61,3,0,3436.27
+C1985,52.0,East,72,Two year,Fiber,Yes,64.41,2,0,4681.23
+C1986,48.0,South,7,Month-to-month,Fiber,Yes,77.0,5,1,541.93
+C1987,34.0,North,8,One year,DSL,Yes,58.61,1,0,456.78
+C1988,28.0,South,50,Two year,None,No,24.89,3,0,1241.09
+C1989,40.0,South,18,Month-to-month,None,No,21.22,0,0,390.17
+C1990,60.0,North,16,Month-to-month,None,Yes,15.0,1,1,240.11
+C1991,,East,14,One year,Fiber,Yes,74.53,2,0,1027.16
+C1992,35.0,South,45,Month-to-month,Fiber,No,84.87,4,0,3786.22
+C1993,27.0,East,72,Month-to-month,Fiber,No,65.13,1,0,4857.03
+C1994,39.0,East,46,Month-to-month,Fiber,Yes,73.04,0,0,3427.15
+C1995,49.0,West,17,One year,Fiber,Yes,71.9,0,0,1241.88
+C1996,74.0,West,43,Month-to-month,Fiber,Yes,69.42,1,0,3024.54
+C1997,47.0,East,7,Month-to-month,DSL,No,51.98,1,1,350.95
+C1998,43.0,West,31,Two year,Fiber,Yes,78.55,0,0,2454.95
+C1999,56.0,East,5,Month-to-month,Fiber,No,78.46,2,1,404.87

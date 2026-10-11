@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Customer churn EDA report</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:wght@600&display=swap"><style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f5f7f9;--ink:#14202b;--mute:#5d6b78;--line:#d9e0e6;--panel:#fff;--ac:#3b3bd6;--tr:#e4e8ee}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11161c;--ink:#e8edf2;--mute:#9aa8b5;--line:#2a343e;--panel:#182028;--ac:#8c8cff;--tr:#2a343e}}
+:root[data-theme="dark"]{--bg:#11161c;--ink:#e8edf2;--mute:#9aa8b5;--line:#2a343e;--panel:#18202a;--ac:#8c8cff;--tr:#2a343e}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 'IBM Plex Sans',system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:48px 20px 80px}
+h1,h2{font-family:'Newsreader',Georgia,serif;font-weight:600;line-height:1.15;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,6vw,3rem);margin:0 0 12px}h2{font-size:1.6rem;margin:56px 0 8px}h3{font-size:1rem;margin:28px 0 6px}
+.lead{font-size:1.15rem;color:var(--mute);max-width:60ch}p{max-width:68ch}.take{border-left:3px solid var(--ac);padding:2px 0 2px 14px;margin:14px 0;font-weight:500}
+.kpis{display:flex;flex-wrap:wrap;gap:24px 40px;margin:28px 0;padding:18px 0;border-block:1px solid var(--line)}
+.kpis div{min-width:110px}.kpis b{display:block;font:600 1.9rem 'Newsreader',Georgia,serif}.kpis span{color:var(--mute);font-size:.88rem}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:16px 18px;margin:12px 0}
+.scroll{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:.92rem;font-variant-numeric:tabular-nums}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{font-weight:600}
+.heat td{text-align:center;background:color-mix(in srgb,var(--ac) calc(var(--a)*100%),transparent)}
+.bars .r{display:grid;grid-template-columns:120px 1fr 52px 58px;gap:10px;align-items:center;padding:4px 0;font-size:.92rem}
+.t{position:relative;height:14px;background:var(--tr);border-radius:2px}.t i{display:block;height:100%;background:var(--ac);border-radius:2px}
+.t b{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--ink);opacity:.7}.v{font-weight:600;text-align:right}.n{color:var(--mute);font-size:.8rem}
+.cap{color:var(--mute);font-size:.85rem;margin:6px 0 0}ul{padding-left:20px;max-width:68ch}li{margin:4px 0}
+@media(max-width:520px){.bars .r{grid-template-columns:96px 1fr 48px}.n{display:none}}
+</style></head><body><main>
+<h1>What drives customer churn?</h1>
+<p class="lead">An exploratory analysis of 2,000 synthetic telecom customers: what the data looks like, where churn concentrates, and which factors matter most.</p>
+<div class="kpis"><div><b>2,000</b><span>customers</span></div><div><b>31.6%</b><span>churned</span></div><div><b>48.0%</b><span>month-to-month churn</span></div><div><b>4.4%</b><span>two-year churn</span></div></div>
+
+<h2>1. Objective and dataset</h2>
+<p>Goal: find which customer attributes are linked to churn, so retention effort can be aimed at the right people. The dataset was generated for this exercise (random seed 42), so it mimics realistic telecom behaviour but is not real customer data.</p>
+<div class="scroll"><table><tr><th>Column</th><th>Type</th><th>Description</th></tr><tr><td>age</td><td>numeric</td><td>Customer age in years</td></tr><tr><td>region</td><td>categorical</td><td>North, South, East, West</td></tr><tr><td>tenure_months</td><td>numeric</td><td>Months as a customer (1–72)</td></tr><tr><td>contract</td><td>categorical</td><td>Month-to-month, one year, two year</td></tr><tr><td>internet_service</td><td>categorical</td><td>Fiber, DSL, None</td></tr><tr><td>autopay</td><td>categorical</td><td>Pays by automatic payment</td></tr><tr><td>monthly_charges</td><td>numeric</td><td>Current monthly bill</td></tr><tr><td>support_tickets</td><td>numeric</td><td>Tickets raised</td></tr><tr><td>total_charges</td><td>numeric</td><td>Lifetime billing</td></tr><tr><td>churn</td><td>binary</td><td>1 = left the company</td></tr></table></div>
+
+<h2>2. Data quality</h2>
+<ul><li><b>Missing values:</b> age has 70 blanks (3.5%) and total_charges has 45 (2.3%). Both are small and appear random, so median imputation is reasonable.</li><li><b>Duplicates:</b> none found.</li><li><b>Outliers:</b> monthly charges range from 15 to 107 and tenure from 1 to 72. Both are plausible, so nothing was removed.</li><li><b>Class balance:</b> 31.6% churn versus 68.4% retained. Moderately imbalanced, which matters if you model this later.</li></ul>
+
+<h2>3. Summary statistics</h2>
+<div class="scroll"><table><tr><th>Variable</th><th>Mean</th><th>Median</th><th>Std</th><th>Min</th><th>Max</th><th>Skew</th></tr><tr><td>tenure_months</td><td>32.1</td><td>29.0</td><td>18.2</td><td>1</td><td>72</td><td>0.63</td></tr><tr><td>monthly_charges</td><td>56.1</td><td>58.8</td><td>21.3</td><td>15.0</td><td>107.2</td><td>−0.40</td></tr><tr><td>total_charges</td><td>1,788</td><td>1,485</td><td>1,284</td><td>41</td><td>6,684</td><td>1.14</td></tr><tr><td>support_tickets</td><td>1.28</td><td>1.0</td><td>1.19</td><td>0</td><td>7</td><td>1.06</td></tr><tr><td>age</td><td>44.2</td><td>43.5</td><td>13.7</td><td>18</td><td>85</td><td>—</td></tr></table></div>
+<p class="take">total_charges and support_tickets are right-skewed (mean above median). A log transform would help if you use them in a linear model. Monthly charges are slightly left-skewed because of the cheap no-internet group.</p>
+
+<h2>4. Patterns in churn</h2>
+<p>Each bar is the churn rate for a group. The vertical line marks the overall average of 31.6%.</p>
+<h3>By contract type</h3>
+<div class="panel"><div class="bars"><div class="r"><span class="l">Month-to-month</span><span class="t"><i style="width:68.6%"></i><b style="left:45.1%"></b></span><span class="v">48.0%</span><span class="n">n=1094</span></div><div class="r"><span class="l">One year</span><span class="t"><i style="width:25.4%"></i><b style="left:45.1%"></b></span><span class="v">17.8%</span><span class="n">n=493</span></div><div class="r"><span class="l">Two year</span><span class="t"><i style="width:6.3%"></i><b style="left:45.1%"></b></span><span class="v">4.4%</span><span class="n">n=413</span></div></div></div>
+<p class="take">Contract type is the strongest single separator. Month-to-month customers churn about 11 times as often as two-year customers (chi-square p &lt; 0.001).</p>
+<h3>By tenure</h3>
+<div class="panel"><div class="bars"><div class="r"><span class="l">0–12 months</span><span class="t"><i style="width:73.0%"></i><b style="left:45.1%"></b></span><span class="v">51.1%</span><span class="n">n=—</span></div><div class="r"><span class="l">13–24</span><span class="t"><i style="width:56.3%"></i><b style="left:45.1%"></b></span><span class="v">39.4%</span><span class="n">n=—</span></div><div class="r"><span class="l">25–48</span><span class="t"><i style="width:40.4%"></i><b style="left:45.1%"></b></span><span class="v">28.3%</span><span class="n">n=—</span></div><div class="r"><span class="l">49–72</span><span class="t"><i style="width:19.0%"></i><b style="left:45.1%"></b></span><span class="v">13.3%</span><span class="n">n=—</span></div></div></div>
+<p class="take">Churn falls steadily with tenure. Leavers average 25 months with the company versus 35 for those who stay (t-test p &lt; 0.001), so the first year is the danger zone.</p>
+<h3>By support tickets</h3>
+<div class="panel"><div class="bars"><div class="r"><span class="l">0 tickets</span><span class="t"><i style="width:30.6%"></i><b style="left:45.1%"></b></span><span class="v">21.4%</span><span class="n">n=575</span></div><div class="r"><span class="l">1</span><span class="t"><i style="width:46.0%"></i><b style="left:45.1%"></b></span><span class="v">32.2%</span><span class="n">n=711</span></div><div class="r"><span class="l">2</span><span class="t"><i style="width:48.6%"></i><b style="left:45.1%"></b></span><span class="v">34.0%</span><span class="n">n=429</span></div><div class="r"><span class="l">3</span><span class="t"><i style="width:63.6%"></i><b style="left:45.1%"></b></span><span class="v">44.5%</span><span class="n">n=191</span></div><div class="r"><span class="l">4+</span><span class="t"><i style="width:73.0%"></i><b style="left:45.1%"></b></span><span class="v">51.1%</span><span class="n">n=94</span></div></div></div>
+<p class="take">Each extra ticket goes with higher churn, from 21% with none to roughly half at four or more. Frequent contact looks like a sign of an unresolved problem.</p>
+<h3>By internet service, autopay and region</h3>
+<div class="panel"><div class="bars"><div class="r"><span class="l">Fiber</span><span class="t"><i style="width:56.0%"></i><b style="left:45.1%"></b></span><span class="v">39.2%</span><span class="n">n=919</span></div><div class="r"><span class="l">DSL</span><span class="t"><i style="width:38.1%"></i><b style="left:45.1%"></b></span><span class="v">26.7%</span><span class="n">n=690</span></div><div class="r"><span class="l">No internet</span><span class="t"><i style="width:31.9%"></i><b style="left:45.1%"></b></span><span class="v">22.3%</span><span class="n">n=391</span></div><div class="r"><span class="l">Autopay: no</span><span class="t"><i style="width:48.6%"></i><b style="left:45.1%"></b></span><span class="v">34.0%</span><span class="n">n=1104</span></div><div class="r"><span class="l">Autopay: yes</span><span class="t"><i style="width:40.9%"></i><b style="left:45.1%"></b></span><span class="v">28.6%</span><span class="n">n=896</span></div><div class="r"><span class="l">South</span><span class="t"><i style="width:48.9%"></i><b style="left:45.1%"></b></span><span class="v">34.2%</span><span class="n">n=480</span></div><div class="r"><span class="l">West</span><span class="t"><i style="width:42.0%"></i><b style="left:45.1%"></b></span><span class="v">29.4%</span><span class="n">n=506</span></div></div></div>
+<p class="take">Fiber customers churn more than others, autopay users stay slightly more often, and region barely matters (29–34%).</p>
+
+<h3>Two factors together: contract and internet service</h3>
+<div class="scroll"><table class="heat"><tr><th></th><th>DSL</th><th>Fiber</th><th>No internet</th></tr><tr><th>Month-to-month</th><td style="--a:0.66">39.9%</td><td style="--a:0.98">59.1%</td><td style="--a:0.59">35.2%</td></tr><tr><th>One year</th><td style="--a:0.27">16.4%</td><td style="--a:0.38">22.5%</td><td style="--a:0.17">10.3%</td></tr><tr><th>Two year</th><td style="--a:0.08">5.0%</td><td style="--a:0.08">4.7%</td><td style="--a:0.04">2.5%</td></tr></table></div>
+<p class="cap">Churn rate by group. Darker means higher.</p>
+<p class="take">The worst segment is fiber customers on month-to-month plans, with 59% churn. The fiber effect largely disappears on two-year contracts.</p>
+
+<h2>5. Key influencing factors</h2>
+<p>Correlation of each numeric variable with churn (Pearson):</p>
+<div class="panel"><div class="bars"><div class="r"><span class="l">tenure</span><span class="t"><i style="width:87.7%"></i><b style="left:0.0%"></b></span><span class="v">26.3</span><span class="n">n=</span></div><div class="r"><span class="l">support tickets</span><span class="t"><i style="width:56.7%"></i><b style="left:0.0%"></b></span><span class="v">17.0</span><span class="n">n=</span></div><div class="r"><span class="l">monthly charges</span><span class="t"><i style="width:50.0%"></i><b style="left:0.0%"></b></span><span class="v">15.0</span><span class="n">n=</span></div><div class="r"><span class="l">total charges</span><span class="t"><i style="width:48.7%"></i><b style="left:0.0%"></b></span><span class="v">14.6</span><span class="n">n=</span></div><div class="r"><span class="l">age</span><span class="t"><i style="width:19.7%"></i><b style="left:0.0%"></b></span><span class="v">5.9</span><span class="n">n=</span></div></div></div>
+<p class="cap">Absolute values ×100. Tenure, total charges are negative (longer or bigger accounts churn less); tickets, charges and age are positive.</p>
+<p>Ranked by how strongly they separate churners from stayers:</p>
+<ol><li><b>Contract type</b>: a 44-point gap between the best and worst group.</li><li><b>Tenure</b>: 38 points from the first year to year four and beyond.</li><li><b>Support tickets</b>: a gap of about 30 points from zero tickets to four or more.</li><li><b>Internet service and monthly price</b>: fiber and higher bills go with more churn.</li><li><b>Autopay</b>: small but consistent effect.</li><li><b>Region and age</b>: negligible.</li></ol>
+
+<h2>6. Limitations</h2>
+<ul><li>The data is synthetic, so the patterns reflect how it was generated. Real data would be noisier and could show different drivers.</li><li>Correlation is not causation. Fiber customers might churn because of price, outages or competitor offers, and this data cannot tell which.</li><li>Tenure and total charges overlap, since total is roughly tenure times monthly price. Treat them as one signal.</li></ul>
+
+<h2>7. Conclusions and next steps</h2>
+<ul><li>Offer discounts or perks to move month-to-month customers onto one- or two-year plans, starting with fiber users.</li><li>Run an onboarding programme for the first 12 months, when churn is highest.</li><li>Flag customers with three or more tickets for a proactive follow-up call.</li><li>Encourage autopay sign-up.</li><li>Next analysis: a logistic regression or gradient-boosted model to quantify each factor while controlling for the others, then test retention offers.</li></ul>
+</main></body></html>
