@@ -1,0 +1,37 @@
+{
+  "best": "Logistic regression",
+  "threshold": 0.2,
+  "metrics": {
+    "Logistic regression": {
+      "roc_auc": 0.7297538807189543,
+      "accuracy": 0.785,
+      "precision": 0.31797235023041476,
+      "recall": 0.5073529411764706,
+      "f1": 0.3909348441926346
+    },
+    "Random forest": {
+      "roc_auc": 0.711150258714597,
+      "accuracy": 0.777,
+      "precision": 0.29767441860465116,
+      "recall": 0.47058823529411764,
+      "f1": 0.3646723646723647
+    }
+  },
+  "importance": {
+    "prior_admissions": 0.04356107026143795,
+    "followup_scheduled": 0.04169560185185187,
+    "diabetes": 0.03790424155773425,
+    "insurance": 0.011099196623093721,
+    "hypertension": 0.010609851579520735,
+    "smoker": 0.004683244825708121,
+    "length_of_stay": 0.0043411288126362305,
+    "discharge_to": 0.0025011914488017985,
+    "age": 0.0010059232026144338,
+    "num_medications": 0.0006255106209150818,
+    "hba1c": 0.0005080678104575798,
+    "bmi": 0.000315733932461959,
+    "systolic_bp": -0.000858694172113239,
+    "num_lab_procedures": -0.0010459218409585192,
+    "gender": -0.00117953431372545
+  }
+}
